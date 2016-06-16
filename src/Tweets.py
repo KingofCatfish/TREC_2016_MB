@@ -4,7 +4,7 @@ class Tweets:
 	'This class is for a set of tweets'
 
 	#TODO
-	def __init__(self, items):
+	def __init__(self, items = []):
 		#if is a list of tweet class
 		self.items = items
 
@@ -14,4 +14,8 @@ class Tweets:
 
 	#TODO
 	def swear_word_filter(self):
+		pass
+
+	#TODO
+	def import_from_file(file):
 		pass

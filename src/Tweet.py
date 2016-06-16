@@ -9,6 +9,6 @@ class Tweet:
 		self.language = lang
 
 	#TODO
-	def Similarity1(TweetA, TweetB):
+	def similarity1(TweetA, TweetB):
 		'A static method for measuring the similarity between two tweets'
 		pass
