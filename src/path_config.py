@@ -1,0 +1,1 @@
+PROJ_PATH = 'G:/TREC_2016_MB/'

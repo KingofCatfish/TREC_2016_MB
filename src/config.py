@@ -1,4 +1,4 @@
-PROJ_PATH = 'G:/TREC_2016_MB/'
+from path_config import PROJ_PATH
 
 PROFILE_2015_PATH = PROJ_PATH + '/data/past_training_data/TREC 2015 Microblog Track/TREC2015-MB-testtopics.txt'
 PROFILE_2014_PATH = PROJ_PATH + '/data/past_training_data/TREC 2014 Microblog Track/2014.topics.desc.MB171-225.txt'
