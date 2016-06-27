@@ -25,10 +25,45 @@ class Tweet:
 	def __str__(self):
 		return self.text
 
-	#TODO
-	def similarity1(TweetA, TweetB):
-		'A static method for measuring the similarity between two tweets'
-		pass
+	@staticmethod
+	def naive_similarity(TweetA, TweetB):
+		'''
+			Assume Tweet A includes {m} words, each word has {mi} character. Tweet B\
+			has {n} words, each word has {ni} character. The similarity between A and\
+			B is measured by the weighted intersection score divided by union score.
+
+			For instance:
+				Tweet A : I had had a cat.
+				Tweet B : A cat had another cat.
+			
+				The intersection: i had had a cat a cat had another cat
+				The union: i had a cat a cat had
+
+				The intersection score : 1 + 3 + 3 + 1 + 3 + 1 + 3 + 3 + 7 + 3 = 28
+				The union score : 1 + 3 + 1 + 3 + 1 + 3 + 3 = 15
+				Similarity = 15 / 28 = 0.536.. 
+		'''
+		if not isinstance(TweetA, Tweet) or not isinstance(TweetB, Tweet):
+			raise Exception('can only calculate similarity between Tweet object')
+
+		wordlistA = TweetA.stem()
+		wordlistB = TweetB.stem()
+
+		intScore = 0
+		uniScore = 0
+		for word in wordlistA:
+			intScore += len(word)
+		for word in wordlistB:
+			intScore += len(word)
+
+		for word in wordlistA:
+			
+
+		print(TweetA.stem())
+		print(TweetB.stem())
+
+
+
 
 	#Detect is a string all ascii
 	def is_all_ascii(self, s):
@@ -105,7 +140,7 @@ class Tweet:
 		return self
 	
 	def remove_punctuation(self):
-		self.text = self.ascii_encode().text.translate(None, string.punctuation)
+		self.text = self.ascii_encode().text.decode('ascii').translate(None, string.punctuation)
 		return self
 
 	def remove_username(self):
