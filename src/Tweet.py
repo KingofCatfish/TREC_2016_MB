@@ -1,14 +1,18 @@
 
 import nltk
 import re
+import string
+import unicodedata
 from nltk.corpus import stopwords
+from nltk.stem.snowball import SnowballStemmer
 from langdetect import detect
 
 class Tweet:
 	'This class is for storage of Tweet data'
 
 	def __init__(self, id=None, timestamp=None, text=None, retweet_count=None, \
-				user_friends_count=None, user_followers_count=None, user_statuses_count=None):
+				user_friends_count=None, user_followers_count=None, \
+				user_statuses_count=None, topicid = None):
 		self.id = id
 		self.timestamp = timestamp
 		self.text = text
@@ -16,6 +20,7 @@ class Tweet:
 		self.user_friends_count = user_friends_count
 		self.user_followers_count = user_followers_count
 		self.user_statuses_count = user_statuses_count
+		self.topicid = topicid
 
 	def __str__(self):
 		return self.text
@@ -90,6 +95,32 @@ class Tweet:
 
 	def hashtagCount(self):
 		return self.text.count('#')
+
+	def remove_hyperlink(self):
+		self.text = re.sub(r'http\S+', '', self.text)
+		return self
+
+	def ascii_encode(self):
+		self.text = unicodedata.normalize('NFKD', self.text).encode('ascii','ignore')
+		return self
+	
+	def remove_punctuation(self):
+		self.text = self.ascii_encode().text.translate(None, string.punctuation)
+		return self
+
+	def remove_username(self):
+		self.text = re.sub(r'@[^\s]+', '', self.text)
+		return self
+
+	def stem(self):
+		stemmer = SnowballStemmer("english")
+		self.remove_username().remove_hyperlink()
+		wordlist = []
+		for sentence in nltk.sent_tokenize(self.remove_punctuation().text):
+			for word in nltk.word_tokenize(sentence):
+				wordlist.append(stemmer.stem(word))
+
+		return wordlist
 
 
 

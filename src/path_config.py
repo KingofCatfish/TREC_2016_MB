@@ -1,1 +1,1 @@
-PROJ_PATH = 'G:/TREC_2016_MB/'
+PROJ_PATH = '/Users/luodajun/Documents/workspace/TREC_2016_MB'
