@@ -4,6 +4,18 @@ import Tweet
 from config import TWEET_DATA_PATH
 
 class interactive_helper(cmd.Cmd):
+	'''
+		This is an interactive testing interface for TREC 2016 MB tarck contest
+
+		Typical usage:
+
+		>>>load 0 		#load result_0.pkl into memory
+		>>>peak 3 		#peak the first 3 tweet in memory
+		>>>stem 		#remove username, link, punctuation
+		>>>peak 5 		#peak the first 5 tweet in memory
+		>>>quit 		#quit
+
+	'''
 	intro = 'For TREC MB track debugging\nexit/quit/bye to end the session\nhelp to show usage'
 	prompt = '>>>'
 

@@ -1,4 +1,4 @@
-
+from __future__ import division
 import nltk
 import re
 import string
@@ -37,11 +37,11 @@ class Tweet:
 				Tweet B : A cat had another cat.
 			
 				The intersection: i had had a cat a cat had another cat
-				The union: i had a cat a cat had
+				The union: had a cat a cat had
 
 				The intersection score : 1 + 3 + 3 + 1 + 3 + 1 + 3 + 3 + 7 + 3 = 28
-				The union score : 1 + 3 + 1 + 3 + 1 + 3 + 3 = 15
-				Similarity = 15 / 28 = 0.536.. 
+				The union score : 3 + 1 + 3 + 1 + 3 + 3 = 14
+				Similarity = 15 / 28 = 0.5
 		'''
 		if not isinstance(TweetA, Tweet) or not isinstance(TweetB, Tweet):
 			raise Exception('can only calculate similarity between Tweet object')
@@ -57,13 +57,11 @@ class Tweet:
 			intScore += len(word)
 
 		for word in wordlistA:
-			
+			if word in wordlistB:
+				uniScore += 2 * len(word)
+				wordlistB.remove(word)
 
-		print(TweetA.stem())
-		print(TweetB.stem())
-
-
-
+		return uniScore / intScore
 
 	#Detect is a string all ascii
 	def is_all_ascii(self, s):
@@ -136,11 +134,12 @@ class Tweet:
 		return self
 
 	def ascii_encode(self):
-		self.text = unicodedata.normalize('NFKD', self.text).encode('ascii','ignore')
+		if not self.is_all_ascii(self.text):
+			self.text = unicodedata.normalize('NFKD', self.text).encode('ascii','ignore')
 		return self
 	
 	def remove_punctuation(self):
-		self.text = self.ascii_encode().text.decode('ascii').translate(None, string.punctuation)
+		self.text = self.ascii_encode().text.translate(None, string.punctuation)
 		return self
 
 	def remove_username(self):
