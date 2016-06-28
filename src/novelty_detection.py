@@ -9,7 +9,7 @@ class novelty_detection:
 		import novelty_detection as nd
 
 		detector = nd.novelty_detection('naive')
-		detector.config(value = 0.6)
+		detector.config(naive_valve = 0.6)
 
 		for t in tweets:
 			if detector.stream(t):
