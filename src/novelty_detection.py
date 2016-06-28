@@ -21,7 +21,16 @@ class novelty_detection:
 			'method_name' : 'naive similarity detection',
 			'parameter' : {
 				'naive_valve' : 0.6
-			}
+			},
+			'callback_name' : 'naive_stream'
+		},
+		'sample method' : {
+			'method_name' : 'just a sample method',
+			'parameter' : {
+				'parameter1' : 1,
+				'parameter2' : 2
+			},
+			'callback_name' : 'sample_stream'
 		}
 	}
 	
@@ -29,9 +38,8 @@ class novelty_detection:
 		if method in novelty_detection.method_list:
 			self.method = novelty_detection.method_list[method]['method_name']
 			self.reported = []
-
-			if method == 'naive':
-				self.parameter = novelty_detection.method_list[method]['parameter']
+			self.parameter = novelty_detection.method_list[method]['parameter']
+			self.stream_callback = getattr(self, novelty_detection.method_list[method]['callback_name'])
 		else:
 			raise Exception('novelty_detection does not support ' + str(method))
 
@@ -50,8 +58,7 @@ class novelty_detection:
 		if not isinstance(tweet, Tweet):
 			raise Exception('Try to cluster a non-tweet instance')
 
-		if self.method == novelty_detection.method_list['naive']['method_name']:
-			return self.naive_stream(tweet)
+		return self.stream_callback(tweet)
 
 	def naive_stream(self, tweet):
 		for doc in self.reported:
