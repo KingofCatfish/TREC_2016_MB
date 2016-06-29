@@ -7,3 +7,5 @@ PROFILE_2012_PATH = PROJ_PATH + '/data/past_training_data/TREC 2012 Microblog Tr
 PROFILE_2011_PATH = PROJ_PATH + '/data/past_training_data/TREC 2011 Microblog Track/2011.topics.MB1-50.txt'
 
 TWEET_DATA_PATH = PROJ_PATH + '/data/pickled_data_2015/'
+
+NOVELTY_DETECTION_RECOVERY_FILE = '/tmp/novelty_recovery.pkl'
