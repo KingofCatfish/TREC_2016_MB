@@ -5,6 +5,7 @@ import string
 import unicodedata
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
+from simhash import Simhash
 from langdetect import detect
 
 class Tweet:
@@ -62,6 +63,16 @@ class Tweet:
 				wordlistB.remove(word)
 
 		return uniScore / intScore
+
+	@staticmethod
+	def simhash_similarity(TweetA, TweetB):
+		if not isinstance(TweetA, Tweet) or not isinstance(TweetB, Tweet):
+			raise Exception('can only calculate similarity between Tweet object')
+
+		textA = ' '.join(TweetA.stem())
+		textB = ' '.join(TweetB.stem())
+		return Simhash(textA).distance(Simhash(textB))
+
 
 	#Detect is a string all ascii
 	def is_all_ascii(self, s):

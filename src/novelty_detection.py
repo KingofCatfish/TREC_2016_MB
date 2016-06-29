@@ -24,6 +24,13 @@ class novelty_detection:
 			},
 			'callback_name' : 'naive_stream'
 		},
+		'simhash' : {
+			'method_name' : 'Simhash similarity detection',
+			'parameter' : {
+				'simhash_valve' : 5
+			},
+			'callback_name' : 'simhash_stream'
+		},
 		'sample method' : {
 			'method_name' : 'just a sample method',
 			'parameter' : {
@@ -58,16 +65,24 @@ class novelty_detection:
 		if not isinstance(tweet, Tweet):
 			raise Exception('Try to cluster a non-tweet instance')
 
-		return self.stream_callback(tweet)
+		ret = self.stream_callback(tweet)
+		if ret:
+			self.reported.append(tweet)
+		return ret
 
 	def naive_stream(self, tweet):
 		for doc in self.reported:
 			if doc.naive_similarity(tweet, doc) > self.parameter['naive_valve']:
 				return False
-
-		self.reported.append(tweet)
+		
 		return True
 
+	def simhash_stream(self, tweet):
+		for doc in self.reported:
+			if doc.simhash_similarity(tweet, doc) > self.parameter['simhash_valve']:
+				return False
+
+		return True
 
 
 # nd = novelty_detection('test')
