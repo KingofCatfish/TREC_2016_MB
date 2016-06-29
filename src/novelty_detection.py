@@ -50,7 +50,10 @@ class novelty_detection:
 			self.reported = []
 			self.parameter = novelty_detection.method_list[method]['parameter']
 			self.stream_callback = getattr(self, novelty_detection.method_list[method]['callback_name'])
-			self.environment = environment
+			if self.environment != 'debug':
+				self.environment = 'production'
+			else:
+				self.environment = 'debug'
 			self.reload()
 		else:
 			raise Exception('novelty_detection does not support ' + str(method))
@@ -92,7 +95,8 @@ class novelty_detection:
 		ret = self.stream_callback(tweet)
 		if ret:
 			self.reported.append(tweet)
-			self.bakcup()
+			if self.production == 'production':
+				self.bakcup()
 		return ret
 
 	def naive_stream(self, tweet):
