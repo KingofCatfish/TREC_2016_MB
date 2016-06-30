@@ -175,10 +175,12 @@ class Tweet:
 
 	def ascii_encode(self):
 		if not self.is_all_ascii(self.text):
-			self.text = unicodedata.normalize('NFKD', self.text).encode('ascii','ignore')
+			self.text = unicodedata.normalize('NFKD', self.text)
+		self.text = self.text.encode('ascii','ignore')
 		return self
 	
 	def remove_punctuation(self):
+		self.text = self.ascii_encode().text.replace('-', ' ')
 		self.text = self.ascii_encode().text.translate(None, string.punctuation)
 		return self
 
@@ -192,7 +194,9 @@ class Tweet:
 		wordlist = []
 		for sentence in nltk.sent_tokenize(self.remove_punctuation().text):
 			for word in nltk.word_tokenize(sentence):
-				wordlist.append(stemmer.stem(word))
+				stemmed = stemmer.stem(word)
+				if stemmed.isalpha() and stemmed != 'rt':
+					wordlist.append(stemmed)
 
 		return wordlist
 
