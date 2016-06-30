@@ -1,1 +1,0 @@
-PROJ_PATH = '/Users/luodajun/Documents/workspace/TREC_2016_MB'
