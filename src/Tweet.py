@@ -2,6 +2,8 @@ from __future__ import division
 import nltk
 import re
 import string
+import urllib2
+import urllib
 import unicodedata
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
@@ -11,7 +13,7 @@ from langdetect import detect
 class Tweet:
 	'This class is for storage of Tweet data'
 
-	def __init__(self, id=None, timestamp=None, text=None, retweet_count=None, \
+	def __init__(self, text=None, id=None, timestamp=None, retweet_count=None, \
 				user_friends_count=None, user_followers_count=None, \
 				user_statuses_count=None, topicid = None):
 		self.id = id
@@ -22,6 +24,7 @@ class Tweet:
 		self.user_followers_count = user_followers_count
 		self.user_statuses_count = user_statuses_count
 		self.topicid = topicid
+		self.link_text = ''
 
 	def __str__(self):
 		return self.text
@@ -72,6 +75,32 @@ class Tweet:
 		textA = ' '.join(TweetA.stem())
 		textB = ' '.join(TweetB.stem())
 		return Simhash(textA).distance(Simhash(textB))
+
+	#crawl the web text from external link
+	def crawl_link_text(self):
+		text = self.text
+		try:
+			if 'https' in text:
+				url = text[text.find('http'):text.find('http')+23].encode('ascii', 'ignore')
+			elif 'http' in text:
+				url = text[text.find('http'):text.find('http')+22].encode('ascii', 'ignore')
+			else:
+				self.link_text = self.text
+				return False
+
+			print url
+			request = urllib2.Request(url)
+			response = urllib2.urlopen(request, timeout = 3)
+			html = response.read()
+			clean_html = re.sub(r'<.*?>', '', html)
+			print clean_html
+			self.link_text = clean_html
+			return True
+
+		except Exception as ex:
+			print str(ex)
+			self.link_text = self.text
+			return False
 
 
 	#Detect is a string all ascii
