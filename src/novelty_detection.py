@@ -89,7 +89,7 @@ class novelty_detection:
 		'''
 			Return Ture if novelty detected, otherwise return False.
 		'''
-		if not isinstance(tweet, Tweet):
+		if not isinstance(tweet, Tweet.Tweet):
 			raise Exception('Try to cluster a non-tweet instance')
 
 		ret = self.stream_callback(tweet)

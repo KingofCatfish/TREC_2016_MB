@@ -1,29 +1,18 @@
 from __future__ import division
 import nltk
 import Tweet
+import math
 from nltk.corpus import brown
 from nltk.corpus import twitter_samples 
 
 
 class formality_detector():
-	def __init__(self, prior = 0.5):
-		'''
-		The prior argument is the prior probability of formal text of input
-		'''
-		self.prior = prior
+	def __init__(self):
 
 		twitter = twitter_samples.strings('tweets.20150430-223406.json')
 		news = brown.words(categories='news')
 
-		twitter_word = []
-		count = 0
-		for item in twitter:
-			count += 1
-			if round(count / len(twitter), 2) != round((count - 1) / len(twitter), 2):
-				print str(100 * round(count / len(twitter), 2)) + '% completed'
-			t = Tweet.Tweet(text = item)
-			twitter += t.stem()
-
+		twitter = Tweet.Tweet(text = ' '.join(twitter)).stem()
 		news = Tweet.Tweet(text = ' '.join(news)).stem()
 
 		self.twitter_freq = nltk.FreqDist(twitter)
@@ -32,26 +21,44 @@ class formality_detector():
 		self.nsum = len(news)
 
 	def check(self, tweet):
-		if not isinstance(tweet, Tweet):
+		if not isinstance(tweet, Tweet.Tweet):
 			raise Exception('only accept tweet object')
 
 		zero_map = 0.1
-		score = 1
+		score_list = []
+		weight_list = []
 		for word in tweet.stem():
-			if self.twitter_freq[word] == 0:
-				cond_freq = zero_map / self.tsum
-			else:
-				cond_freq = self.twitter_freq[word] / self.tsum
+			tf = self.twitter_freq[word]
+			nf = self.news_freq[word]
 
-			if self.news_freq[word] == 0:
-				freq = zero_map / self.nsum
-			else:
-				freq = self.news_freq[word] / self.nsum
+			weight = math.log((nf + tf) / (self.tsum + self.nsum))
+			weight_list.append(weight)
+			score = nf * self.tsum + tf * self.nsum
+			score_list.append([weight, score])
 
-			score *= (cond_freq / preq)
+		print weight_list
+		weight_min = min(weight_list)
+		weight_max = max(weight_list)
+		weight_sum = 0
+		for weight,score in score_list:
+			weight_sum += ((weight - weight_min) / (weight_max - weight_min))
 
-		return score * self.prior
+		result = 0
+		for weight, score in score_list:
+			result += score * (((weight - weight_min) / (weight_max - weight_min)) / weight_sum)
 
+		result /= self.tsum + self.nsum
+		return result
+
+def run(fd, text):
+	t = Tweet.Tweet(text = text)
+	print fd.check(t)
 
 if __name__ == '__main__':
 	fd = formality_detector()
+	test_case = [
+		'This is a sample text', 
+		'The Reuters Corpus contains 10,788 news documents totaling 1.3 million words.',
+		''
+	]
+	run(fd, 'this is a sample text')
