@@ -18,7 +18,7 @@ class Tweet:
 				user_statuses_count=None, topicid = None):
 		self.id = id
 		self.timestamp = timestamp
-		self.text = text
+		self.text = text.encode('ascii', 'ignore')
 		self.retweet_count = retweet_count
 		self.user_friends_count = user_friends_count
 		self.user_followers_count = user_followers_count
@@ -172,16 +172,10 @@ class Tweet:
 	def remove_hyperlink(self):
 		self.text = re.sub(r'http\S+', '', self.text)
 		return self
-
-	def ascii_encode(self):
-		if not self.is_all_ascii(self.text):
-			self.text = unicodedata.normalize('NFKD', self.text)
-		self.text = self.text.encode('ascii','ignore')
-		return self
 	
 	def remove_punctuation(self):
-		self.text = self.ascii_encode().text.replace('-', ' ')
-		self.text = self.ascii_encode().text.translate(None, string.punctuation)
+		self.text = self.text.replace('-', ' ')
+		self.text = self.text.translate(None, string.punctuation)
 		return self
 
 	def remove_username(self):

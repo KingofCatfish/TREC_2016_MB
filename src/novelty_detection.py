@@ -1,7 +1,7 @@
 from Tweet import Tweet
 from Tweets import Tweets
 import pickle
-import NOVELTY_DETECTION_RECOVERY_FILE from config
+from config import NOVELTY_DETECTION_RECOVERY_FILE 
 
 class novelty_detection:
 	'''

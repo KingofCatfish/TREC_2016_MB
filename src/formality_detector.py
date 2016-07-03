@@ -31,14 +31,28 @@ class formality_detector():
 			tf = self.twitter_freq[word]
 			nf = self.news_freq[word]
 
-			weight = math.log((nf + tf) / (self.tsum + self.nsum))
+			if tf == 0:
+				tf = zero_map
+			if nf == 0:
+				nf = zero_map
+
+			weight = -1 * math.log((nf + tf) / (self.tsum + self.nsum))
 			weight_list.append(weight)
-			score = nf * self.tsum + tf * self.nsum
+			score = nf * self.tsum - tf * self.nsum
 			score_list.append([weight, score])
 
-		print weight_list
+		if weight_list == []:
+			return 0
+
 		weight_min = min(weight_list)
 		weight_max = max(weight_list)
+
+		if weight_max == weight_min:
+			result = 0
+			for weight, score in score_list:
+				result += score
+			return result / (len(score_list) * self.tsum * self.nsum)
+
 		weight_sum = 0
 		for weight,score in score_list:
 			weight_sum += ((weight - weight_min) / (weight_max - weight_min))
@@ -47,7 +61,7 @@ class formality_detector():
 		for weight, score in score_list:
 			result += score * (((weight - weight_min) / (weight_max - weight_min)) / weight_sum)
 
-		result /= self.tsum + self.nsum
+		result /= self.tsum * self.nsum
 		return result
 
 def run(fd, text):
@@ -59,6 +73,9 @@ if __name__ == '__main__':
 	test_case = [
 		'This is a sample text', 
 		'The Reuters Corpus contains 10,788 news documents totaling 1.3 million words.',
-		''
+		'Happy #CanadaDay! Enjoy a mini-marathon of Canadian themed South Park episodes tonight at 8 PM EST!',
+		'Happy Canada Day. Do your Canada dance.'
 	]
-	run(fd, 'this is a sample text')
+	for item in test_case:
+		print item
+		print fd.check(Tweet.Tweet(text = item))

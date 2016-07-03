@@ -1,21 +1,23 @@
 from Tweet import Tweet
+from collections import Sequence
 import pickle
 
-class Tweets:
+class Tweets(Sequence):
 	'This class is for a set of tweets'
 
 	#TODO
-	def __init__(self, items = []):
+	def __init__(self, *data):
 		#if is a list of tweet class
-		self.items = items
+		self.items = list(data)
 
-	#TODO
-	def language_filter(self, lang = 'en'):
-		pass
+	def __getitem__(self, key):
+		return self.items[key]
 
-	#TODO
-	def swear_word_filter(self):
-		pass
+	def __len__(self):
+		return len(self.items)
+
+#	def __iter__(self):
+
 
 	def import_from_pickled_data(self, filepath):
 		self.items = []

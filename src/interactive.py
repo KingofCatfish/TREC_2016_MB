@@ -25,7 +25,7 @@ class interactive_helper(cmd.Cmd):
 	def do_load(self, label = 0):
 		'''load pickled data'''
 		try:
-			self.data.import_from_pickled_data(TWEET_DATA_PATH + 'result_' + label + '.pkl')
+			self.data.import_from_pickled_data(TWEET_DATA_PATH + 'result_' + str(label) + '.pkl')
 		except Exception as e:
 			print('invalid loading parameter')
 			print(e)
