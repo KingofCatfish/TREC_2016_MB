@@ -5,6 +5,9 @@ import math
 from nltk.corpus import brown
 from nltk.corpus import twitter_samples 
 
+'''
+
+'''
 
 class formality_detector():
 	def __init__(self):
@@ -74,7 +77,8 @@ if __name__ == '__main__':
 		'This is a sample text', 
 		'The Reuters Corpus contains 10,788 news documents totaling 1.3 million words.',
 		'Happy #CanadaDay! Enjoy a mini-marathon of Canadian themed South Park episodes tonight at 8 PM EST!',
-		'Happy Canada Day. Do your Canada dance.'
+		'Happy Canada Day. Do your Canada dance.',
+		'OMG, this is fucking awesome'
 	]
 	for item in test_case:
 		print item

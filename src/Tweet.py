@@ -18,7 +18,7 @@ class Tweet:
 				user_statuses_count=None, topicid = None):
 		self.id = id
 		self.timestamp = timestamp
-		self.text = text.encode('ascii', 'ignore')
+		self.text = text
 		self.retweet_count = retweet_count
 		self.user_friends_count = user_friends_count
 		self.user_followers_count = user_followers_count
@@ -166,6 +166,10 @@ class Tweet:
 		else:
 			return False
 
+	def toAscii(self):
+		self.text = self.text.encode('ascii', 'ignore')
+		return self
+
 	def hashtagCount(self):
 		return self.text.count('#')
 
@@ -174,6 +178,7 @@ class Tweet:
 		return self
 	
 	def remove_punctuation(self):
+		self.toAscii()
 		self.text = self.text.replace('-', ' ')
 		self.text = self.text.translate(None, string.punctuation)
 		return self
