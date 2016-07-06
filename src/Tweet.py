@@ -26,6 +26,8 @@ class Tweet:
 		self.topicid = topicid
 		self.link_text = ''
 
+		self.stemmed = []
+
 	def __str__(self):
 		return self.text
 
@@ -75,6 +77,15 @@ class Tweet:
 		textA = ' '.join(TweetA.stem())
 		textB = ' '.join(TweetB.stem())
 		return Simhash(textA).distance(Simhash(textB))
+
+	@staticmethod
+	def jaccard_distance(TweetA, TweetB):
+		if not isinstance(TweetA, Tweet) or not isinstance(TweetB, Tweet):
+			raise Exception('can only calculate similarity between Tweet object')
+		tA = TweetA.stem()
+		tB = TweetB.stem()
+
+		return 1 - (len(set(ta) & set(tb)) / len(set(ta) | set(tb)))
 
 	#crawl the web text from external link
 	def crawl_link_text(self):
@@ -188,6 +199,9 @@ class Tweet:
 		return self
 
 	def stem(self):
+		if self.stemmed != []:
+			return self.stemmed
+
 		stemmer = SnowballStemmer("english")
 		self.remove_username().remove_hyperlink()
 		wordlist = []
@@ -196,6 +210,7 @@ class Tweet:
 				stemmed = stemmer.stem(word)
 				if stemmed.isalpha() and stemmed != 'rt':
 					wordlist.append(stemmed)
+		self.stemmed = wordlist
 
 		return wordlist
 
