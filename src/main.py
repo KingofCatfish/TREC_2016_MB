@@ -18,7 +18,9 @@ class StdOutListener(StreamListener):
 		print data #json encoded status
 
 		##############TODO##############
-		tweet = Tweet(data)
+		tweet = Tweet()
+		tweet.load(data)
+		#type(data) -> str
 
 		##############TODO##############
 		flag = early_detection(tweet) 
