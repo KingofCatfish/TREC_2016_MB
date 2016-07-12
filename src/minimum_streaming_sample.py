@@ -15,7 +15,12 @@ class StdOutListener(StreamListener):
     This is a basic listener that just prints received tweets to stdout.
     """
     def on_data(self, data):
-        print(data)
+        print data
+        print type(data)
+        f = open('a_status.json','wb')
+        print >> f, data
+        f.close()
+        raise Exception('error')
         #time.sleep(1)
         return True
 
@@ -29,13 +34,4 @@ if __name__ == '__main__':
 
     stream = Stream(auth, l)
 
-    #tolerance
-    while True:
-        try:
-            '''
-            .sample() is all stream without filter
-            '''
-            #stream.sample()
-            stream.filter(track=['android','obama', 'kobe', 'tytytyydsafhklahsfiqwohrofewqfkhasdf'])
-        except Exception, e:
-            pass
+    stream.sample()
