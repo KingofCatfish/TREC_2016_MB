@@ -20,9 +20,9 @@ class Tweet:
 		self.timestamp = timestamp
 		self.text = text
 		self.retweet_count = retweet_count
-		self.user_friends_count = user_friends_count
-		self.user_followers_count = user_followers_count
-		self.user_statuses_count = user_statuses_count
+		self.friends_count = user_friends_count
+		self.followers_count = user_followers_count
+		self.statuses_count = user_statuses_count
 		self.topicid = topicid
 		self.link_text = ''
 
@@ -30,6 +30,24 @@ class Tweet:
 
 	def __str__(self):
 		return self.text
+
+	def load(self, data):
+		self.id = data['id']
+		self.timestamp = int(data['timestamp_ms'])
+		self.raw = data['text']
+		self.text = data['text'].encode('ascii', 'ignore')
+		self.retweet_count = data['retweet_count']
+		self.friends_count = data['user']['friends_count']
+		self.followers_count = data['user']['followers_count']
+		self.statuses_count = data['user']['statuses_count']
+
+	def config(self, **arg):
+		for key, value in arg.iteritems():
+			if hasattr(self, key):
+				setattr(self, key, value)
+			else:
+				print str(key) + ' does not exist'
+
 
 	@staticmethod
 	def naive_similarity(TweetA, TweetB):
@@ -214,6 +232,18 @@ class Tweet:
 
 		return wordlist
 
+if __name__ == '__main__':
+	from config import PROJ_PATH
+	import json
+
+
+	data_path = PROJ_PATH + '/data/a_status.json'
+	indata = open(data_path, 'rb').read()
+
+	data = json.loads(indata)
+	t = Tweet()
+	t.load(data)
+	print t
 
 
 
