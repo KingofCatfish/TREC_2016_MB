@@ -2,6 +2,7 @@ from Tweet import Tweet
 from Tweets import Tweets
 import pickle
 from config import NOVELTY_DETECTION_RECOVERY_FILE 
+from config import PROJ_PATH
 
 class novelty_detection:
 	'''
@@ -117,5 +118,26 @@ class novelty_detection:
 	def auto_tuning(self, Tweets):
 		pass
 
+if __name__ == '__main__':
+	NOVELTY_DATA_PREP_FILE = PROJ_PATH + '/tmp/novelty_data_prep.pkl'
+	recovery_file = open(NOVELTY_DATA_PREP_FILE, 'rb')
+	train_data = pickle.load(recovery_file)['train']
 
-# nd = novelty_detection('test')
+	train = {}
+	for item in train_data:
+		train[item.id] = item
+
+	print train[624866583681171456]
+
+
+
+
+
+
+
+
+
+
+
+
+	

@@ -43,17 +43,28 @@ class Tweet:
 			"""
 			data = json.loads(data)
 			self.id = data['id']
-			self.timestamp = int(data['timestamp_ms'])
+			self.created_at = int(data['created_at'])
 			self.raw = data['text']
 			self.text = data['text'].encode('ascii', 'ignore')
 			self.retweet_count = data['retweet_count']
 			self.friends_count = data['user']['friends_count']
 			self.followers_count = data['user']['followers_count']
 			self.statuses_count = data['user']['statuses_count']
-			return True
+			return self
 		except Exception, e:
 			return False
 
+
+	def load_tweepy(self, data):
+		self.id = data.id
+		self.created_at = data.created_at
+		self.raw = data.text
+		self.text = data.text.encode('ascii', 'ignore')
+		self.retweet_count = data.retweet_count
+		self.friends_count = data.user.friends_count
+		self.followers_count = data.user.followers_count
+		self.statuses_count = data.user.statuses_count
+		return self
 
 	def config(self, **arg):
 		for key, value in arg.iteritems():
