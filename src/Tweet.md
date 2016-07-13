@@ -3,7 +3,7 @@
 ###Attributes
 
 * id
-* timestamp
+* created_at
 * text
 * raw
 * retweet_count
