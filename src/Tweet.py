@@ -161,7 +161,7 @@ class Tweet:
     #Detect is this tweet a English tweet
 	def isEnglish(self):
 		
-		s = self.text
+		s = self.raw
 
 		#too short
 		if len(s) < 5:
@@ -169,7 +169,7 @@ class Tweet:
 
 		#remove non-ascii char
 		#can tolerate some emoji or special symbol (the Threshold is 0.8)
-		clean_s = s.encode('ascii','ignore')
+		clean_s = self.text
 		if float(len(clean_s))/float(len(s)) < 0.8:
 			return False
 

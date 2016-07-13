@@ -38,18 +38,21 @@ class StdOutListener(StreamListener):
 			"""
 			if not tweet.isEnglish():
 				return
-			try:
-				tweet.crawl_link_text()
-			except:
-				print 'crawl_link_text Error...'
-			
+
 			print tweet.text
 			print '#####'
 			
 			return
 
-			if not early_topic_detection(tweet):
+
+			if not early_topic_detection(tweet.text):
 				return
+
+			try:
+				tweet.crawl_link_text()
+			except:
+				print 'crawl_link_text Error...'
+			
 
 			##############TODO##############
 			relevant_topid, relevant_score = relevance_estimate(tweet) 
@@ -94,6 +97,9 @@ if __name__ == '__main__':
 	auth = OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_token_secret)
 	stream = Stream(auth, l)
+
+	t = Tweet()
+
 
 	#tolerance
 	while True:
