@@ -5,10 +5,15 @@ import string
 import urllib2
 import urllib
 import unicodedata
+import signal
+import time
+import json
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 from simhash import Simhash
-from langdetect import detect
+import langdetect
+import requests
+import eventlet
 
 class Tweet:
 	'This class is for storage of Tweet data'
@@ -32,14 +37,23 @@ class Tweet:
 		return self.text
 
 	def load(self, data):
-		self.id = data['id']
-		self.timestamp = int(data['timestamp_ms'])
-		self.raw = data['text']
-		self.text = data['text'].encode('ascii', 'ignore')
-		self.retweet_count = data['retweet_count']
-		self.friends_count = data['user']['friends_count']
-		self.followers_count = data['user']['followers_count']
-		self.statuses_count = data['user']['statuses_count']
+		try:
+			"""
+				maybe delete or field empty.
+			"""
+			data = json.loads(data)
+			self.id = data['id']
+			self.timestamp = int(data['timestamp_ms'])
+			self.raw = data['text']
+			self.text = data['text'].encode('ascii', 'ignore')
+			self.retweet_count = data['retweet_count']
+			self.friends_count = data['user']['friends_count']
+			self.followers_count = data['user']['followers_count']
+			self.statuses_count = data['user']['statuses_count']
+			return True
+		except Exception, e:
+			return False
+
 
 	def config(self, **arg):
 		for key, value in arg.iteritems():
@@ -107,7 +121,14 @@ class Tweet:
 
 	#crawl the web text from external link
 	def crawl_link_text(self):
+
+		def handler(signo, frame):
+			raise Exception("end of time")
+
+
 		text = self.text
+		eventlet.monkey_patch() 
+
 		try:
 			if 'https' in text:
 				url = text[text.find('http'):text.find('http')+23].encode('ascii', 'ignore')
@@ -115,21 +136,22 @@ class Tweet:
 				url = text[text.find('http'):text.find('http')+22].encode('ascii', 'ignore')
 			else:
 				self.link_text = self.text
-				return False
+				return 'No_link'
 
 			print url
-			request = urllib2.Request(url)
-			response = urllib2.urlopen(request, timeout = 3)
-			html = response.read()
-			clean_html = re.sub(r'<.*?>', '', html)
-			print clean_html
-			self.link_text = clean_html
-			return True
+			
+			with eventlet.Timeout(1):
+				response = requests.get(url, verify=True)
+				html = response.text
+				clean_html = re.sub(r'<.*?>', '', html)
+				self.link_text = clean_html
 
-		except Exception as ex:
-			print str(ex)
+				return 'Done'
+
+		except:
+			print 'Download Error...'
 			self.link_text = self.text
-			return False
+			return 'Error'
 
 
 	#Detect is a string all ascii
@@ -140,6 +162,11 @@ class Tweet:
 	def isEnglish(self):
 		
 		s = self.text
+
+		#too short
+		if len(s) < 5:
+			return False
+
 		#remove non-ascii char
 		#can tolerate some emoji or special symbol (the Threshold is 0.8)
 		clean_s = s.encode('ascii','ignore')
@@ -148,9 +175,12 @@ class Tweet:
 
 
 		#langdetect
-		if detect(s) != u'en':
+		try:
+			if langdetect.detect(s) != u'en':
+				return False
+		except Exception, e:
 			return False
-
+		
 
 		#detect stopwords
 		'''
