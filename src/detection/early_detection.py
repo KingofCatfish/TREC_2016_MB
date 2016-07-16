@@ -5,7 +5,7 @@ from nltk.stem.snowball import SnowballStemmer
 class Early_detection():
 
 	def __init__(self):
-		f = open('./detection/'+'51_title_set_stem_man.txt')
+		f = open('./detection/'+'150_terms_stem.txt')
 		"""
 		 NO stop word 
 		 All stem
@@ -14,8 +14,7 @@ class Early_detection():
 		"""
 		terms = json.loads(f.read())
 		f.close()
-		terms_lower = terms
-		self.terms_set = set(terms_lower)
+		self.terms_set = set(terms)
 		self.tknz = nltk.word_tokenize
 
 		self.stemmer = SnowballStemmer('english')

@@ -64,7 +64,7 @@ class StdOutListener(StreamListener):
 
 			##############TODO##############
 
-			relevant_topid, relevant_score = relevance_estimate.estimate(tweet) 
+			relevant_topid, relevant_score, relevant_title = relevance_estimate.estimate(tweet) 
 			"""
 				if this tweet is relevant to one topic, then return this topicid and relevant_score;
 				if this tweet is NOT relevant to any topic, then return (None, None)
@@ -79,6 +79,12 @@ class StdOutListener(StreamListener):
 			if relevant_score < 0.5:
 				return
 
+			f = open('relevant_log.txt','a')
+			print >> f, relevant_topid, relevant_score
+			print >> f, relevant_title
+			print >> f, tweet.text
+			print >> f, tweet.raw
+			f.close()
 			return
 
 			##############TODO##############
@@ -91,13 +97,13 @@ class StdOutListener(StreamListener):
 				return
 
 			##############TODO##############
-			a_push(tweet, relevant_topid, relevant_score)
+			a_push(tweet.id, relevant_topid, relevant_score)
 			"""
 				task a: push this tweet or not, depending on relevant_score
 			"""
 
 			##############TODO##############
-			b_store(tweet, relevant_topid, relevant_score)
+			b_store(tweet.id, relevant_topid, relevant_score)
 			"""
 				task b: store this tweet and corresponding relevant_score
 			"""

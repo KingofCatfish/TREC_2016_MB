@@ -174,11 +174,11 @@ class Relevance_estimate():
 		elif not tweet_data['isLink']:
 			predict_probas = self.clf_nl.predict_proba(samples)
 
-		proba_topid_pairs = [(predict_probas[i], self.profile_terms[i]['topid']) for i in range(len(self.profile_terms))]
+		proba_topid_pairs = [(predict_probas[i], self.profile_terms[i]['topid'], self.profile_terms[i]['title']) for i in range(len(self.profile_terms))]
 		max_proba_topid_pair= max(proba_topid_pairs, key=lambda t:t[0][2])
 
-		relevant_topid, relevant_score = max_proba_topid_pair[1], max_proba_topid_pair[0][2]
-		return relevant_topid, relevant_score
+		relevant_topid, relevant_score, relevant_title = max_proba_topid_pair[1], max_proba_topid_pair[0][2], max_proba_topid_pair[2]
+		return relevant_topid, relevant_score, relevant_title
 
 if __name__ == '__main__':
 	re = Relevance_estimate()
