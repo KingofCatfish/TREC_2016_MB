@@ -172,8 +172,7 @@ class Tweet:
 
 				except Exception, e:
 					print e
-					return 'Error'
-
+					
 		except:
 			print 'Download Error...'
 			self.link_text = self.text
