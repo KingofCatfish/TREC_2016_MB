@@ -1,6 +1,8 @@
 import novelty_detection as nd
 import Tweet
 import pickle
+import os
+from config import NOVELTY_DETECTION_RECOVERY_DIR 
 from config import NOVELTY_DETECTION_RECOVERY_FILE 
 
 class novelty_detectors:
@@ -39,6 +41,18 @@ class novelty_detectors:
 		pickle.dump(self.topic_map.keys(), recovery_file)
 		recovery_file.close()
 
+	def refresh(self):
+		try:
+			recovery_file = open(NOVELTY_DETECTION_RECOVERY_FILE , 'rb')
+			t_keys = pickle.load(recovery_file)
+			for k in t_keys:
+				if os.path.exists(NOVELTY_DETECTION_RECOVERY_DIR + str(k) + '.tmp'):
+					os.remove(NOVELTY_DETECTION_RECOVERY_DIR + str(k) + '.tmp')
+			recovery_file.close()
+			os.remove(NOVELTY_DETECTION_RECOVERY_FILE)
+		except IOError:
+			pass
+
 if __name__ == '__main__':
 	#for testing
 
@@ -49,3 +63,5 @@ if __name__ == '__main__':
 	print detector.novelty_detect(a, 1)
 	print detector.novelty_detect(a, 2)
 	print detector.novelty_detect(a, 3)
+
+	detector.refresh()
