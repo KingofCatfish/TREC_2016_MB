@@ -14,20 +14,21 @@ class StdOutListener(StreamListener):
     """ A listener handles tweets that are received from the stream.
     This is a basic listener that just prints received tweets to stdout.
     """
+    def __init__(self):
+        self.count = 0
+        self.start_time = time.time()
+
     def on_data(self, data):
-        print data
-        print type(data)
-        f = open('a_status.json','wb')
-        print >> f, data
-        f.close()
-        raise Exception('error')
-        #time.sleep(1)
-        return True
+        self.count += 1
+        t = time.time() - self.start_time
+        print 'count:', self.count, 'time:', t, 'rate:', self.count/t
+        time.sleep(15)
 
     def on_error(self, status):
-        print(status)
+        print status
 
 if __name__ == '__main__':
+
     l = StdOutListener()
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)

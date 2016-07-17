@@ -13,12 +13,15 @@
 * topic_id
 * link_text
 * stemmed
+* isLink
+* created_at
 
 ###Methods
 
 * __init__()
 * __str__()
 * load()
+* load_tweepy()
 * config()
 * naive_similarity()
 * simhash_similarity()

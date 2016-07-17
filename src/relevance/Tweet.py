@@ -112,10 +112,7 @@ class Tweet:
 				uniScore += 2 * len(word)
 				wordlistB.remove(word)
 
-		if uniScore == 0:
-			return 0
-		else:
-			return uniScore / intScore
+		return uniScore / intScore
 
 	@staticmethod
 	def simhash_similarity(TweetA, TweetB):
@@ -175,8 +172,7 @@ class Tweet:
 
 				except Exception, e:
 					print e
-					return 'Error'
-
+					
 		except:
 			print 'Download Error...'
 			self.link_text = self.text
