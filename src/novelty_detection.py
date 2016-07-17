@@ -5,7 +5,7 @@ import pickle
 import json
 import random
 import math
-from config import NOVELTY_DETECTION_RECOVERY_FILE 
+from config import NOVELTY_DETECTION_RECOVERY_DIR 
 from config import PROJ_PATH
 
 class novelty_detection:
@@ -54,14 +54,17 @@ class novelty_detection:
 		}
 	}
 	
-	def __init__(self, method, environment = 'debug'):
+	def __init__(self, method, environment = 'debug', topicid = None):
 		if method in novelty_detection.method_list:
 			self.method = novelty_detection.method_list[method]['method_name']
 			self.reported = []
 			self.parameter = novelty_detection.method_list[method]['parameter']
 			self.stream_callback = getattr(self, novelty_detection.method_list[method]['callback_name'])
+			self.topicid = topicid
 			if environment != 'debug':
 				self.environment = 'production'
+				if topicid == None:
+					raise Exception('must specify topic id')
 			else:
 				self.environment = 'debug'
 			self.reload()
@@ -74,18 +77,16 @@ class novelty_detection:
 	def reload(self):
 		if self.environment == 'debug':
 			return
-
 		try:
-			recovery_file = open(NOVELTY_DETECTION_RECOVERY_FILE, 'rb')
-			recovery_data = recovery_file.read()
-			self.reported = pickle.load(recovery_data)
+			recovery_file = open(NOVELTY_DETECTION_RECOVERY_DIR + str(self.topicid) + '.tmp', 'rb')
+			self.reported = pickle.load(recovery_file)
 			recovery_file.close()
 		except IOError:
-			recovery_file = open(NOVELTY_DETECTION_RECOVERY_FILE, 'wb')
+			recovery_file = open(NOVELTY_DETECTION_RECOVERY_DIR + str(self.topicid) + '.tmp', 'wb')
 			recovery_file.close()
 
 	def backup(self):
-		recovery_file = open(NOVELTY_DETECTION_RECOVERY_FILE, 'wb')
+		recovery_file = open(NOVELTY_DETECTION_RECOVERY_DIR + str(self.topicid) + '.tmp', 'wb')
 		pickle.dump(self.reported, recovery_file)
 		recovery_file.close()
 
@@ -106,7 +107,7 @@ class novelty_detection:
 		if ret:
 			self.reported.append([tweet])
 			if self.environment == 'production':
-				self.bakcup()
+				self.backup()
 		return ret
 
 	def naive_stream(self, tweet):
