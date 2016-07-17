@@ -38,12 +38,29 @@ class Tweet:
 	def __str__(self):
 		return self.text
 
-	def load(self, data):
+	def reset(self):
+		self.id = None
+		self.timestamp = None
+		self.text = None
+		self.retweet_count = None
+		self.friends_count = None
+		self.followers_count = None
+		self.statuses_count = None
+		self.topicid = None
+		self.link_text = None
+		self.isLink = False
+		self.created_at = None
+
+		self.stemmed = []
+
+	def load(self, data_s):
 		try:
 			"""
 				maybe delete or field empty.
 			"""
-			data = json.loads(data)
+			data = json.loads(data_s)
+			if data['user']['lang'] != 'en':
+				return False
 			self.id = data['id']
 			self.created_at = data['created_at']
 			self.raw = data['text']
@@ -178,7 +195,7 @@ class Tweet:
 					return 'Error'
 
 		except:
-			print 'Download Error...'
+			print 'Download Timeout Error...'
 			self.link_text = self.text
 			return 'Error'
 
@@ -191,14 +208,15 @@ class Tweet:
 	def isEnglish(self):
 		
 		s = self.raw
+		clean_s = self.text
 
 		#too short
-		if len(s) < 5:
+		if len(clean_s) < 20:
 			return False
 
 		#remove non-ascii char
 		#can tolerate some emoji or special symbol (the Threshold is 0.8)
-		clean_s = self.text
+		
 		if float(len(clean_s))/float(len(s)) < 0.8:
 			return False
 
