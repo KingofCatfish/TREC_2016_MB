@@ -100,7 +100,7 @@ class StdOutListener(StreamListener):
 			"""
 
 			##############TODO##############
-			status_code, response_text = push.a_push(tweet.id, relevant_topid)
+			url, status_code, response_text = push.a_push(tweet.id, relevant_topid)
 			"""
 				task a: push this tweet
 			"""
@@ -114,7 +114,8 @@ class StdOutListener(StreamListener):
 			print >> f, '*************************'
 			print >> f, relevant_topid, relevant_score, tweet.id
 			print >> f, relevant_title
-			print >> f, tweet.raw
+			print >> f, tweet.text
+			print >> f, url
 			print >> f, 'status_code:',status_code
 			print >> f, 'response_text:', response_text
 			f.close()

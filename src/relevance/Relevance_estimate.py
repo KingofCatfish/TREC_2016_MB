@@ -157,7 +157,7 @@ class Relevance_estimate():
 		for a_topic_terms in self.profile_terms:
 			#print a_topic_terms['topid']
 			"""
-				a_topic_terms = {
+				a_topic_terms = { (all stemed !!!)
 					"title": ["PA", "Hershey", "quilt", "show"], 
 					"desc_narr": ["lodging", "Tweets", "quilts", "prize", "quilter", "logistics", "teachers", "vendors", "opinions", "winning"], 
 					"expasion": ["Odyssey", "2016", "Lodge", "quilting", "Shows", "Quilting", "Convention",  "Quilters", "quiltodyssey", "Pennsylvania", "17033", "Extravaganza", "Hours", "Quilter", "AQS", "Center", "quilts", "guilds", "5148", "10am"], 
@@ -165,8 +165,17 @@ class Relevance_estimate():
 					}
 
 			"""
+			is_possible = False
+			for term in a_topic_terms['title']:
+				if term in text_tokens_lower_stem:
+					is_possible = True
+					break
 
-			feature_vec = self.feature_extractor(tweet_data, a_topic_terms)
+			if is_possible:
+				feature_vec = self.feature_extractor(tweet_data, a_topic_terms)
+			else:
+				feature_vec = [0,0,0,0,0,0,0,0,0,0,0,0]
+
 			samples.append(feature_vec)
 
 		if tweet_data['isLink']:
