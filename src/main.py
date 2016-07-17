@@ -6,8 +6,10 @@ import time
 import datetime
 
 from Tweet import Tweet
+
 from detection.Early_detection import Early_detection
 from relevance.Relevance_estimate import Relevance_estimate
+from push.Push import Push
 
 consumer_key="a7vdFgIeOzMtv5SEf5Nw7euEy"
 consumer_secret="FUeuYbCK3oatQ2zcUP4st7JvUZeVRCvFtChe9i4YOZgZPFS7k8"
@@ -28,16 +30,16 @@ class StdOutListener(StreamListener):
 		t = time.time() - self.start_time
 		try:
 			pass
-			#print data #json encoded status
 			"""
 				type(data) == str
 			"""
+			#print data #json encoded status
 
 			##############TODO##############
 			"""
 				load data into Tweet
 			"""
-			tweet = Tweet()
+			tweet.reset()
 			if not tweet.load(data):
 				return
 
@@ -79,37 +81,49 @@ class StdOutListener(StreamListener):
 			if relevant_score < 0.5:
 				return
 
-			f = open('relevant_log.txt','a')
-			print >> f, relevant_topid, relevant_score
-			print >> f, relevant_title
-			print >> f, tweet.text
-			print >> f, tweet.raw
-			f.close()
-			return
-
 			##############TODO##############
-			flag = novelty_detection(tweet, relevant_topid)
 			"""
-				if this tweet is novel in this topic, return True;
-				if this tweet is not novel, return False.
+				check push quota and push strategy
 			"""
-			if flag == False:
+			if not push.a_push_ok(tweet.id, relevant_topid, relevant_score):
 				return
 
 			##############TODO##############
-			a_push(tweet.id, relevant_topid, relevant_score)
 			"""
-				task a: push this tweet or not, depending on relevant_score
+			flag = novelty_detection(tweet, relevant_topid)
+			
+				#if this tweet is novel in this topic, return True;
+				#if this tweet is not novel, return False.
+			
+			if flag == False:
+				return
 			"""
 
 			##############TODO##############
-			b_store(tweet.id, relevant_topid, relevant_score)
+			status_code, response_text = push.a_push(tweet.id, relevant_topid)
+			"""
+				task a: push this tweet
+			"""
+
+			##############TODO##############
+			push.b_store(tweet.id, relevant_topid, relevant_score)
 			"""
 				task b: store this tweet and corresponding relevant_score
 			"""
+			f = open('./push/a_push_log.txt','a')
+			print >> f, '*************************'
+			print >> f, relevant_topid, relevant_score, tweet.id
+			print >> f, relevant_title
+			print >> f, tweet.raw
+			print >> f, 'status_code:',status_code
+			print >> f, 'response_text:', response_text
+			f.close()
+
 
 			return
-		except:
+
+		except Exception, e:
+			print e
 			print 'on_data() Error...'
 
 
@@ -118,10 +132,15 @@ class StdOutListener(StreamListener):
 
 if __name__ == '__main__':
 	#while main error
+	tweet = Tweet()
+	print 'tweet init done...'
 	early_detection = Early_detection()
 	print 'early_detection init done...'
 	relevance_estimate = Relevance_estimate()
 	print  'relevance_estimate init done...'
+	push = Push()
+	print 'push init done...'
+
 	while True:
 		try:
 			l = StdOutListener()

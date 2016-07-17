@@ -23,8 +23,8 @@ class Early_detection():
 	def early_topic_detection(self, text):
 		tokens = self.tknz(text)
 
-		tokens = [self.stemmer.stem(token) for token in tokens]
-		for token in tokens:
+		tokens_text = [self.stemmer.stem(token) for token in tokens]
+		for token in tokens_text:
 			if token in self.terms_set:
 				return True, token
 		return False, None
