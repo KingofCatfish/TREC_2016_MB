@@ -33,8 +33,7 @@ class novelty_detectors:
 				self.topic_map[k].config(naive_valve = 0.68)
 			recovery_file.close()
 		except IOError:
-			recovery_file = open(NOVELTY_DETECTION_RECOVERY_FILE, 'wb')
-			recovery_file.close()
+			pass
 
 	def backup(self):
 		recovery_file = open(NOVELTY_DETECTION_RECOVERY_FILE, 'wb')
