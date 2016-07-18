@@ -58,6 +58,8 @@ class Tweet:
 			"""
 				maybe delete or field empty.
 			"""
+			if len(data_s) < 200:
+				return False
 			data = json.loads(data_s)
 			if data['user']['lang'] != 'en':
 				return False
@@ -176,7 +178,7 @@ class Tweet:
 			if len(url) < 20:
 				return 'Error'
 			
-			with eventlet.Timeout(5):
+			with eventlet.Timeout(4):
 				"""
 					 can only detect timeouts in "greenthreaded" code
 					 you cannot time out CPU-only operations with this class

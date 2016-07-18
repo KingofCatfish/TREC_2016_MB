@@ -1,49 +1,53 @@
 [
     {
-        "topid": "MB226", 
+        "title": [
+            "pa", 
+            "hershey", 
+            "quilt", 
+            "show"
+        ], 
         "desc_narr": [
             "lodg", 
-            "tweet", 
             "quilt", 
             "prize", 
             "quilter", 
             "logist", 
             "teacher", 
             "vendor", 
-            "opinion", 
-            "win"
+            "win", 
+            "announc", 
+            "learn"
         ], 
         "expasion": [
             "odyssey", 
             "2016", 
             "lodg", 
             "quilt", 
-            "show", 
             "quilt", 
+            "show", 
             "convent", 
-            "quilter", 
             "quiltodyssey", 
+            "aq", 
             "pennsylvania", 
+            "quilt", 
+            "hour", 
+            "event", 
+            "quilter", 
             "17033", 
             "extravaganza", 
-            "hour", 
-            "quilter", 
-            "aq", 
-            "center", 
-            "quilt", 
+            "10am", 
             "guild", 
             "5148", 
-            "10am"
+            "center"
         ], 
-        "title": [
-            "pa", 
-            "hershey", 
-            "quilt", 
-            "show"
-        ]
+        "topid": "MB226"
     }, 
     {
-        "topid": "MB227", 
+        "title": [
+            "pradaxa", 
+            "side", 
+            "effect"
+        ], 
         "desc_narr": [
             "thin", 
             "blood", 
@@ -52,40 +56,40 @@
             "coumadin", 
             "medic", 
             "switch", 
-            "person", 
             "associ", 
-            "negat"
+            "negat", 
+            "research"
         ], 
         "expasion": [
             "dabigatran", 
             "dabigatran", 
             "bleed", 
-            "interact", 
-            "atrial", 
-            "learn", 
             "blood", 
+            "interact", 
+            "learn", 
             "medic", 
             "stroke", 
             "bleed", 
-            "fibril", 
+            "atrial", 
+            "thinner", 
             "patient", 
             "drug", 
             "etexil", 
             "anticoagul", 
             "etexil", 
+            "fibril", 
             "lawsuit", 
-            "thinner", 
             "stomach", 
-            "doctor"
+            "clot"
         ], 
-        "title": [
-            "pradaxa", 
-            "side", 
-            "effect"
-        ]
+        "topid": "MB227"
     }, 
     {
-        "topid": "MB228", 
+        "title": [
+            "restrict", 
+            "coumadin", 
+            "dietari"
+        ], 
         "desc_narr": [
             "thin", 
             "food", 
@@ -95,82 +99,293 @@
             "prescrib", 
             "creat", 
             "recommend", 
-            "person", 
-            "associ"
+            "associ", 
+            "avoid"
         ], 
         "expasion": [
             "warfarin", 
             "warfarin", 
             "vitamin", 
+            "blood", 
+            "diet", 
             "diet", 
             "vitamin", 
-            "diet", 
-            "blood", 
+            "anticoagul", 
+            "lovenox", 
             "clot", 
             "patient", 
-            "intak", 
-            "anticoagul", 
-            "jantoven", 
-            "medic", 
             "food", 
+            "intak", 
             "interact", 
+            "jantoven", 
             "guidelin", 
-            "lovenox", 
             "atrial", 
+            "thinner", 
             "therapi", 
             "xarelto"
         ], 
-        "title": [
-            "restrict", 
-            "coumadin", 
-            "dietari"
-        ]
+        "topid": "MB228"
     }, 
     {
-        "topid": "MB236", 
+        "title": [
+            "medic", 
+            "legal", 
+            "marijuana"
+        ], 
         "desc_narr": [
-            "commentari", 
-            "anecdot", 
+            "legal", 
             "stori", 
-            "look", 
-            "sector", 
-            "spectrum", 
-            "mandatori", 
-            "extens", 
-            "regard", 
-            "across"
+            "legisl", 
+            "legal", 
+            "state", 
+            "vote", 
+            "safeti", 
+            "journalist", 
+            "concern", 
+            "research"
         ], 
         "expasion": [
-            "2014", 
-            "impact", 
-            "howitt", 
-            "groundwat", 
-            "impact", 
-            "davi", 
-            "2015", 
-            "agricultur", 
-            "water", 
-            "azuara", 
-            "josu\u00e9", 
-            "reservoir", 
-            "medell\u00edn", 
-            "macewan", 
-            "thirsti", 
-            "communiti", 
-            "knowledg", 
-            "irrig", 
-            "univers", 
-            "duncan"
+            "legal", 
+            "legal", 
+            "legal", 
+            "recreat", 
+            "cannabi", 
+            "legal", 
+            "2016", 
+            "patient", 
+            "25th", 
+            "drug", 
+            "webmd", 
+            "sativa", 
+            "cannabi", 
+            "obama", 
+            "kasich", 
+            "state", 
+            "doctor", 
+            "crime", 
+            "voter", 
+            "ballot"
         ], 
+        "topid": "MB229"
+    }, 
+    {
+        "title": [
+            "bus", 
+            "servic", 
+            "nyc"
+        ], 
+        "desc_narr": [
+            "safeti", 
+            "cleanli", 
+            "reliabl", 
+            "driver", 
+            "passeng", 
+            "pickup", 
+            "aspect", 
+            "locat", 
+            "qualiti", 
+            "citi"
+        ], 
+        "expasion": [
+            "shuttl", 
+            "shuttl", 
+            "airport", 
+            "onlin", 
+            "ticket", 
+            "jfk", 
+            "buse", 
+            "mta", 
+            "schedul", 
+            "supershuttl", 
+            "subway", 
+            "subway", 
+            "onlin", 
+            "transport", 
+            "citi", 
+            "book", 
+            "lga", 
+            "york", 
+            "airport", 
+            "manhattan"
+        ], 
+        "topid": "MB230"
+    }, 
+    {
+        "title": [
+            "water", 
+            "residenti", 
+            "california", 
+            "restrict"
+        ], 
+        "desc_narr": [
+            "descript", 
+            "cope", 
+            "drought", 
+            "compli", 
+            "efficaci", 
+            "resid", 
+            "effect", 
+            "caus", 
+            "go", 
+            "hand"
+        ], 
+        "expasion": [
+            "drought", 
+            "statewid", 
+            "mandatori", 
+            "water", 
+            "outdoor", 
+            "drought", 
+            "conserv", 
+            "jerri", 
+            "caption", 
+            "irrig", 
+            "conserv", 
+            "brown", 
+            "conserv", 
+            "outdoor", 
+            "2014", 
+            "2016", 
+            "wise", 
+            "agenc", 
+            "gallon", 
+            "control"
+        ], 
+        "topid": "MB235"
+    }, 
+    {
         "title": [
             "agricultur", 
             "drought", 
             "california", 
             "effect"
-        ]
+        ], 
+        "desc_narr": [
+            "commentari", 
+            "anecdot", 
+            "stori", 
+            "sector", 
+            "spectrum", 
+            "mandatori", 
+            "extens", 
+            "across", 
+            "individu", 
+            "restrict"
+        ], 
+        "expasion": [
+            "impact", 
+            "groundwat", 
+            "howitt", 
+            "2014", 
+            "2015", 
+            "water", 
+            "agricultur", 
+            "davi", 
+            "azuara", 
+            "josu\u00e9", 
+            "medell\u00edn", 
+            "macewan", 
+            "impact", 
+            "reservoir", 
+            "water", 
+            "duncan", 
+            "lund", 
+            "impact", 
+            "experienc", 
+            "jay"
+        ], 
+        "topid": "MB236"
     }, 
     {
-        "topid": "MB242", 
+        "title": [
+            "flavor", 
+            "cigarett", 
+            "electron"
+        ], 
+        "desc_narr": [
+            "dislik", 
+            "favorit", 
+            "peopl", 
+            "smoke", 
+            "flavor", 
+            "cig", 
+            "like", 
+            "cigarett", 
+            "hot", 
+            "current"
+        ], 
+        "expasion": [
+            "flavor", 
+            "cigarett", 
+            "juic", 
+            "vape", 
+            "cartridg", 
+            "onlin", 
+            "vapor", 
+            "cigarett", 
+            "liquid", 
+            "nicotin", 
+            "smoke", 
+            "vaper", 
+            "cig", 
+            "cig", 
+            "shop", 
+            "vapor", 
+            "smoke", 
+            "best", 
+            "menthol", 
+            "refil"
+        ], 
+        "topid": "MB237"
+    }, 
+    {
+        "title": [
+            "passeng", 
+            "train", 
+            "safeti"
+        ], 
+        "desc_narr": [
+            "rail", 
+            "accid", 
+            "passeng", 
+            "travel", 
+            "altern", 
+            "gaug", 
+            "given", 
+            "seek", 
+            "wake", 
+            "transport"
+        ], 
+        "expasion": [
+            "amtrak", 
+            "rail", 
+            "tip", 
+            "overview", 
+            "train", 
+            "railroad", 
+            "accid", 
+            "2008", 
+            "standard", 
+            "rail", 
+            "guid", 
+            "fire", 
+            "238", 
+            "train", 
+            "crowd", 
+            "feedback", 
+            "lifesav", 
+            "exterior", 
+            "calorimet", 
+            "amtrak"
+        ], 
+        "topid": "MB239"
+    }, 
+    {
+        "title": [
+            "yemen", 
+            "saudi", 
+            "bomb"
+        ], 
         "desc_narr": [
             "raid", 
             "houthi", 
@@ -188,31 +403,31 @@
             "rebel", 
             "shiit", 
             "airstrik", 
-            "yemeni", 
-            "airstrik", 
             "coalit", 
+            "airstrik", 
             "arabia", 
+            "bomb", 
+            "civilian", 
             "shia", 
             "bomb", 
+            "yemeni", 
             "campaign", 
-            "bomb", 
             "salman", 
+            "arabiya", 
             "qaida", 
             "neighbor", 
             "humanitarian", 
             "muslim", 
-            "death", 
-            "civilian", 
-            "cluster"
+            "death"
         ], 
-        "title": [
-            "yemen", 
-            "saudi", 
-            "bomb"
-        ]
+        "topid": "MB242"
     }, 
     {
-        "topid": "MB243", 
+        "title": [
+            "fifa", 
+            "investig", 
+            "corrupt"
+        ], 
         "desc_narr": [
             "ongo", 
             "footbal", 
@@ -227,34 +442,35 @@
         ], 
         "expasion": [
             "soccer", 
-            "indict", 
-            "footbal", 
             "sepp", 
             "2022", 
+            "indict", 
             "blatter", 
-            "2015", 
+            "2018", 
+            "arrest", 
             "cup", 
             "fbi", 
+            "footbal", 
+            "2015", 
             "indict", 
-            "probe", 
-            "2018", 
             "govern", 
-            "arrest", 
-            "attorney", 
+            "zurich", 
+            "probe", 
             "sponsor", 
             "afp", 
-            "justic", 
-            "swiss", 
-            "bribe"
+            "prosecutor", 
+            "crimin", 
+            "swiss"
         ], 
-        "title": [
-            "fifa", 
-            "investig", 
-            "corrupt"
-        ]
+        "topid": "MB243"
     }, 
     {
-        "topid": "MB246", 
+        "title": [
+            "greek", 
+            "debt", 
+            "crisi", 
+            "intern"
+        ], 
         "desc_narr": [
             "consequ", 
             "withdraw", 
@@ -269,35 +485,77 @@
         ], 
         "expasion": [
             "greec", 
+            "eurozon", 
             "bailout", 
-            "eurozon", 
-            "2008", 
-            "eurozon", 
-            "euro", 
             "default", 
-            "afp", 
-            "athen", 
+            "euro", 
             "respons", 
-            "caus", 
+            "2010", 
+            "ecb", 
+            "eurozon", 
             "overview", 
-            "implod", 
+            "criticis", 
+            "caus", 
+            "athen", 
             "bailout", 
             "implic", 
+            "2008", 
+            "creditor", 
             "sovereign", 
-            "monetari", 
-            "reel", 
             "referendum", 
-            "voter"
+            "athen"
         ], 
-        "title": [
-            "greek", 
-            "debt", 
-            "crisi", 
-            "intern"
-        ]
+        "topid": "MB246"
     }, 
     {
-        "topid": "MB248", 
+        "title": [
+            "week", 
+            "new", 
+            "harlem", 
+            "york"
+        ], 
+        "desc_narr": [
+            "theater", 
+            "motel", 
+            "museum", 
+            "ethnic", 
+            "apollo", 
+            "best", 
+            "featur", 
+            "local", 
+            "restaur", 
+            "hotel"
+        ], 
+        "expasion": [
+            "2016", 
+            "ticket", 
+            "nyc", 
+            "neighborhood", 
+            "festiv", 
+            "celebr", 
+            "thing", 
+            "136th", 
+            "art", 
+            "search", 
+            "event", 
+            "10030", 
+            "restaur", 
+            "music", 
+            "2014", 
+            "citi", 
+            "hotel", 
+            "contact", 
+            "visit", 
+            "10027"
+        ], 
+        "topid": "MB247"
+    }, 
+    {
+        "title": [
+            "harlem", 
+            "race", 
+            "5k"
+        ], 
         "desc_narr": [
             "terrain", 
             "motel", 
@@ -314,32 +572,34 @@
             "perci", 
             "sutton", 
             "run", 
-            "honor", 
-            "2015", 
-            "champion", 
             "nyc", 
-            "2016", 
-            "borough", 
+            "honor", 
             "nyrr", 
+            "2015", 
+            "borough", 
+            "10k", 
+            "champion", 
+            "2016", 
             "walk", 
-            "2014", 
-            "runner", 
-            "coach", 
-            "list", 
-            "date", 
             "hustl", 
-            "event", 
+            "coach", 
+            "2014", 
             "marathon", 
-            "annual"
+            "list", 
+            "salut", 
+            "anniversari", 
+            "runner"
         ], 
-        "title": [
-            "harlem", 
-            "race", 
-            "5k"
-        ]
+        "topid": "MB248"
     }, 
     {
-        "topid": "MB249", 
+        "title": [
+            "studi", 
+            "john", 
+            "diseas", 
+            "hopkin", 
+            "lyme"
+        ], 
         "desc_narr": [
             "hospit", 
             "particip", 
@@ -349,41 +609,165 @@
             "treatment", 
             "victim", 
             "announc", 
-            "regard", 
-            "requir"
+            "requir", 
+            "progress"
         ], 
         "expasion": [
             "clinic", 
             "school", 
             "research", 
             "center", 
-            "foundat", 
-            "antibiot", 
-            "syndrom", 
             "bloomberg", 
             "medicin", 
-            "univers", 
-            "test", 
-            "station", 
+            "foundat", 
+            "syndrom", 
+            "antibiot", 
             "launch", 
+            "univers", 
+            "baltimor", 
+            "test", 
+            "arthriti", 
             "aucott", 
-            "borrelia", 
             "collabor", 
-            "drug", 
-            "mice", 
-            "burgdorferi", 
-            "treatment"
+            "immunolog", 
+            "launch", 
+            "treatment", 
+            "ptlds"
         ], 
-        "title": [
-            "studi", 
-            "john", 
-            "diseas", 
-            "hopkin", 
-            "lyme"
-        ]
+        "topid": "MB249"
     }, 
     {
-        "topid": "MB253", 
+        "title": [
+            "nyc", 
+            "outdoor", 
+            "shakespear"
+        ], 
+        "desc_narr": [
+            "play", 
+            "perform", 
+            "park", 
+            "perform", 
+            "motel", 
+            "outdoor", 
+            "inexpens", 
+            "stage", 
+            "restaur", 
+            "hotel"
+        ], 
+        "expasion": [
+            "theater", 
+            "festiv", 
+            "park", 
+            "classic", 
+            "park", 
+            "park", 
+            "theatr", 
+            "review", 
+            "ticket", 
+            "delacort", 
+            "tripadvisor", 
+            "theater", 
+            "2016", 
+            "perform", 
+            "citi", 
+            "hudson", 
+            "york", 
+            "summer", 
+            "perform", 
+            "lot"
+        ], 
+        "topid": "MB250"
+    }, 
+    {
+        "title": [
+            "train", 
+            "nfl", 
+            "camp"
+        ], 
+        "desc_narr": [
+            "player", 
+            "locat", 
+            "team", 
+            "footbal", 
+            "travel", 
+            "fan", 
+            "footbal", 
+            "activ", 
+            "leagu", 
+            "suggest"
+        ], 
+        "expasion": [
+            "2016", 
+            "rooki", 
+            "camp", 
+            "2015", 
+            "camp", 
+            "saint", 
+            "team", 
+            "2014", 
+            "footbal", 
+            "player", 
+            "veteran", 
+            "date", 
+            "fantasi", 
+            "footbal", 
+            "locat", 
+            "offseason", 
+            "team", 
+            "player", 
+            "team", 
+            "updat"
+        ], 
+        "topid": "MB251"
+    }, 
+    {
+        "title": [
+            "academ", 
+            "lamict"
+        ], 
+        "desc_narr": [
+            "academ", 
+            "teenag", 
+            "teenag", 
+            "colleg", 
+            "medic", 
+            "bipolar", 
+            "teen", 
+            "disord", 
+            "prescrib", 
+            "reaction"
+        ], 
+        "expasion": [
+            "lamotrigin", 
+            "lamotrigin", 
+            "academ", 
+            "academ", 
+            "disord", 
+            "bipolar", 
+            "epilepsi", 
+            "bipolar", 
+            "edit", 
+            "ltg", 
+            "antiepilept", 
+            "career", 
+            "zoloft", 
+            "drug", 
+            "clinic", 
+            "effect", 
+            "pill", 
+            "could", 
+            "sankofaempower", 
+            "click"
+        ], 
+        "topid": "MB252"
+    }, 
+    {
+        "title": [
+            "disabl", 
+            "health", 
+            "insur", 
+            "children"
+        ], 
         "desc_narr": [
             "disabl", 
             "care", 
@@ -394,7 +778,7 @@
             "act", 
             "especi", 
             "cover", 
-            "account"
+            "servic"
         ], 
         "expasion": [
             "disabl", 
@@ -404,29 +788,27 @@
             "disabl", 
             "child", 
             "care", 
-            "benefit", 
-            "coverag", 
             "child", 
+            "benefit", 
             "care", 
-            "coverag", 
-            "afford", 
-            "masshealth", 
-            "parent", 
-            "medic", 
-            "program", 
-            "cshcn", 
             "need", 
-            "supplement"
+            "parent", 
+            "masshealth", 
+            "coverag", 
+            "famili", 
+            "coverag", 
+            "program", 
+            "development", 
+            "blind", 
+            "learn"
         ], 
-        "title": [
-            "disabl", 
-            "health", 
-            "insur", 
-            "children"
-        ]
+        "topid": "MB253"
     }, 
     {
-        "topid": "MB254", 
+        "title": [
+            "cancer", 
+            "depress"
+        ], 
         "desc_narr": [
             "dealt", 
             "treatment", 
@@ -447,30 +829,30 @@
             "breast", 
             "children", 
             "survivor", 
-            "cope", 
-            "prostat", 
             "sad", 
-            "2009", 
-            "emot", 
-            "anxieti", 
-            "ill", 
             "treatment", 
+            "ill", 
             "distress", 
+            "emot", 
             "feel", 
             "emot", 
-            "grief", 
-            "everyday"
+            "cope", 
+            "prostat", 
+            "everyday", 
+            "antidepress", 
+            "cell", 
+            "adult"
         ], 
-        "title": [
-            "cancer", 
-            "depress"
-        ]
+        "topid": "MB254"
     }, 
     {
-        "topid": "MB255", 
+        "title": [
+            "medic", 
+            "insur", 
+            "cruis"
+        ], 
         "desc_narr": [
             "cruis", 
-            "experi", 
             "outcom", 
             "cruis", 
             "access", 
@@ -478,85 +860,212 @@
             "injuri", 
             "passeng", 
             "specif", 
-            "heard"
+            "heard", 
+            "sustain"
         ], 
         "expasion": [
             "cruis", 
             "cruis", 
             "travel", 
-            "travel", 
-            "vacat", 
             "princess", 
+            "vacat", 
             "compar", 
-            "protect", 
-            "onlin", 
+            "vacat", 
+            "luggag", 
             "get", 
             "carniv", 
-            "vacat", 
             "coverag", 
-            "luggag", 
-            "booksaf", 
+            "protect", 
+            "guard", 
+            "onlin", 
+            "baggag", 
+            "choos", 
             "cancel", 
             "cover", 
-            "guard", 
-            "buy", 
-            "vike"
+            "quot", 
+            "buy"
         ], 
-        "title": [
-            "medic", 
-            "insur", 
-            "cruis"
-        ]
+        "topid": "MB255"
     }, 
     {
-        "topid": "MB260", 
+        "title": [
+            "catholic", 
+            "social", 
+            "media"
+        ], 
         "desc_narr": [
-            "briar", 
-            "sweet", 
-            "lodg", 
-            "tweet", 
-            "appomattox", 
-            "speaker", 
-            "review", 
-            "confer", 
-            "colleg", 
-            "topic"
+            "belief", 
+            "young", 
+            "pope", 
+            "behavior", 
+            "perspect", 
+            "facebook", 
+            "cathol", 
+            "younger", 
+            "twitter", 
+            "generat"
         ], 
         "expasion": [
-            "histor", 
-            "histori", 
-            "role", 
-            "soldier", 
-            "librari", 
-            "interdisciplinari", 
-            "filson", 
-            "rubenstein", 
-            "historian", 
-            "swcw", 
-            "gettysburg", 
-            "crome", 
-            "right", 
-            "2016", 
-            "memori", 
-            "histori", 
-            "massachusett", 
-            "colleg", 
-            "movement", 
-            "annual"
+            "cathol", 
+            "cathol", 
+            "church", 
+            "dioces", 
+            "onlin", 
+            "facebook", 
+            "pope", 
+            "holi", 
+            "archdioces", 
+            "web", 
+            "school", 
+            "camp", 
+            "polici", 
+            "brows", 
+            "chariti", 
+            "explor", 
+            "savvi", 
+            "bridg", 
+            "confess", 
+            "usccb"
         ], 
+        "topid": "MB256"
+    }, 
+    {
+        "title": [
+            "week", 
+            "nyc", 
+            "restaur"
+        ], 
+        "desc_narr": [
+            "restaur", 
+            "memor", 
+            "logist", 
+            "choic", 
+            "visit", 
+            "meal", 
+            "anticip", 
+            "reserv", 
+            "recommend", 
+            "recommend"
+        ], 
+        "expasion": [
+            "boulud", 
+            "dine", 
+            "restaur", 
+            "2016", 
+            "chef", 
+            "cuisin", 
+            "restaur", 
+            "dinner", 
+            "gotham", 
+            "menus", 
+            "daniel", 
+            "menu", 
+            "dinner", 
+            "lunch", 
+            "citi", 
+            "caribbean", 
+            "like", 
+            "prix", 
+            "review", 
+            "travel"
+        ], 
+        "topid": "MB258"
+    }, 
+    {
+        "title": [
+            "food", 
+            "maoi", 
+            "interact"
+        ], 
+        "desc_narr": [
+            "unexpect", 
+            "sever", 
+            "interact", 
+            "avoid", 
+            "warn", 
+            "person", 
+            "take", 
+            "medic", 
+            "list", 
+            "identifi"
+        ], 
+        "expasion": [
+            "maoi", 
+            "monoamin", 
+            "oxidas", 
+            "inhibitor", 
+            "medic", 
+            "tyramin", 
+            "inhibitor", 
+            "monoamin", 
+            "oxidas", 
+            "interact", 
+            "tyramin", 
+            "avoid", 
+            "antidepress", 
+            "drug", 
+            "food", 
+            "drug", 
+            "hypertens", 
+            "interact", 
+            "inhibitor", 
+            "dietari"
+        ], 
+        "topid": "MB259"
+    }, 
+    {
         "title": [
             "confer", 
             "civil", 
             "women", 
             "war", 
             "societi"
-        ]
+        ], 
+        "desc_narr": [
+            "briar", 
+            "sweet", 
+            "lodg", 
+            "appomattox", 
+            "speaker", 
+            "review", 
+            "confer", 
+            "colleg", 
+            "topic", 
+            "anticip"
+        ], 
+        "expasion": [
+            "histori", 
+            "histor", 
+            "2016", 
+            "scwh", 
+            "historian", 
+            "role", 
+            "right", 
+            "brows", 
+            "librari", 
+            "rubenstein", 
+            "swcw", 
+            "annual", 
+            "histori", 
+            "massachusett", 
+            "children", 
+            "gender", 
+            "movement", 
+            "organ", 
+            "wisconsin", 
+            "architectur"
+        ], 
+        "topid": "MB260"
     }, 
     {
-        "topid": "MB262", 
+        "title": [
+            "stephen", 
+            "late", 
+            "colbert", 
+            "show"
+        ], 
         "desc_narr": [
             "letterman", 
-            "opinion", 
             "inform", 
             "host", 
             "david", 
@@ -564,39 +1073,122 @@
             "successor", 
             "transit", 
             "review", 
-            "comparison"
+            "comparison", 
+            "first"
         ], 
         "expasion": [
-            "letterman", 
-            "episod", 
             "cbs", 
             "episod", 
-            "2015", 
+            "letterman", 
             "watch", 
-            "debut", 
-            "recap", 
-            "convent", 
-            "host", 
-            "theater", 
             "showrunn", 
+            "recap", 
+            "episod", 
+            "host", 
+            "debut", 
+            "clip", 
+            "rate", 
+            "2015", 
+            "bennett", 
+            "theater", 
             "comedian", 
             "onlin", 
-            "premier", 
-            "guid", 
-            "facebook", 
-            "david", 
-            "pictur", 
-            "premier"
+            "read", 
+            "video", 
+            "tv", 
+            "meredith"
         ], 
-        "title": [
-            "stephen", 
-            "late", 
-            "colbert", 
-            "show"
-        ]
+        "topid": "MB262"
     }, 
     {
-        "topid": "MB265", 
+        "title": [
+            "diseas", 
+            "treatment", 
+            "crohn"
+        ], 
+        "desc_narr": [
+            "option", 
+            "relay", 
+            "literatur", 
+            "diagnos", 
+            "medic", 
+            "publish", 
+            "recent", 
+            "point", 
+            "want", 
+            "inform"
+        ], 
+        "expasion": [
+            "symptom", 
+            "inflammatori", 
+            "bowel", 
+            "inflamm", 
+            "learn", 
+            "gastrointestin", 
+            "digest", 
+            "ibd", 
+            "medic", 
+            "chronic", 
+            "caus", 
+            "treatment", 
+            "anus", 
+            "complic", 
+            "treatment", 
+            "intestin", 
+            "abdomin", 
+            "rectum", 
+            "diarrhea", 
+            "surgeri"
+        ], 
+        "topid": "MB263"
+    }, 
+    {
+        "title": [
+            "avoid", 
+            "vaccin"
+        ], 
+        "desc_narr": [
+            "vaccin", 
+            "children", 
+            "advoc", 
+            "avoid", 
+            "vaccin", 
+            "childhood", 
+            "young", 
+            "controversi", 
+            "organ", 
+            "surround"
+        ], 
+        "expasion": [
+            "vaccin", 
+            "vaccin", 
+            "measl", 
+            "immun", 
+            "rattlesnak", 
+            "abus", 
+            "zika", 
+            "77m", 
+            "vaccin", 
+            "vaccin", 
+            "diseas", 
+            "relief", 
+            "measl", 
+            "typhoid", 
+            "tribun", 
+            "immun", 
+            "virus", 
+            "summari", 
+            "cdc", 
+            "evalu"
+        ], 
+        "topid": "MB264"
+    }, 
+    {
+        "title": [
+            "ship", 
+            "mishap", 
+            "cruis"
+        ], 
         "desc_narr": [
             "passeng", 
             "mishap", 
@@ -604,41 +1196,85 @@
             "collis", 
             "onboard", 
             "relev", 
-            "experi", 
             "outbreak", 
             "alarm", 
-            "accid"
+            "accid", 
+            "fire"
         ], 
         "expasion": [
-            "accid", 
             "carniv", 
             "accid", 
+            "accid", 
             "2013", 
+            "accid", 
             "vacat", 
             "injuri", 
-            "dream", 
-            "lauri", 
-            "mishap", 
-            "accid", 
             "passeng", 
-            "stab", 
-            "2012", 
-            "crime", 
-            "dawn", 
-            "caribbean", 
-            "stevenson", 
+            "injuri", 
+            "lauri", 
+            "attorney", 
             "passeng", 
             "safeti", 
-            "injuri"
+            "caribbean", 
+            "lawyer", 
+            "boat", 
+            "oceano", 
+            "incid", 
+            "onboard", 
+            "pirat"
         ], 
-        "title": [
-            "ship", 
-            "mishap", 
-            "cruis"
-        ]
+        "topid": "MB265"
     }, 
     {
-        "topid": "MB267", 
+        "title": [
+            "passeng", 
+            "mishap", 
+            "ferri"
+        ], 
+        "desc_narr": [
+            "passeng", 
+            "descript", 
+            "travel", 
+            "capsiz", 
+            "mishap", 
+            "relev", 
+            "stori", 
+            "routin", 
+            "reaction", 
+            "breakdown"
+        ], 
+        "expasion": [
+            "cruis", 
+            "malfunct", 
+            "malfunct", 
+            "cruis", 
+            "ferri", 
+            "rescu", 
+            "ferri", 
+            "passeng", 
+            "sound", 
+            "titan", 
+            "understand", 
+            "sink", 
+            "superferri", 
+            "puget", 
+            "jindo", 
+            "kitsap", 
+            "mileskia", 
+            "2009", 
+            "caus", 
+            "joan"
+        ], 
+        "topid": "MB266"
+    }, 
+    {
+        "title": [
+            "ukrain", 
+            "russian", 
+            "pro", 
+            "rebel", 
+            "fight"
+        ], 
         "desc_narr": [
             "ukrainian", 
             "volunt", 
@@ -654,51 +1290,300 @@
         "expasion": [
             "ukrainian", 
             "separatist", 
+            "russia", 
             "intensifi", 
             "troop", 
-            "ceasefir", 
-            "russia", 
             "rebel", 
-            "separatist", 
+            "forc", 
             "eastern", 
             "kiev", 
             "fierc", 
-            "forc", 
+            "separatist", 
             "heavi", 
+            "ceasefir", 
+            "alongsid", 
+            "fight", 
             "forc", 
             "combat", 
+            "yahoo", 
             "donetsk", 
-            "chechen", 
-            "luhansk", 
-            "armi", 
-            "2014"
+            "crisi"
         ], 
-        "title": [
-            "ukrain", 
-            "russian", 
-            "pro", 
-            "rebel", 
-            "fight"
-        ]
+        "topid": "MB267"
     }, 
     {
-        "topid": "MB278", 
+        "title": [
+            "civil", 
+            "syrian", 
+            "war"
+        ], 
+        "desc_narr": [
+            "syria", 
+            "forc", 
+            "fight", 
+            "hezbollah", 
+            "nongovern", 
+            "bomb", 
+            "weapon", 
+            "battl", 
+            "report", 
+            "isi"
+        ], 
+        "expasion": [
+            "syria", 
+            "assad", 
+            "2011", 
+            "bashar", 
+            "conflict", 
+            "protest", 
+            "updat", 
+            "\u0627\u0644\u0633\u0648\u0631\u064a\u0629", 
+            "brutal", 
+            "break", 
+            "2013", 
+            "upris", 
+            "refuge", 
+            "fight", 
+            "byword", 
+            "firefight", 
+            "\u0627\u0644\u0623\u0632\u0645\u0629", 
+            "clash", 
+            "arm", 
+            "crisi"
+        ], 
+        "topid": "MB268"
+    }, 
+    {
+        "title": [
+            "refuge", 
+            "quota", 
+            "european"
+        ], 
+        "desc_narr": [
+            "refuge", 
+            "resettl", 
+            "quota", 
+            "impact", 
+            "union", 
+            "system", 
+            "report", 
+            "monitor", 
+            "countri", 
+            "elect"
+        ], 
+        "expasion": [
+            "refuge", 
+            "asylum", 
+            "seeker", 
+            "brussel", 
+            "mandatori", 
+            "reloc", 
+            "interior", 
+            "eu", 
+            "2015", 
+            "hungari", 
+            "reloc", 
+            "migrat", 
+            "slovakia", 
+            "merkel", 
+            "ahead", 
+            "migrant", 
+            "juncker", 
+            "angela", 
+            "poland", 
+            "resettl"
+        ], 
+        "topid": "MB269"
+    }, 
+    {
+        "title": [
+            "kakuro"
+        ], 
+        "desc_narr": [
+            "puzzl", 
+            "sum", 
+            "tournament", 
+            "puzzl", 
+            "app", 
+            "cross", 
+            "like", 
+            "techniqu", 
+            "solv", 
+            "known"
+        ], 
+        "expasion": [
+            "puzzl", 
+            "sum", 
+            "puzzl", 
+            "onlin", 
+            "play", 
+            "crossword", 
+            "sudoku", 
+            "crossword", 
+            "squar", 
+            "craze", 
+            "kakro", 
+            "puzzl", 
+            "cross", 
+            "clue", 
+            "download", 
+            "addict", 
+            "kankur\u014d", 
+            "onlin", 
+            "game", 
+            "number"
+        ], 
+        "topid": "MB271"
+    }, 
+    {
+        "title": [
+            "contest", 
+            "atlant", 
+            "fish", 
+            "ocean"
+        ], 
+        "desc_narr": [
+            "contest", 
+            "fisherman", 
+            "2015", 
+            "speci", 
+            "winner", 
+            "caught", 
+            "profession", 
+            "contest", 
+            "fish", 
+            "size"
+        ], 
+        "expasion": [
+            "tournament", 
+            "tournament", 
+            "saltwat", 
+            "beach", 
+            "maryland", 
+            "bay", 
+            "recreat", 
+            "beach", 
+            "sport", 
+            "citi", 
+            "shark", 
+            "contest", 
+            "video", 
+            "surf", 
+            "spot", 
+            "inshor", 
+            "shark", 
+            "famous", 
+            "overfish", 
+            "kayak"
+        ], 
+        "topid": "MB272"
+    }, 
+    {
+        "title": [
+            "europ", 
+            "marriag", 
+            "gay", 
+            "law"
+        ], 
+        "desc_narr": [
+            "legal", 
+            "activist", 
+            "human", 
+            "enact", 
+            "passag", 
+            "climat", 
+            "possibl", 
+            "legal", 
+            "right", 
+            "relat"
+        ], 
+        "expasion": [
+            "sex", 
+            "coupl", 
+            "lgbt", 
+            "sex", 
+            "holland", 
+            "human", 
+            "ban", 
+            "visit", 
+            "effect", 
+            "marri", 
+            "legalis", 
+            "law", 
+            "discrimin", 
+            "cnn", 
+            "poland", 
+            "histori", 
+            "human", 
+            "right", 
+            "finnish", 
+            "around"
+        ], 
+        "topid": "MB276"
+    }, 
+    {
+        "title": [
+            "calcium", 
+            "supplement"
+        ], 
+        "desc_narr": [
+            "kind", 
+            "dosag", 
+            "osteoporosi", 
+            "prevent", 
+            "take", 
+            "pros", 
+            "direct", 
+            "avail", 
+            "pill", 
+            "understand"
+        ], 
+        "expasion": [
+            "bone", 
+            "dietari", 
+            "magnesium", 
+            "learn", 
+            "vitamin", 
+            "vitamin", 
+            "bone", 
+            "supplement", 
+            "shop", 
+            "vitamin", 
+            "element", 
+            "tablet", 
+            "miner", 
+            "food", 
+            "diet", 
+            "health", 
+            "stroke", 
+            "interact", 
+            "walmart", 
+            "d3"
+        ], 
+        "topid": "MB277"
+    }, 
+    {
+        "title": [
+            "holm", 
+            "movi", 
+            "mr"
+        ], 
         "desc_narr": [
             "review", 
             "critiqu", 
-            "opinion", 
             "actual", 
             "newli", 
             "releas", 
             "seen", 
-            "peopl", 
             "read", 
-            "want"
+            "want", 
+            "opinion", 
+            "peopl"
         ], 
         "expasion": [
             "sherlock", 
-            "mckellen", 
             "1947", 
+            "mckellen", 
             "famous", 
             "detect", 
             "twist", 
@@ -706,27 +1591,150 @@
             "2015", 
             "ian", 
             "dvd", 
-            "showtim", 
             "mysteri", 
-            "onlin", 
-            "trailer", 
-            "condon", 
-            "rare", 
             "ticket", 
-            "star", 
+            "showtim", 
+            "rare", 
             "return", 
-            "retir"
-        ], 
-        "title": [
-            "holm", 
+            "star", 
             "movi", 
-            "mr"
-        ]
+            "retir", 
+            "trailer", 
+            "mysteri"
+        ], 
+        "topid": "MB278"
     }, 
     {
-        "topid": "MB284", 
+        "title": [
+            "bite", 
+            "tick", 
+            "treatment"
+        ], 
         "desc_narr": [
-            "experi", 
+            "bitten", 
+            "deer", 
+            "immatur", 
+            "treat", 
+            "dog", 
+            "lyme", 
+            "remedi", 
+            "know", 
+            "think", 
+            "diseas"
+        ], 
+        "expasion": [
+            "lyme", 
+            "bite", 
+            "symptom", 
+            "tick", 
+            "tick", 
+            "diseas", 
+            "fever", 
+            "diseas", 
+            "bite", 
+            "dog", 
+            "dog", 
+            "infect", 
+            "transmit", 
+            "human", 
+            "infect", 
+            "prevent", 
+            "diseas", 
+            "born", 
+            "babesiosi", 
+            "dog"
+        ], 
+        "topid": "MB281"
+    }, 
+    {
+        "title": [
+            "debat", 
+            "euthanasia"
+        ], 
+        "desc_narr": [
+            "incur", 
+            "diseas", 
+            "patient", 
+            "dissert", 
+            "perspect", 
+            "doctor", 
+            "digniti", 
+            "die", 
+            "sever", 
+            "right"
+        ], 
+        "expasion": [
+            "suicid", 
+            "assist", 
+            "suicid", 
+            "assist", 
+            "physician", 
+            "voluntari", 
+            "death", 
+            "argument", 
+            "ethic", 
+            "argument", 
+            "moral", 
+            "professor", 
+            "essay", 
+            "digniti", 
+            "voluntari", 
+            "ethic", 
+            "archiv", 
+            "ancient", 
+            "merci", 
+            "legal"
+        ], 
+        "topid": "MB282"
+    }, 
+    {
+        "title": [
+            "curri", 
+            "condiment"
+        ], 
+        "desc_narr": [
+            "recip", 
+            "condiment", 
+            "way", 
+            "learn", 
+            "differ", 
+            "spice", 
+            "specif", 
+            "casual", 
+            "restaur", 
+            "plan"
+        ], 
+        "expasion": [
+            "condiment", 
+            "recip", 
+            "condiment", 
+            "chicken", 
+            "recip", 
+            "recip", 
+            "curri", 
+            "sauc", 
+            "recip", 
+            "ingredi", 
+            "chop", 
+            "soup", 
+            "chicken", 
+            "sauc", 
+            "ingredi", 
+            "serv", 
+            "condiment", 
+            "chutney", 
+            "hela", 
+            "sauc"
+        ], 
+        "topid": "MB283"
+    }, 
+    {
+        "title": [
+            "cope", 
+            "ident", 
+            "theft"
+        ], 
+        "desc_narr": [
             "compromis", 
             "monitor", 
             "victim", 
@@ -734,8 +1742,9 @@
             "learn", 
             "cope", 
             "practic", 
-            "person", 
-            "credit"
+            "credit", 
+            "program", 
+            "best"
         ], 
         "expasion": [
             "deal", 
@@ -744,72 +1753,201 @@
             "fraud", 
             "thief", 
             "victim", 
-            "tip", 
-            "crime", 
             "ftc", 
             "collect", 
             "recov", 
             "unfamiliar", 
-            "topic", 
             "thiev", 
             "fraud", 
             "frustrat", 
             "identitytheft", 
             "victim", 
-            "person", 
-            "someon"
+            "someon", 
+            "protect", 
+            "tip", 
+            "steal", 
+            "crime"
         ], 
-        "title": [
-            "cope", 
-            "ident", 
-            "theft"
-        ]
+        "topid": "MB284"
     }, 
     {
-        "topid": "MB287", 
+        "title": [
+            "nyc", 
+            "reloc", 
+            "la"
+        ], 
+        "desc_narr": [
+            "neighborhood", 
+            "artist", 
+            "graphic", 
+            "artist", 
+            "sunni", 
+            "network", 
+            "creativ", 
+            "reloc", 
+            "reloc", 
+            "recommend"
+        ], 
+        "expasion": [
+            "move", 
+            "angel", 
+            "los", 
+            "move", 
+            "mover", 
+            "move", 
+            "citi", 
+            "kick", 
+            "york", 
+            "distanc", 
+            "francisco", 
+            "thing", 
+            "miami", 
+            "flatrat", 
+            "tip", 
+            "http", 
+            "reason", 
+            "storag", 
+            "new", 
+            "2014"
+        ], 
+        "topid": "MB285"
+    }, 
+    {
+        "title": [
+            "high", 
+            "job", 
+            "train", 
+            "school", 
+            "graduat"
+        ], 
+        "desc_narr": [
+            "apprenticeship", 
+            "abreast", 
+            "program", 
+            "counselor", 
+            "guidanc", 
+            "anywher", 
+            "need", 
+            "keep", 
+            "data", 
+            "u"
+        ], 
+        "expasion": [
+            "graduat", 
+            "job", 
+            "student", 
+            "colleg", 
+            "graduat", 
+            "career", 
+            "graduat", 
+            "job", 
+            "corp", 
+            "opportun", 
+            "program", 
+            "employ", 
+            "email", 
+            "testimoni", 
+            "barrier", 
+            "apprenticeship", 
+            "career", 
+            "occup", 
+            "student", 
+            "vocat"
+        ], 
+        "topid": "MB286"
+    }, 
+    {
+        "title": [
+            "movi", 
+            "the", 
+            "tape", 
+            "vatican"
+        ], 
         "desc_narr": [
             "filmmak", 
             "violenc", 
             "reaction", 
             "anticip", 
             "review", 
-            "etc", 
             "inform", 
-            "comment", 
-            "find", 
-            "discuss"
+            "amount", 
+            "cast", 
+            "includ", 
+            "want"
         ], 
         "expasion": [
-            "2015", 
+            "movi", 
             "angela", 
+            "2015", 
             "watch", 
+            "satan", 
             "onlin", 
             "trailer", 
-            "movi", 
+            "onlin", 
+            "ticket", 
+            "dvd", 
+            "god", 
             "trailer", 
             "horror", 
-            "ticket", 
+            "movi", 
+            "holm", 
+            "hounsou", 
+            "djimon", 
             "satan", 
             "exorc", 
-            "neveldin", 
-            "dvd", 
-            "movi", 
-            "clip", 
-            "hounsou", 
-            "satan", 
-            "djimon", 
-            "haunt", 
-            "holm"
+            "neveldin"
         ], 
-        "title": [
-            "movi", 
-            "the", 
-            "tape", 
-            "vatican"
-        ]
+        "topid": "MB287"
     }, 
     {
-        "topid": "MB298", 
+        "title": [
+            "rang", 
+            "kid", 
+            "free"
+        ], 
+        "desc_narr": [
+            "parent", 
+            "children", 
+            "neighborhood", 
+            "sociologist", 
+            "detractor", 
+            "hover", 
+            "express", 
+            "support", 
+            "phenomenon", 
+            "school"
+        ], 
+        "expasion": [
+            "parent", 
+            "parent", 
+            "children", 
+            "children", 
+            "worri", 
+            "go", 
+            "skenazi", 
+            "lenor", 
+            "nut", 
+            "give", 
+            "kid", 
+            "reliant", 
+            "rais", 
+            "roam", 
+            "self", 
+            "freedom", 
+            "without", 
+            "child", 
+            "amazon", 
+            "parent"
+        ], 
+        "topid": "MB296"
+    }, 
+    {
+        "title": [
+            "rocket", 
+            "israel", 
+            "hit", 
+            "gaza"
+        ], 
         "desc_narr": [
             "rocket", 
             "land", 
@@ -823,36 +1961,163 @@
             "report"
         ], 
         "expasion": [
-            "palestinian", 
             "hama", 
             "isra", 
             "strip", 
             "milit", 
-            "rocket", 
+            "palestinian", 
             "fire", 
+            "rocket", 
+            "sderot", 
             "jerusalem", 
-            "fragment", 
-            "kill", 
-            "strike", 
-            "attack", 
-            "aviv", 
-            "boy", 
-            "fire", 
-            "southern", 
-            "land", 
-            "council", 
-            "hanegev", 
-            "mortar"
-        ], 
-        "title": [
             "rocket", 
-            "israel", 
-            "hit", 
-            "gaza"
-        ]
+            "aviv", 
+            "land", 
+            "kill", 
+            "fragment", 
+            "strike", 
+            "jerusalem", 
+            "boy", 
+            "southern", 
+            "deeper", 
+            "kindergarten"
+        ], 
+        "topid": "MB298"
     }, 
     {
-        "topid": "MB305", 
+        "title": [
+            "commut", 
+            "problem", 
+            "subway"
+        ], 
+        "desc_narr": [
+            "commut", 
+            "impact", 
+            "impact", 
+            "citi", 
+            "see", 
+            "traffic", 
+            "respons", 
+            "system", 
+            "plan", 
+            "worker"
+        ], 
+        "expasion": [
+            "commut", 
+            "commut", 
+            "commut", 
+            "mbta", 
+            "commut", 
+            "mta", 
+            "rider", 
+            "delay", 
+            "transit", 
+            "rail", 
+            "transit", 
+            "even", 
+            "subway", 
+            "chao", 
+            "charliecard", 
+            "nyc", 
+            "ttc", 
+            "metro", 
+            "link", 
+            "weekend"
+        ], 
+        "topid": "MB299"
+    }, 
+    {
+        "title": [
+            "washington", 
+            "price", 
+            "gas", 
+            "dc", 
+            "area"
+        ], 
+        "desc_narr": [
+            "report", 
+            "desir", 
+            "suburb", 
+            "metro", 
+            "automobil", 
+            "live", 
+            "track", 
+            "gasolin", 
+            "best", 
+            "trend"
+        ], 
+        "expasion": [
+            "thank", 
+            "search", 
+            "lowest", 
+            "station", 
+            "help", 
+            "price", 
+            "gasbuddi", 
+            "websit", 
+            "cheap", 
+            "spokan", 
+            "maryland", 
+            "virginia", 
+            "fuel", 
+            "best", 
+            "district", 
+            "local", 
+            "baltimor", 
+            "diesel", 
+            "look", 
+            "zip"
+        ], 
+        "topid": "MB302"
+    }, 
+    {
+        "title": [
+            "frack", 
+            "dakota"
+        ], 
+        "desc_narr": [
+            "dakota", 
+            "techniqu", 
+            "state", 
+            "north", 
+            "south", 
+            "techniqu", 
+            "boom", 
+            "move", 
+            "caus", 
+            "industri"
+        ], 
+        "expasion": [
+            "dakota", 
+            "bakken", 
+            "shale", 
+            "fractur", 
+            "boom", 
+            "williston", 
+            "boom", 
+            "hydraul", 
+            "shale", 
+            "north", 
+            "2014", 
+            "horizont", 
+            "sourcewatch", 
+            "valentin", 
+            "kati", 
+            "drill", 
+            "magazin", 
+            "earthquak", 
+            "town", 
+            "oil"
+        ], 
+        "topid": "MB303"
+    }, 
+    {
+        "title": [
+            "nation", 
+            "american", 
+            "museum", 
+            "histori"
+        ], 
         "desc_narr": [
             "museum", 
             "renov", 
@@ -867,37 +2132,452 @@
         ], 
         "expasion": [
             "smithsonian", 
-            "photo", 
             "cultur", 
+            "photo", 
+            "object", 
             "behr", 
             "collect", 
             "institut", 
-            "2016", 
-            "object", 
+            "exhibit", 
             "exhibit", 
             "spangl", 
-            "celebr", 
             "hour", 
-            "event", 
-            "nativ", 
-            "artifact", 
             "park", 
-            "review", 
-            "dc", 
             "african", 
-            "washington"
+            "display", 
+            "explor", 
+            "adventur", 
+            "washington", 
+            "dc", 
+            "preserv", 
+            "preserv"
         ], 
-        "title": [
-            "nation", 
-            "american", 
-            "museum", 
-            "histori"
-        ]
+        "topid": "MB305"
     }, 
     {
-        "topid": "MB324", 
+        "title": [
+            "s", 
+            "writer", 
+            "u", 
+            "confer"
+        ], 
         "desc_narr": [
-            "opinion", 
+            "aspir", 
+            "logist", 
+            "confer", 
+            "writer", 
+            "particip", 
+            "locat", 
+            "qualiti", 
+            "held", 
+            "inform", 
+            "travel"
+        ], 
+        "expasion": [
+            "workshop", 
+            "write", 
+            "literari", 
+            "workshop", 
+            "confer", 
+            "write", 
+            "festiv", 
+            "writer", 
+            "romanc", 
+            "retreat", 
+            "resid", 
+            "academ", 
+            "creativ", 
+            "2016", 
+            "grant", 
+            "profession", 
+            "writer", 
+            "welcom", 
+            "teach", 
+            "dfw"
+        ], 
+        "topid": "MB306"
+    }, 
+    {
+        "title": [
+            "jazz", 
+            "pianist", 
+            "joey", 
+            "alexand"
+        ], 
+        "desc_narr": [
+            "prodigi", 
+            "child", 
+            "aficionado", 
+            "record", 
+            "talent", 
+            "commentari", 
+            "career", 
+            "perform", 
+            "upcom", 
+            "unusu"
+        ], 
+        "expasion": [
+            "piano", 
+            "bali", 
+            "prodigi", 
+            "festiv", 
+            "piano", 
+            "grammi", 
+            "taught", 
+            "wynton", 
+            "prodigi", 
+            "marsali", 
+            "old", 
+            "listen", 
+            "debut", 
+            "newport", 
+            "ovat", 
+            "music", 
+            "youngest", 
+            "musician", 
+            "theloni", 
+            "album"
+        ], 
+        "topid": "MB308"
+    }, 
+    {
+        "title": [
+            "lawn", 
+            "bowl"
+        ], 
+        "desc_narr": [
+            "game", 
+            "leagu", 
+            "monitor", 
+            "join", 
+            "start", 
+            "level", 
+            "want", 
+            "like", 
+            "would", 
+            "interest"
+        ], 
+        "expasion": [
+            "bowl", 
+            "bowl", 
+            "game", 
+            "welcom", 
+            "ebay", 
+            "bowler", 
+            "club", 
+            "park", 
+            "taylor", 
+            "ball", 
+            "websit", 
+            "club", 
+            "ball", 
+            "shop", 
+            "play", 
+            "green", 
+            "dora", 
+            "tournament", 
+            "henselit", 
+            "onlin"
+        ], 
+        "topid": "MB312"
+    }, 
+    {
+        "title": [
+            "honey", 
+            "price"
+        ], 
+        "desc_narr": [
+            "cheaper", 
+            "network", 
+            "pastri", 
+            "altern", 
+            "impact", 
+            "bake", 
+            "experienc", 
+            "negat", 
+            "baker", 
+            "suggest"
+        ], 
+        "expasion": [
+            "raw", 
+            "clover", 
+            "beekeep", 
+            "camp", 
+            "organ", 
+            "shop", 
+            "pure", 
+            "ebay", 
+            "bee", 
+            "2016", 
+            "tupelo", 
+            "best", 
+            "price", 
+            "cafe", 
+            "valu", 
+            "bee", 
+            "tradit", 
+            "calcul", 
+            "beekeep", 
+            "recip"
+        ], 
+        "topid": "MB314"
+    }, 
+    {
+        "title": [
+            "servic", 
+            "transgend", 
+            "health"
+        ], 
+        "desc_narr": [
+            "directori", 
+            "task", 
+            "dedic", 
+            "type", 
+            "serv", 
+            "avail", 
+            "individu", 
+            "medic", 
+            "servic", 
+            "communiti"
+        ], 
+        "expasion": [
+            "lgbt", 
+            "gender", 
+            "bisexu", 
+            "gay", 
+            "lesbian", 
+            "gender", 
+            "care", 
+            "afford", 
+            "bisexu", 
+            "inclus", 
+            "dispar", 
+            "learn", 
+            "communiti", 
+            "affirm", 
+            "center", 
+            "patient", 
+            "healthcar", 
+            "care", 
+            "student", 
+            "advocaci"
+        ], 
+        "topid": "MB315"
+    }, 
+    {
+        "title": [
+            "carbohydr", 
+            "low", 
+            "diet"
+        ], 
+        "desc_narr": [
+            "diet", 
+            "glycem", 
+            "relev", 
+            "recip", 
+            "beach", 
+            "food", 
+            "recommend", 
+            "weight", 
+            "index", 
+            "one"
+        ], 
+        "expasion": [
+            "diet", 
+            "carb", 
+            "diabet", 
+            "diet", 
+            "atkin", 
+            "carbohydr", 
+            "carb", 
+            "food", 
+            "carb", 
+            "weight", 
+            "learn", 
+            "protein", 
+            "calori", 
+            "list", 
+            "dessert", 
+            "recip", 
+            "nutritionist", 
+            "starchi", 
+            "dietari", 
+            "nutritionist"
+        ], 
+        "topid": "MB316"
+    }, 
+    {
+        "title": [
+            "paleo", 
+            "diet"
+        ], 
+        "desc_narr": [
+            "recip", 
+            "food", 
+            "recommend", 
+            "weight", 
+            "pros", 
+            "result", 
+            "product", 
+            "loss", 
+            "want", 
+            "con"
+        ], 
+        "expasion": [
+            "recip", 
+            "diet", 
+            "caveman", 
+            "delici", 
+            "paleolith", 
+            "primal", 
+            "food", 
+            "ancestor", 
+            "eat", 
+            "lifestyl", 
+            "hunter", 
+            "caveman", 
+            "welcom", 
+            "ancient", 
+            "cavemen", 
+            "premis", 
+            "recip", 
+            "healthi", 
+            "easi", 
+            "review"
+        ], 
+        "topid": "MB317"
+    }, 
+    {
+        "title": [
+            "european", 
+            "river", 
+            "cruis"
+        ], 
+        "desc_narr": [
+            "cruis", 
+            "itinerari", 
+            "logist", 
+            "tip", 
+            "last", 
+            "river", 
+            "multipl", 
+            "anticip", 
+            "multi", 
+            "best"
+        ], 
+        "expasion": [
+            "cruis", 
+            "cruis", 
+            "danub", 
+            "cruis", 
+            "tour", 
+            "inclus", 
+            "amawaterway", 
+            "experi", 
+            "uniworld", 
+            "luxuri", 
+            "vike", 
+            "vacat", 
+            "explor", 
+            "book", 
+            "countrysid", 
+            "avalon", 
+            "sein", 
+            "waterway", 
+            "scenic", 
+            "stun"
+        ], 
+        "topid": "MB319"
+    }, 
+    {
+        "title": [
+            "alaskan", 
+            "cruis"
+        ], 
+        "desc_narr": [
+            "cruis", 
+            "itinerari", 
+            "logist", 
+            "tip", 
+            "last", 
+            "multipl", 
+            "anticip", 
+            "alaska", 
+            "multi", 
+            "best"
+        ], 
+        "expasion": [
+            "cruis", 
+            "cruis", 
+            "alaska", 
+            "vacat", 
+            "experi", 
+            "book", 
+            "glacier", 
+            "onlin", 
+            "wonder", 
+            "explor", 
+            "wildlif", 
+            "tour", 
+            "special", 
+            "specialist", 
+            "inclus", 
+            "discov", 
+            "seattl", 
+            "caribbean", 
+            "beauti", 
+            "rug"
+        ], 
+        "topid": "MB320"
+    }, 
+    {
+        "title": [
+            "dui", 
+            "celebr"
+        ], 
+        "desc_narr": [
+            "celebr", 
+            "famous", 
+            "person", 
+            "violat", 
+            "drink", 
+            "drive", 
+            "receiv", 
+            "especi", 
+            "follow", 
+            "legal"
+        ], 
+        "expasion": [
+            "arrest", 
+            "mugshot", 
+            "dui", 
+            "arrest", 
+            "star", 
+            "drunk", 
+            "celebr", 
+            "arrest", 
+            "debbi", 
+            "kiefer", 
+            "dwi", 
+            "hollywood", 
+            "arrest", 
+            "locklear", 
+            "nicol", 
+            "heather", 
+            "sutherland", 
+            "stamo", 
+            "celebr", 
+            "drive"
+        ], 
+        "topid": "MB321"
+    }, 
+    {
+        "title": [
+            "indian", 
+            "train", 
+            "pacif"
+        ], 
+        "desc_narr": [
             "journey", 
             "perth", 
             "sydney", 
@@ -906,79 +2586,203 @@
             "relev", 
             "trip", 
             "train", 
-            "assess"
+            "assess", 
+            "meal"
         ], 
         "expasion": [
             "perth", 
             "journey", 
-            "adelaid", 
+            "sydney", 
             "ocean", 
             "journey", 
-            "sydney", 
-            "aboard", 
             "enjoy", 
-            "railway", 
-            "longest", 
-            "overland", 
+            "adelaid", 
             "rail", 
+            "aboard", 
+            "travel", 
+            "railway", 
+            "overland", 
             "great", 
-            "travel", 
-            "travel", 
             "fare", 
+            "discov", 
             "ghan", 
+            "longest", 
+            "perman", 
             "kalgoorli", 
-            "websit", 
-            "photo"
+            "move"
         ], 
-        "title": [
-            "indian", 
-            "train", 
-            "pacif"
-        ]
+        "topid": "MB324"
     }, 
     {
-        "topid": "MB326", 
+        "title": [
+            "wheelchair", 
+            "access"
+        ], 
         "desc_narr": [
             "disabl", 
             "bound", 
-            "peopl", 
             "problem", 
             "experienc", 
-            "person", 
-            "account", 
             "use", 
             "news", 
-            "report"
+            "peopl", 
+            "person", 
+            "report", 
+            "interest"
         ], 
         "expasion": [
             "access", 
             "access", 
             "handicap", 
-            "van", 
-            "mobil", 
-            "mobil", 
-            "disabl", 
-            "van", 
-            "lift", 
             "handicap", 
-            "onlin", 
-            "disabl", 
-            "vehicl", 
-            "vmi", 
+            "van", 
+            "mobil", 
+            "mobil", 
             "ramp", 
-            "remodel", 
-            "convers", 
-            "toyota", 
+            "lift", 
             "disabl", 
-            "statu"
+            "disabl", 
+            "van", 
+            "toyota", 
+            "access", 
+            "ebay", 
+            "onlin", 
+            "tarc", 
+            "zoo", 
+            "afford", 
+            "handicap"
         ], 
-        "title": [
-            "wheelchair", 
-            "access"
-        ]
+        "topid": "MB326"
     }, 
     {
-        "topid": "MB331", 
+        "title": [
+            "egypt", 
+            "problem", 
+            "libya"
+        ], 
+        "desc_narr": [
+            "unrest", 
+            "interact", 
+            "pyramid", 
+            "caus", 
+            "plan", 
+            "concern", 
+            "increas", 
+            "news", 
+            "countri", 
+            "two"
+        ], 
+        "expasion": [
+            "issu", 
+            "libyan", 
+            "tunisia", 
+            "egyptian", 
+            "israel", 
+            "geographi", 
+            "border", 
+            "islamist", 
+            "search", 
+            "region", 
+            "gaza", 
+            "syria", 
+            "border", 
+            "indic", 
+            "sadat", 
+            "cultur", 
+            "strip", 
+            "problem", 
+            "middl", 
+            "sudan"
+        ], 
+        "topid": "MB327"
+    }, 
+    {
+        "title": [
+            "afghanistan", 
+            "isi"
+        ], 
+        "desc_narr": [
+            "presenc", 
+            "daish", 
+            "recruit", 
+            "levant", 
+            "taliban", 
+            "afghani", 
+            "isil", 
+            "forc", 
+            "clash", 
+            "activ"
+        ], 
+        "expasion": [
+            "taliban", 
+            "islam", 
+            "afghan", 
+            "milit", 
+            "fighter", 
+            "qaeda", 
+            "quraishi", 
+            "recruit", 
+            "isil", 
+            "najibullah", 
+            "syria", 
+            "pakistan", 
+            "jihad", 
+            "understandingwar", 
+            "kid", 
+            "frontlin", 
+            "islamist", 
+            "extremist", 
+            "najib", 
+            "sharifi"
+        ], 
+        "topid": "MB328"
+    }, 
+    {
+        "title": [
+            "kayak"
+        ], 
+        "desc_narr": [
+            "outing", 
+            "place", 
+            "kayak", 
+            "enthusiast", 
+            "announc", 
+            "enjoy", 
+            "fellow", 
+            "interest", 
+            "suggest", 
+            "start"
+        ], 
+        "expasion": [
+            "kayak", 
+            "kayak", 
+            "paddl", 
+            "cano", 
+            "paddler", 
+            "paddl", 
+            "rental", 
+            "video", 
+            "tour", 
+            "kayak", 
+            "whitewat", 
+            "onlin", 
+            "photo", 
+            "trip", 
+            "kayak", 
+            "learn", 
+            "skill", 
+            "gear", 
+            "select", 
+            "enjoy"
+        ], 
+        "topid": "MB330"
+    }, 
+    {
+        "title": [
+            "2015", 
+            "olymp", 
+            "special"
+        ], 
         "desc_narr": [
             "outcom", 
             "lodg", 
@@ -993,34 +2797,286 @@
         ], 
         "expasion": [
             "athlet", 
-            "disabl", 
             "game", 
+            "disabl", 
             "adult", 
             "sport", 
             "olymp", 
-            "intellectu", 
             "children", 
+            "intellectu", 
             "2016", 
-            "summer", 
-            "train", 
-            "athlet", 
-            "proud", 
-            "angel", 
-            "competit", 
-            "los", 
             "espn", 
+            "athlet", 
+            "train", 
+            "summer", 
+            "2017", 
+            "event", 
+            "provid", 
+            "competit", 
+            "skater", 
             "welcom", 
-            "promot", 
-            "dream"
+            "footbal"
         ], 
-        "title": [
-            "2015", 
-            "olymp", 
-            "special"
-        ]
+        "topid": "MB331"
     }, 
     {
-        "topid": "MB339", 
+        "title": [
+            "style", 
+            "emerg", 
+            "music"
+        ], 
+        "desc_narr": [
+            "impress", 
+            "musician", 
+            "audienc", 
+            "style", 
+            "fresh", 
+            "talent", 
+            "fan", 
+            "agent", 
+            "industri", 
+            "seek"
+        ], 
+        "expasion": [
+            "genr", 
+            "gospel", 
+            "genr", 
+            "music", 
+            "jazz", 
+            "style", 
+            "genr", 
+            "detect", 
+            "style", 
+            "worship", 
+            "2013", 
+            "reverbn", 
+            "pdf", 
+            "histori", 
+            "showcas", 
+            "jazz", 
+            "fund", 
+            "premier", 
+            "dream", 
+            "talent"
+        ], 
+        "topid": "MB332"
+    }, 
+    {
+        "title": [
+            "live", 
+            "c", 
+            "d", 
+            "assist", 
+            "facil", 
+            "nyc"
+        ], 
+        "desc_narr": [
+            "elder", 
+            "citi", 
+            "father", 
+            "transit", 
+            "washington", 
+            "york", 
+            "facil", 
+            "new", 
+            "give", 
+            "need"
+        ], 
+        "expasion": [
+            "senior", 
+            "atria", 
+            "adult", 
+            "resid", 
+            "care", 
+            "view", 
+            "licens", 
+            "unbias", 
+            "program", 
+            "communiti", 
+            "york", 
+            "citi", 
+            "facil", 
+            "nestl", 
+            "senior", 
+            "brows", 
+            "brookdal", 
+            "directori", 
+            "bronx", 
+            "medicaid"
+        ], 
+        "topid": "MB333"
+    }, 
+    {
+        "title": [
+            "corpor", 
+            "mind"
+        ], 
+        "desc_narr": [
+            "techniqu", 
+            "profession", 
+            "medit", 
+            "multitask", 
+            "employe", 
+            "corpor", 
+            "fortun", 
+            "human", 
+            "live", 
+            "collect"
+        ], 
+        "expasion": [
+            "mind", 
+            "medit", 
+            "well", 
+            "workplac", 
+            "corpor", 
+            "medit", 
+            "googl", 
+            "corpor", 
+            "educ", 
+            "center", 
+            "datasi", 
+            "stress", 
+            "9780964846678", 
+            "overview", 
+            "search", 
+            "incorpor", 
+            "well", 
+            "linkedin", 
+            "websit", 
+            "christi"
+        ], 
+        "topid": "MB334"
+    }, 
+    {
+        "title": [
+            "store", 
+            "pop"
+        ], 
+        "desc_narr": [
+            "brand", 
+            "space", 
+            "retail", 
+            "appear", 
+            "track", 
+            "locat", 
+            "mention", 
+            "locat", 
+            "express", 
+            "temporari"
+        ], 
+        "expasion": [
+            "shop", 
+            "shop", 
+            "onlin", 
+            "shop", 
+            "pop", 
+            "westlak", 
+            "shop", 
+            "brand", 
+            "2016", 
+            "retail", 
+            "amazon", 
+            "shop", 
+            "storefront", 
+            "downtown", 
+            "space", 
+            "boutiqu", 
+            "store", 
+            "retail", 
+            "brand", 
+            "space"
+        ], 
+        "topid": "MB335"
+    }, 
+    {
+        "title": [
+            "robot", 
+            "graduat", 
+            "program"
+        ], 
+        "desc_narr": [
+            "peopl", 
+            "undergradu", 
+            "school", 
+            "see", 
+            "educ", 
+            "degre", 
+            "finish", 
+            "best", 
+            "differ", 
+            "studi"
+        ], 
+        "expasion": [
+            "engin", 
+            "degre", 
+            "school", 
+            "student", 
+            "doctor", 
+            "engin", 
+            "mechan", 
+            "colleg", 
+            "faculti", 
+            "phd", 
+            "onlin", 
+            "school", 
+            "accredit", 
+            "electr", 
+            "scienc", 
+            "academ", 
+            "master", 
+            "degre", 
+            "rank", 
+            "colleg"
+        ], 
+        "topid": "MB336"
+    }, 
+    {
+        "title": [
+            "substitut", 
+            "gluten"
+        ], 
+        "desc_narr": [
+            "bake", 
+            "cook", 
+            "menus", 
+            "recip", 
+            "celiac", 
+            "sister", 
+            "name", 
+            "meal", 
+            "visit", 
+            "diseas"
+        ], 
+        "expasion": [
+            "flour", 
+            "recip", 
+            "substitut", 
+            "vital", 
+            "substitut", 
+            "bake", 
+            "flour", 
+            "vegan", 
+            "egg", 
+            "bake", 
+            "protein", 
+            "flour", 
+            "substitut", 
+            "free", 
+            "bread", 
+            "recip", 
+            "substitut", 
+            "rye", 
+            "free", 
+            "food"
+        ], 
+        "topid": "MB338"
+    }, 
+    {
+        "title": [
+            "swim", 
+            "poni", 
+            "chincoteagu"
+        ], 
         "desc_narr": [
             "accommod", 
             "md", 
@@ -1030,8 +3086,8 @@
             "entertain", 
             "annual", 
             "attend", 
-            "regard", 
-            "auction"
+            "auction", 
+            "welcom"
         ], 
         "expasion": [
             "assateagu", 
@@ -1040,29 +3096,154 @@
             "pen", 
             "poni", 
             "island", 
+            "wild", 
+            "auction", 
+            "virginia", 
+            "2015", 
+            "dude", 
+            "surfer", 
             "famous", 
             "spectat", 
-            "wild", 
-            "virginia", 
-            "auction", 
-            "brave", 
             "annual", 
-            "2014", 
-            "2015", 
+            "memori", 
             "shore", 
+            "ten", 
             "channel", 
-            "tour", 
-            "volut", 
-            "hors"
+            "tour"
         ], 
-        "title": [
-            "swim", 
-            "poni", 
-            "chincoteagu"
-        ]
+        "topid": "MB339"
     }, 
     {
-        "topid": "MB344", 
+        "title": [
+            "plant", 
+            "perenni"
+        ], 
+        "desc_narr": [
+            "annoy", 
+            "skip", 
+            "herb", 
+            "salvia", 
+            "impatien", 
+            "garden", 
+            "suggest", 
+            "flower", 
+            "soil", 
+            "recommend"
+        ], 
+        "expasion": [
+            "perenni", 
+            "perenni", 
+            "garden", 
+            "shade", 
+            "flower", 
+            "bloom", 
+            "beauti", 
+            "shrub", 
+            "garden", 
+            "select", 
+            "learn", 
+            "bulb", 
+            "onlin", 
+            "color", 
+            "nurseri", 
+            "landscap", 
+            "video", 
+            "shop", 
+            "garden", 
+            "flower"
+        ], 
+        "topid": "MB340"
+    }, 
+    {
+        "title": [
+            "seafair", 
+            "fleet", 
+            "seattl", 
+            "week"
+        ], 
+        "desc_narr": [
+            "kind", 
+            "civilian", 
+            "someth", 
+            "militari", 
+            "ship", 
+            "forward", 
+            "washington", 
+            "want", 
+            "look", 
+            "attend"
+        ], 
+        "expasion": [
+            "celebr", 
+            "parad", 
+            "ship", 
+            "navi", 
+            "tour", 
+            "2014", 
+            "festiv", 
+            "2016", 
+            "lhd", 
+            "waterfront", 
+            "ddg", 
+            "maritim", 
+            "2015", 
+            "celebr", 
+            "boe", 
+            "waterfront", 
+            "guard", 
+            "1950", 
+            "cruiser", 
+            "bunker"
+        ], 
+        "topid": "MB341"
+    }, 
+    {
+        "title": [
+            "blocker", 
+            "beta"
+        ], 
+        "desc_narr": [
+            "blocker", 
+            "interact", 
+            "advers", 
+            "effect", 
+            "physician", 
+            "recommend", 
+            "drug", 
+            "user", 
+            "associ", 
+            "various"
+        ], 
+        "expasion": [
+            "blood", 
+            "blocker", 
+            "anxieti", 
+            "medic", 
+            "angina", 
+            "medicin", 
+            "heart", 
+            "learn", 
+            "migrain", 
+            "heartbeat", 
+            "drug", 
+            "rhythm", 
+            "migrain", 
+            "treat", 
+            "drug", 
+            "agent", 
+            "effect", 
+            "prescrib", 
+            "treatment", 
+            "abnorm"
+        ], 
+        "topid": "MB342"
+    }, 
+    {
+        "title": [
+            "nuclear", 
+            "iran", 
+            "agreement"
+        ], 
         "desc_narr": [
             "weapon", 
             "potenti", 
@@ -1077,34 +3258,118 @@
         ], 
         "expasion": [
             "load", 
-            "2015", 
             "power", 
-            "p5", 
+            "2015", 
+            "obama", 
             "landmark", 
-            "islam", 
             "histor", 
             "sanction", 
             "vienna", 
+            "p5", 
             "iaea", 
-            "obama", 
             "pathway", 
-            "tehran", 
-            "iranian", 
+            "islam", 
             "tuesday", 
             "summari", 
-            "framework", 
             "geneva", 
-            "negoti", 
-            "159"
+            "159", 
+            "vienna", 
+            "tehran", 
+            "iranian", 
+            "program"
         ], 
-        "title": [
-            "nuclear", 
-            "iran", 
-            "agreement"
-        ]
+        "topid": "MB344"
     }, 
     {
-        "topid": "MB348", 
+        "title": [
+            "triathlon", 
+            "particip"
+        ], 
+        "desc_narr": [
+            "train", 
+            "triathlet", 
+            "inspir", 
+            "finish", 
+            "recov", 
+            "take", 
+            "current", 
+            "want", 
+            "seek", 
+            "see"
+        ], 
+        "expasion": [
+            "2016", 
+            "2015", 
+            "welcom", 
+            "particip", 
+            "sprint", 
+            "championship", 
+            "luray", 
+            "race", 
+            "swim", 
+            "bath", 
+            "2014", 
+            "proud", 
+            "olymp", 
+            "list", 
+            "race", 
+            "rocketman", 
+            "westchest", 
+            "festiv", 
+            "sceneri", 
+            "athlet"
+        ], 
+        "topid": "MB345"
+    }, 
+    {
+        "title": [
+            "venom", 
+            "encount", 
+            "snake"
+        ], 
+        "desc_narr": [
+            "snake", 
+            "herpetologist", 
+            "anecdot", 
+            "frequent", 
+            "talk", 
+            "natur", 
+            "give", 
+            "use", 
+            "public", 
+            "look"
+        ], 
+        "expasion": [
+            "snake", 
+            "snake", 
+            "speci", 
+            "encount", 
+            "bitten", 
+            "encount", 
+            "venom", 
+            "harmless", 
+            "deal", 
+            "danger", 
+            "human", 
+            "subspeci", 
+            "coral", 
+            "bite", 
+            "tip", 
+            "neighbor", 
+            "deep", 
+            "triangular", 
+            "poison", 
+            "children"
+        ], 
+        "topid": "MB346"
+    }, 
+    {
+        "title": [
+            "vs", 
+            "commerci", 
+            "airlin", 
+            "drone"
+        ], 
         "desc_narr": [
             "fli", 
             "instanc", 
@@ -1122,43 +3387,209 @@
             "unman", 
             "drone", 
             "faa", 
-            "uav", 
-            "unman", 
-            "aerial", 
             "aircraft", 
             "airlin", 
+            "unman", 
+            "uav", 
             "aircraft", 
             "uav", 
+            "aerial", 
             "vehicl", 
+            "research", 
             "ua", 
-            "innov", 
-            "scaneagl", 
             "recreat", 
             "collis", 
             "itif", 
-            "control", 
-            "pilot"
+            "collid", 
+            "innov", 
+            "control"
         ], 
-        "title": [
-            "vs", 
-            "commerci", 
-            "airlin", 
-            "drone"
-        ]
+        "topid": "MB348"
     }, 
     {
-        "topid": "MB353", 
+        "title": [
+            "aircraft", 
+            "point", 
+            "laser"
+        ], 
         "desc_narr": [
-            "tweet", 
+            "pointer", 
+            "prosecut", 
+            "shone", 
+            "instanc", 
+            "behavior", 
+            "occurr", 
+            "laser", 
+            "magazin", 
+            "writer", 
+            "featur"
+        ], 
+        "expasion": [
+            "laser", 
+            "pointer", 
+            "pointer", 
+            "crime", 
+            "fbi", 
+            "laser", 
+            "pilot", 
+            "arrest", 
+            "never", 
+            "sentenc", 
+            "incid", 
+            "pilot", 
+            "airplan", 
+            "airplan", 
+            "helicopt", 
+            "beam", 
+            "prison", 
+            "polic", 
+            "incapacit", 
+            "harmless"
+        ], 
+        "topid": "MB349"
+    }, 
+    {
+        "title": [
+            "market", 
+            "farmer"
+        ], 
+        "desc_narr": [
+            "booth", 
+            "peopl", 
+            "dislik", 
+            "vendor", 
+            "wider", 
+            "obtain", 
+            "advertis", 
+            "simpli", 
+            "appreci", 
+            "local"
+        ], 
+        "expasion": [
+            "vendor", 
+            "neighborhood", 
+            "fruit", 
+            "market", 
+            "fresh", 
+            "massachusett", 
+            "veget", 
+            "freshfarm", 
+            "stellar", 
+            "directori", 
+            "event", 
+            "albuquerqu", 
+            "ryan", 
+            "grown", 
+            "food", 
+            "thirti", 
+            "farm", 
+            "door", 
+            "barnstead", 
+            "local"
+        ], 
+        "topid": "MB350"
+    }, 
+    {
+        "title": [
+            "piedmont", 
+            "itali"
+        ], 
+        "desc_narr": [
+            "visit", 
+            "grandpar", 
+            "immigr", 
+            "valperga", 
+            "region", 
+            "villag", 
+            "suggest", 
+            "possibl", 
+            "particular", 
+            "area"
+        ], 
+        "expasion": [
+            "piemont", 
+            "turin", 
+            "wine", 
+            "wine", 
+            "varallo", 
+            "barolo", 
+            "alp", 
+            "region", 
+            "mountain", 
+            "map", 
+            "italian", 
+            "border", 
+            "culinari", 
+            "m\u014fnt", 
+            "exquisit", 
+            "vacat", 
+            "hill", 
+            "romant", 
+            "p\u0113d", 
+            "2006"
+        ], 
+        "topid": "MB351"
+    }, 
+    {
+        "title": [
+            "opinion", 
+            "wegman"
+        ], 
+        "desc_narr": [
+            "chain", 
+            "supermarket", 
+            "peopl", 
+            "store", 
+            "contain", 
+            "market", 
+            "region", 
+            "food", 
+            "specif", 
+            "contain"
+        ], 
+        "expasion": [
+            "opinion", 
+            "bbb", 
+            "wegman", 
+            "review", 
+            "panel", 
+            "ithaca", 
+            "commentari", 
+            "market", 
+            "food", 
+            "rate", 
+            "dog", 
+            "pleas", 
+            "tripadvisor", 
+            "review", 
+            "overview", 
+            "photo", 
+            "track", 
+            "supermarket", 
+            "liquor", 
+            "rude"
+        ], 
+        "topid": "MB352"
+    }, 
+    {
+        "title": [
+            "season", 
+            "summer", 
+            "affect", 
+            "disord", 
+            "sad"
+        ], 
+        "desc_narr": [
             "version", 
             "blue", 
             "symptom", 
             "cope", 
             "tip", 
-            "experi", 
             "diagnos", 
             "advic", 
-            "discuss"
+            "discuss", 
+            "treatment", 
+            "winter"
         ], 
         "expasion": [
             "symptom", 
@@ -1166,34 +3597,31 @@
             "depress", 
             "blue", 
             "revers", 
-            "disord", 
-            "symptom", 
-            "spring", 
-            "winter", 
             "caus", 
-            "mood", 
+            "winter", 
+            "spring", 
+            "depress", 
+            "symptom", 
             "type", 
-            "read", 
-            "season", 
             "bipolar", 
+            "mood", 
+            "everyon", 
             "disord", 
             "sign", 
-            "famili", 
-            "heard", 
-            "usual"
-        ], 
-        "title": [
             "season", 
-            "summer", 
+            "winter", 
             "affect", 
-            "disord", 
-            "sad"
-        ]
+            "occur"
+        ], 
+        "topid": "MB353"
     }, 
     {
-        "topid": "MB354", 
+        "title": [
+            "go", 
+            "set", 
+            "watchman"
+        ], 
         "desc_narr": [
-            "tweet", 
             "book", 
             "harper", 
             "lee", 
@@ -1202,38 +3630,82 @@
             "kill", 
             "portion", 
             "anticip", 
-            "someon"
+            "someon", 
+            "read"
         ], 
         "expasion": [
             "mockingbird", 
             "harper", 
             "novel", 
-            "lee", 
             "kill", 
-            "literari", 
+            "lee", 
             "atticus", 
             "finch", 
-            "scout", 
+            "literari", 
             "plot", 
-            "sequel", 
+            "scout", 
+            "louis", 
             "classic", 
-            "download", 
+            "2015", 
+            "flaw", 
+            "hardcov", 
             "maycomb", 
-            "masterpiec", 
+            "download", 
             "onlin", 
             "nobl", 
-            "waterston", 
-            "ibook", 
-            "louis"
+            "sequel"
         ], 
-        "title": [
-            "go", 
-            "set", 
-            "watchman"
-        ]
+        "topid": "MB354"
     }, 
     {
-        "topid": "MB357", 
+        "title": [
+            "senior", 
+            "fit"
+        ], 
+        "desc_narr": [
+            "exercis", 
+            "regular", 
+            "routin", 
+            "alzheim", 
+            "motiv", 
+            "motiv", 
+            "citizen", 
+            "fellow", 
+            "citizen", 
+            "senior"
+        ], 
+        "expasion": [
+            "senior", 
+            "adult", 
+            "exercis", 
+            "class", 
+            "silversneak", 
+            "event", 
+            "walk", 
+            "exercis", 
+            "health", 
+            "program", 
+            "trainer", 
+            "motion", 
+            "penfield", 
+            "age", 
+            "program", 
+            "park", 
+            "yoga", 
+            "get", 
+            "health", 
+            "nyc"
+        ], 
+        "topid": "MB356"
+    }, 
+    {
+        "title": [
+            "use", 
+            "adhd", 
+            "ritalin", 
+            "diagnosi", 
+            "preval"
+        ], 
         "desc_narr": [
             "colleg", 
             "student", 
@@ -1252,32 +3724,71 @@
             "methylphenid", 
             "disord", 
             "hyperact", 
-            "attent", 
-            "treatment", 
-            "methylphenid", 
             "disord", 
-            "children", 
+            "attent", 
+            "methylphenid", 
+            "treatment", 
             "deficit", 
             "children", 
+            "symptom", 
             "attent", 
-            "adolesc", 
-            "stimul", 
-            "disord", 
-            "medic", 
-            "death", 
-            "risperidon", 
-            "integr"
+            "diagnos", 
+            "adult", 
+            "children", 
+            "adult", 
+            "prescrib", 
+            "treatment", 
+            "medic"
         ], 
-        "title": [
-            "use", 
-            "adhd", 
-            "ritalin", 
-            "diagnosi", 
-            "preval"
-        ]
+        "topid": "MB357"
     }, 
     {
-        "topid": "MB359", 
+        "title": [
+            "sensor", 
+            "physic", 
+            "fit"
+        ], 
+        "desc_narr": [
+            "fitbit", 
+            "app", 
+            "motiv", 
+            "track", 
+            "phone", 
+            "know", 
+            "describ", 
+            "sort", 
+            "type", 
+            "devic"
+        ], 
+        "expasion": [
+            "sensor", 
+            "object", 
+            "wearabl", 
+            "sensor", 
+            "activ", 
+            "omron", 
+            "track", 
+            "app", 
+            "motion", 
+            "sleep", 
+            "activ", 
+            "measur", 
+            "heart", 
+            "heart", 
+            "vernier", 
+            "tracker", 
+            "gadget", 
+            "motion", 
+            "iphon", 
+            "emfit"
+        ], 
+        "topid": "MB358"
+    }, 
+    {
+        "title": [
+            "book", 
+            "grey"
+        ], 
         "desc_narr": [
             "shade", 
             "fifti", 
@@ -1287,8 +3798,8 @@
             "fellow", 
             "fourth", 
             "book", 
-            "look", 
-            "releas"
+            "releas", 
+            "read"
         ], 
         "expasion": [
             "shade", 
@@ -1296,31 +3807,72 @@
             "christian", 
             "birthday", 
             "trilog", 
-            "erot", 
             "novel", 
-            "shade", 
             "reflect", 
-            "trilog", 
             "devote", 
             "dream", 
-            "thought", 
-            "jame", 
             "eye", 
-            "anew", 
-            "perspect", 
-            "download", 
-            "learn", 
-            "stolen"
-        ], 
-        "title": [
+            "thought", 
             "book", 
-            "grey"
-        ]
+            "jame", 
+            "anew", 
+            "stori", 
+            "perspect", 
+            "erot", 
+            "shade", 
+            "download", 
+            "learn"
+        ], 
+        "topid": "MB359"
     }, 
     {
-        "topid": "MB362", 
+        "title": [
+            "summer", 
+            "camp", 
+            "adult"
+        ], 
         "desc_narr": [
-            "opinion", 
+            "accommod", 
+            "reliv", 
+            "camp", 
+            "transport", 
+            "child", 
+            "locat", 
+            "opportun", 
+            "activ", 
+            "went", 
+            "various"
+        ], 
+        "expasion": [
+            "adult", 
+            "adult", 
+            "camp", 
+            "kid", 
+            "camp", 
+            "welcom", 
+            "gay", 
+            "sleepaway", 
+            "winnarainbow", 
+            "vacat", 
+            "anymor", 
+            "ranch", 
+            "kid", 
+            "stratejoy", 
+            "degre", 
+            "archeri", 
+            "throwback", 
+            "2016", 
+            "tenni", 
+            "img"
+        ], 
+        "topid": "MB361"
+    }, 
+    {
+        "title": [
+            "outback", 
+            "steakhous"
+        ], 
+        "desc_narr": [
             "chain", 
             "restaur", 
             "special", 
@@ -1329,132 +3881,468 @@
             "individu", 
             "run", 
             "sector", 
-            "analyst"
+            "analyst", 
+            "inform"
         ], 
         "expasion": [
             "flavor", 
+            "menu", 
             "coupon", 
             "steak", 
             "steak", 
-            "menu", 
-            "theme", 
-            "dine", 
-            "2016", 
             "seafood", 
             "bloomin", 
+            "theme", 
+            "dine", 
             "printabl", 
             "grill", 
-            "photo", 
-            "locat", 
-            "coupon", 
+            "restaur", 
+            "2016", 
+            "restaur", 
+            "bold", 
+            "restaur", 
+            "fresh", 
             "direct", 
-            "code", 
-            "chicken", 
             "review", 
-            "get"
+            "pensacola"
         ], 
-        "title": [
-            "outback", 
-            "steakhous"
-        ]
+        "topid": "MB362"
     }, 
     {
-        "topid": "MB366", 
+        "title": [
+            "suppli", 
+            "school", 
+            "sale"
+        ], 
         "desc_narr": [
-            "expedit", 
-            "climber", 
+            "start", 
+            "soon", 
+            "back", 
+            "current", 
+            "interest", 
+            "user", 
             "tweet", 
-            "impress", 
-            "ascent", 
-            "guid", 
-            "nepal", 
-            "experi", 
-            "descent", 
-            "describ"
+            "find"
         ], 
         "expasion": [
-            "climber", 
-            "nepal", 
-            "expedit", 
-            "mountain", 
-            "himalaya", 
-            "climb", 
-            "expedit", 
-            "mountain", 
-            "mountain", 
-            "hillari", 
-            "geograph", 
-            "ascent", 
-            "ascent", 
-            "alpin", 
-            "learn", 
-            "climb", 
-            "child", 
-            "mt", 
-            "highest", 
-            "climb"
+            "kid", 
+            "backpack", 
+            "walmart", 
+            "parent", 
+            "get", 
+            "item", 
+            "2016", 
+            "teacher", 
+            "classroom", 
+            "onlin", 
+            "select", 
+            "shop", 
+            "coupon", 
+            "notebook", 
+            "save", 
+            "back", 
+            "cloth", 
+            "teacher", 
+            "suppli", 
+            "send"
         ], 
+        "topid": "MB363"
+    }, 
+    {
+        "title": [
+            "cellphon", 
+            "track"
+        ], 
+        "desc_narr": [
+            "devic", 
+            "enforc", 
+            "stingray", 
+            "convict", 
+            "cellphon", 
+            "arrest", 
+            "tracker", 
+            "oversight", 
+            "court", 
+            "feder"
+        ], 
+        "expasion": [
+            "gps", 
+            "phone", 
+            "tracker", 
+            "tracker", 
+            "cell", 
+            "track", 
+            "phone", 
+            "onlin", 
+            "phone", 
+            "mobil", 
+            "track", 
+            "messag", 
+            "spi", 
+            "android", 
+            "cell", 
+            "devic", 
+            "mobil", 
+            "locat", 
+            "iphon", 
+            "softwar"
+        ], 
+        "topid": "MB365"
+    }, 
+    {
         "title": [
             "climb", 
             "mount", 
             "everest"
-        ]
+        ], 
+        "desc_narr": [
+            "expedit", 
+            "climber", 
+            "impress", 
+            "ascent", 
+            "guid", 
+            "nepal", 
+            "descent", 
+            "describ", 
+            "analysi", 
+            "point"
+        ], 
+        "expasion": [
+            "climber", 
+            "nepal", 
+            "expedit", 
+            "himalaya", 
+            "mountain", 
+            "expedit", 
+            "climb", 
+            "kilimanjaro", 
+            "mountain", 
+            "climb", 
+            "expedit", 
+            "sherpa", 
+            "hillari", 
+            "geograph", 
+            "climber", 
+            "mountain", 
+            "ascent", 
+            "ascent", 
+            "climb", 
+            "alpin"
+        ], 
+        "topid": "MB366"
     }, 
     {
-        "topid": "MB371", 
+        "title": [
+            "high", 
+            "line", 
+            "park"
+        ], 
         "desc_narr": [
-            "tweet", 
+            "manhattan", 
+            "impress", 
+            "amen", 
+            "visitor", 
+            "park", 
+            "hour", 
+            "open", 
+            "general", 
+            "inform", 
+            "seek"
+        ], 
+        "expasion": [
+            "elev", 
+            "side", 
+            "friend", 
+            "park", 
+            "2009", 
+            "manhattan", 
+            "nyc", 
+            "chelsea", 
+            "transform", 
+            "citi", 
+            "cunningham", 
+            "lisson", 
+            "oasi", 
+            "famous", 
+            "tour", 
+            "highlin", 
+            "sightse", 
+            "rail", 
+            "best", 
+            "york"
+        ], 
+        "topid": "MB369"
+    }, 
+    {
+        "title": [
+            "airbus", 
+            "380", 
+            "experi"
+        ], 
+        "desc_narr": [
+            "airlin", 
+            "aboard", 
+            "assess", 
+            "passeng", 
+            "passeng", 
+            "tour", 
+            "oper", 
+            "board", 
+            "want", 
+            "travel"
+        ], 
+        "expasion": [
+            "a380", 
+            "experi", 
+            "emir", 
+            "lufthansa", 
+            "flight", 
+            "airway", 
+            "boe", 
+            "aircraft", 
+            "welcom", 
+            "etihad", 
+            "qanta", 
+            "simul", 
+            "airplan", 
+            "seat", 
+            "passeng", 
+            "deck", 
+            "tg409", 
+            "inaugur", 
+            "10am", 
+            "review"
+        ], 
+        "topid": "MB370"
+    }, 
+    {
+        "title": [
+            "car", 
+            "self", 
+            "drive"
+        ], 
+        "desc_narr": [
             "accid", 
             "commut", 
             "aspect", 
             "test", 
             "safeti", 
-            "etc", 
             "manufactur", 
-            "opinion", 
-            "technolog"
+            "technolog", 
+            "research", 
+            "legal", 
+            "issu"
         ], 
         "expasion": [
             "googl", 
+            "tesla", 
             "autonom", 
             "driverless", 
-            "bmw", 
-            "tesla", 
-            "driver", 
             "view", 
-            "road", 
-            "kqed", 
+            "safer", 
+            "mountain", 
+            "enjoy", 
+            "2010", 
+            "bmw", 
+            "prototyp", 
             "driverless", 
             "planet", 
+            "crash", 
             "vehicl", 
             "model", 
             "2014", 
-            "mountain", 
-            "object", 
-            "realiti", 
-            "learn", 
-            "vehicl", 
-            "michigan"
+            "merced", 
+            "mobil", 
+            "preview"
         ], 
-        "title": [
-            "car", 
-            "self", 
-            "drive"
-        ]
+        "topid": "MB371"
     }, 
     {
-        "topid": "MB377", 
+        "title": [
+            "serotonin", 
+            "low"
+        ], 
+        "desc_narr": [
+            "symptom", 
+            "diagnos", 
+            "sleep", 
+            "appetit", 
+            "emot", 
+            "level", 
+            "mood", 
+            "effect", 
+            "recent", 
+            "like"
+        ], 
+        "expasion": [
+            "brain", 
+            "neurotransmitt", 
+            "symptom", 
+            "depress", 
+            "cell", 
+            "anxieti", 
+            "syndrom", 
+            "mood", 
+            "nerv", 
+            "function", 
+            "sleep", 
+            "level", 
+            "depress", 
+            "medic", 
+            "disord", 
+            "supplement", 
+            "relay", 
+            "carcinoid", 
+            "antidepress", 
+            "anxieti"
+        ], 
+        "topid": "MB372"
+    }, 
+    {
+        "title": [
+            "home", 
+            "beer", 
+            "brew"
+        ], 
+        "desc_narr": [
+            "brew", 
+            "recip", 
+            "kit", 
+            "tast", 
+            "aspect", 
+            "method", 
+            "qualiti", 
+            "various", 
+            "legal", 
+            "suppli"
+        ], 
+        "expasion": [
+            "kit", 
+            "brew", 
+            "recip", 
+            "brew", 
+            "homebrew", 
+            "beer", 
+            "beersmith", 
+            "recip", 
+            "suppli", 
+            "select", 
+            "cider", 
+            "mead", 
+            "welcom", 
+            "homebrew", 
+            "homebrew", 
+            "brew", 
+            "kit", 
+            "wine", 
+            "review", 
+            "breweri"
+        ], 
+        "topid": "MB374"
+    }, 
+    {
+        "title": [
+            "concuss", 
+            "injuri"
+        ], 
+        "desc_narr": [
+            "preval", 
+            "concuss", 
+            "symptom", 
+            "mother", 
+            "prevent", 
+            "sport", 
+            "safeti", 
+            "medic", 
+            "treatment", 
+            "effect"
+        ], 
+        "expasion": [
+            "brain", 
+            "injuri", 
+            "traumat", 
+            "concuss", 
+            "symptom", 
+            "concuss", 
+            "mtbi", 
+            "mild", 
+            "head", 
+            "skull", 
+            "tbi", 
+            "blow", 
+            "trauma", 
+            "head", 
+            "learn", 
+            "scalp", 
+            "pathophysiolog", 
+            "jolt", 
+            "treatment", 
+            "symptom"
+        ], 
+        "topid": "MB375"
+    }, 
+    {
+        "title": [
+            "exercis", 
+            "militari", 
+            "s", 
+            "u", 
+            "southwest"
+        ], 
+        "desc_narr": [
+            "citizen", 
+            "interact", 
+            "nois", 
+            "welcom", 
+            "topic", 
+            "troop", 
+            "express", 
+            "take", 
+            "implic", 
+            "traffic"
+        ], 
+        "expasion": [
+            "armi", 
+            "jade", 
+            "train", 
+            "exercis", 
+            "exercis", 
+            "dub", 
+            "fit", 
+            "train", 
+            "oper", 
+            "soldier", 
+            "span", 
+            "command", 
+            "workout", 
+            "russia", 
+            "uganda", 
+            "korea", 
+            "joint", 
+            "troop", 
+            "abbott", 
+            "guard"
+        ], 
+        "topid": "MB376"
+    }, 
+    {
+        "title": [
+            "attack", 
+            "safari", 
+            "park", 
+            "anim"
+        ], 
         "desc_narr": [
             "anim", 
             "relat", 
             "vehicl", 
-            "comment", 
             "warn", 
-            "peopl", 
             "wild", 
             "passeng", 
             "desir", 
-            "popular"
+            "popular", 
+            "safeti", 
+            "way"
         ], 
         "expasion": [
             "lion", 
@@ -1462,31 +4350,71 @@
             "park", 
             "anim", 
             "anim", 
-            "longleat", 
             "park", 
-            "wild", 
-            "wildlif", 
-            "parc", 
-            "safari", 
-            "attack", 
-            "diego", 
             "drive", 
             "wildlif", 
-            "tourist", 
+            "safari", 
+            "track", 
+            "longleat", 
+            "amaz", 
             "attack", 
-            "countri", 
+            "wild", 
+            "parc", 
+            "wildlif", 
+            "tourist", 
             "african", 
+            "attack", 
             "tourist"
         ], 
-        "title": [
-            "attack", 
-            "safari", 
-            "park", 
-            "anim"
-        ]
+        "topid": "MB377"
     }, 
     {
-        "topid": "MB379", 
+        "title": [
+            "spaniel", 
+            "cocker", 
+            "adopt"
+        ], 
+        "desc_narr": [
+            "rescu", 
+            "hope", 
+            "dog", 
+            "breeder", 
+            "spaniel", 
+            "shelter", 
+            "bred", 
+            "dog", 
+            "shop", 
+            "desir"
+        ], 
+        "expasion": [
+            "rescu", 
+            "spaniel", 
+            "dog", 
+            "spaniel", 
+            "rescu", 
+            "volunt", 
+            "welcom", 
+            "love", 
+            "home", 
+            "austin", 
+            "shelter", 
+            "dedic", 
+            "english", 
+            "dog", 
+            "rehabilit", 
+            "cocker", 
+            "rescu", 
+            "colorado", 
+            "rescu", 
+            "charlott"
+        ], 
+        "topid": "MB378"
+    }, 
+    {
+        "title": [
+            "morel", 
+            "mushroom"
+        ], 
         "desc_narr": [
             "aspir", 
             "recip", 
@@ -1496,38 +4424,167 @@
             "suggest", 
             "learn", 
             "store", 
-            "like", 
-            "either"
+            "either", 
+            "prepar"
         ], 
         "expasion": [
             "mushroom", 
             "mushroom", 
             "morel", 
             "morel", 
-            "morchella", 
             "identif", 
-            "wild", 
-            "recip", 
-            "delici", 
-            "earthi", 
-            "hunt", 
-            "prize", 
             "dri", 
+            "recip", 
+            "wild", 
+            "earthi", 
+            "morchella", 
+            "hunt", 
+            "habitat", 
+            "prize", 
+            "delici", 
             "recip", 
             "flavor", 
             "wild", 
-            "habitat", 
-            "edibl", 
-            "dri", 
-            "bolet"
+            "bolet", 
+            "smoki", 
+            "mather"
         ], 
-        "title": [
-            "morel", 
-            "mushroom"
-        ]
+        "topid": "MB379"
     }, 
     {
-        "topid": "MB383", 
+        "title": [
+            "home", 
+            "realiti", 
+            "free", 
+            "competit", 
+            "show"
+        ], 
+        "desc_narr": [
+            "remodel", 
+            "viewer", 
+            "home", 
+            "watch", 
+            "consist", 
+            "popular", 
+            "welcom", 
+            "think", 
+            "want", 
+            "know"
+        ], 
+        "expasion": [
+            "show", 
+            "fox", 
+            "makeov", 
+            "tv", 
+            "holm", 
+            "extrem", 
+            "watch", 
+            "show", 
+            "episod", 
+            "race", 
+            "logo", 
+            "netflix", 
+            "mike", 
+            "game", 
+            "seri", 
+            "fox", 
+            "best", 
+            "host", 
+            "brows", 
+            "sing"
+        ], 
+        "topid": "MB380"
+    }, 
+    {
+        "title": [
+            "collect", 
+            "coin"
+        ], 
+        "desc_narr": [
+            "collector", 
+            "collector", 
+            "motiv", 
+            "fellow", 
+            "advic", 
+            "begin", 
+            "look", 
+            "user", 
+            "tweet", 
+            "find"
+        ], 
+        "expasion": [
+            "coin", 
+            "coin", 
+            "collect", 
+            "numismat", 
+            "collect", 
+            "collector", 
+            "suppli", 
+            "ancient", 
+            "ebay", 
+            "updat", 
+            "collector", 
+            "learn", 
+            "valu", 
+            "hobbi", 
+            "rare", 
+            "shop", 
+            "guid", 
+            "collect", 
+            "stamp", 
+            "numismat"
+        ], 
+        "topid": "MB381"
+    }, 
+    {
+        "title": [
+            "trend", 
+            "cloth", 
+            "children"
+        ], 
+        "desc_narr": [
+            "reliabl", 
+            "research", 
+            "item", 
+            "fashion", 
+            "prefer", 
+            "merchant", 
+            "concern", 
+            "qualiti", 
+            "season", 
+            "consum"
+        ], 
+        "expasion": [
+            "kid", 
+            "kid", 
+            "cloth", 
+            "fashion", 
+            "onlin", 
+            "infant", 
+            "cloth", 
+            "fashion", 
+            "boy", 
+            "2014", 
+            "style", 
+            "girl", 
+            "boy", 
+            "2016", 
+            "shop", 
+            "2015", 
+            "girl", 
+            "www", 
+            "fall", 
+            "babi"
+        ], 
+        "topid": "MB382"
+    }, 
+    {
+        "title": [
+            "women", 
+            "onlin", 
+            "date", 
+            "older"
+        ], 
         "desc_narr": [
             "trustworthi", 
             "reput", 
@@ -1536,41 +4593,41 @@
             "comment", 
             "recommend", 
             "welcom", 
-            "seek", 
             "avail", 
-            "55"
+            "55", 
+            "expect"
         ], 
         "expasion": [
             "singl", 
             "matur", 
-            "men", 
             "younger", 
+            "advic", 
+            "men", 
             "singl", 
             "tip", 
-            "internet", 
             "site", 
-            "site", 
-            "site", 
-            "matur", 
             "love", 
-            "younger", 
-            "senior", 
-            "search", 
+            "site", 
             "latino", 
+            "matur", 
             "site", 
-            "love", 
-            "old", 
-            "woman"
+            "tip", 
+            "meet", 
+            "woman", 
+            "younger", 
+            "premier", 
+            "seek", 
+            "loveagain"
         ], 
-        "title": [
-            "women", 
-            "onlin", 
-            "date", 
-            "older"
-        ]
+        "topid": "MB383"
     }, 
     {
-        "topid": "MB384", 
+        "title": [
+            "fire", 
+            "citi", 
+            "inner", 
+            "arson"
+        ], 
         "desc_narr": [
             "vandal", 
             "abandon", 
@@ -1588,32 +4645,115 @@
             "height", 
             "detroit", 
             "fire", 
-            "church", 
             "citi", 
-            "suspici", 
+            "lans", 
+            "suspect", 
             "investig", 
+            "polic", 
             "investig", 
             "atf", 
             "suspect", 
+            "kndu", 
+            "transient", 
             "will", 
-            "lans", 
+            "resendiz", 
             "reggi", 
             "allmus", 
-            "suspect", 
-            "iaai", 
-            "juvenil", 
-            "investig", 
-            "church"
+            "750k", 
+            "iaai"
         ], 
-        "title": [
-            "fire", 
-            "citi", 
-            "inner", 
-            "arson"
-        ]
+        "topid": "MB384"
     }, 
     {
-        "topid": "MB389", 
+        "title": [
+            "c", 
+            "outag", 
+            "d", 
+            "metro"
+        ], 
+        "desc_narr": [
+            "subway", 
+            "incid", 
+            "commut", 
+            "dialogu", 
+            "suspens", 
+            "accid", 
+            "system", 
+            "type", 
+            "delay", 
+            "effici"
+        ], 
+        "expasion": [
+            "outag", 
+            "capitol", 
+            "rank", 
+            "pepco", 
+            "maryland", 
+            "widespread", 
+            "hotcar", 
+            "power", 
+            "white", 
+            "station", 
+            "report", 
+            "build", 
+            "widespread", 
+            "across", 
+            "explos", 
+            "dark", 
+            "washington", 
+            "power", 
+            "section", 
+            "escal"
+        ], 
+        "topid": "MB385"
+    }, 
+    {
+        "title": [
+            "saratoga", 
+            "track", 
+            "race"
+        ], 
+        "desc_narr": [
+            "spring", 
+            "track", 
+            "plan", 
+            "spend", 
+            "ny", 
+            "consid", 
+            "like", 
+            "would", 
+            "peopl", 
+            "visit"
+        ], 
+        "expasion": [
+            "cours", 
+            "race", 
+            "race", 
+            "hors", 
+            "spring", 
+            "ticket", 
+            "hors", 
+            "racetrack", 
+            "onlin", 
+            "photo", 
+            "welcom", 
+            "bet", 
+            "ticket", 
+            "wager", 
+            "seat", 
+            "spring", 
+            "review", 
+            "pick", 
+            "night", 
+            "2015"
+        ], 
+        "topid": "MB388"
+    }, 
+    {
+        "title": [
+            "foundat", 
+            "clinton"
+        ], 
         "desc_narr": [
             "activ", 
             "initi", 
@@ -1624,75 +4764,118 @@
         ], 
         "expasion": [
             "hillari", 
-            "chelsea", 
             "donat", 
+            "comey", 
+            "chelsea", 
             "charit", 
-            "bill", 
+            "fbi", 
             "chariti", 
-            "hacker", 
+            "bill", 
             "watch", 
+            "donor", 
             "car", 
+            "lawless", 
+            "sander", 
             "ngos", 
-            "clinton", 
+            "email", 
             "well", 
             "fiorina", 
-            "problemat", 
-            "revel", 
-            "govern", 
-            "2015", 
-            "subpoena", 
-            "cnn", 
-            "presidenti"
+            "play", 
+            "convict", 
+            "problemat"
         ], 
-        "title": [
-            "foundat", 
-            "clinton"
-        ]
+        "topid": "MB389"
     }, 
     {
-        "topid": "MB391", 
+        "title": [
+            "music", 
+            "appl"
+        ], 
+        "desc_narr": [
+            "feedback", 
+            "download", 
+            "music", 
+            "varieti", 
+            "util", 
+            "program", 
+            "qualiti", 
+            "own", 
+            "sever", 
+            "product"
+        ], 
+        "expasion": [
+            "stream", 
+            "iphon", 
+            "itun", 
+            "beat", 
+            "spotifi", 
+            "io", 
+            "artist", 
+            "track", 
+            "ipad", 
+            "love", 
+            "subscript", 
+            "digit", 
+            "like", 
+            "alway", 
+            "applemus", 
+            "search", 
+            "album", 
+            "googl", 
+            "dalrympl", 
+            "ipod"
+        ], 
+        "topid": "MB390"
+    }, 
+    {
+        "title": [
+            "polar", 
+            "icecap", 
+            "melt"
+        ], 
         "desc_narr": [
             "icecap", 
             "pole", 
             "warm", 
-            "opinion", 
             "north", 
             "south", 
             "discuss", 
             "caus", 
             "global", 
-            "increas"
+            "increas", 
+            "issu"
         ], 
         "expasion": [
             "cap", 
             "ice", 
             "arctic", 
-            "cap", 
-            "nasa", 
             "warm", 
-            "climat", 
             "greenland", 
-            "warm", 
+            "cap", 
+            "2014", 
             "earth", 
             "glacier", 
-            "scientist", 
-            "planet", 
-            "melt", 
-            "pole", 
-            "2014", 
+            "nasa", 
+            "warm", 
+            "2016", 
+            "climat", 
             "bear", 
             "global", 
             "satellit", 
-            "global"
+            "satellit", 
+            "melt", 
+            "gore", 
+            "ocean"
         ], 
-        "title": [
-            "polar", 
-            "icecap", 
-            "melt"
-        ]
+        "topid": "MB391"
     }, 
     {
-        "topid": "MB392", 
+        "title": [
+            "s", 
+            "u", 
+            "forest", 
+            "fire"
+        ], 
         "desc_narr": [
             "extent", 
             "activ", 
@@ -1706,46 +4889,171 @@
             "throughout"
         ], 
         "expasion": [
-            "wildfir", 
             "fire", 
-            "wildland", 
-            "wildfir", 
             "wildfir", 
             "wildland", 
+            "wildfir", 
             "wildfir", 
             "nasa", 
+            "wildland", 
+            "wildfir", 
             "fire", 
             "forest", 
+            "incid", 
             "depth", 
-            "forestri", 
+            "ebay", 
+            "blaze", 
             "forest", 
             "situat", 
             "servic", 
-            "incid", 
-            "map", 
-            "human", 
-            "blaze", 
-            "malheur"
+            "firefight", 
+            "kaibab", 
+            "map"
         ], 
-        "title": [
-            "s", 
-            "u", 
-            "forest", 
-            "fire"
-        ]
+        "topid": "MB392"
     }, 
     {
-        "topid": "MB400", 
+        "title": [
+            "u", 
+            "s", 
+            "harvest", 
+            "crop", 
+            "yield"
+        ], 
+        "desc_narr": [
+            "gmo", 
+            "yield", 
+            "anticip", 
+            "crop", 
+            "report", 
+            "techniqu", 
+            "research", 
+            "consid", 
+            "farmer", 
+            "season"
+        ], 
+        "expasion": [
+            "crop", 
+            "yield", 
+            "yield", 
+            "2014", 
+            "popcorn", 
+            "2010", 
+            "harvest", 
+            "nass", 
+            "corn", 
+            "qualiti", 
+            "gain", 
+            "corn", 
+            "weed", 
+            "fact", 
+            "map", 
+            "estim", 
+            "declin", 
+            "trend", 
+            "missouri", 
+            "major"
+        ], 
+        "topid": "MB393"
+    }, 
+    {
+        "title": [
+            "news", 
+            "bias", 
+            "report"
+        ], 
+        "desc_narr": [
+            "side", 
+            "junki", 
+            "instanc", 
+            "percept", 
+            "outlet", 
+            "claim", 
+            "outlet", 
+            "provid", 
+            "primarili", 
+            "consid"
+        ], 
+        "expasion": [
+            "bias", 
+            "bias", 
+            "media", 
+            "yahoo", 
+            "bbc", 
+            "unbias", 
+            "fox", 
+            "immigr", 
+            "abc", 
+            "exampl", 
+            "report", 
+            "coverag", 
+            "honestreport", 
+            "perspect", 
+            "exampl", 
+            "exampl", 
+            "critic", 
+            "hometown", 
+            "israel", 
+            "2012"
+        ], 
+        "topid": "MB394"
+    }, 
+    {
+        "title": [
+            "bodi", 
+            "lewi", 
+            "dementia"
+        ], 
+        "desc_narr": [
+            "caregiv", 
+            "dementia", 
+            "literatur", 
+            "victim", 
+            "medic", 
+            "condit", 
+            "inform", 
+            "seek", 
+            "includ", 
+            "user"
+        ], 
+        "expasion": [
+            "lbd", 
+            "symptom", 
+            "brain", 
+            "alzheim", 
+            "bodi", 
+            "dlb", 
+            "diseas", 
+            "progress", 
+            "disord", 
+            "degen", 
+            "bodi", 
+            "cell", 
+            "elder", 
+            "read", 
+            "learn", 
+            "nerv", 
+            "parkinson", 
+            "treatment", 
+            "affect", 
+            "william"
+        ], 
+        "topid": "MB399"
+    }, 
+    {
+        "title": [
+            "probiot"
+        ], 
         "desc_narr": [
             "relev", 
-            "experi", 
             "benefit", 
             "health", 
             "studi", 
             "link", 
-            "person", 
             "negat", 
             "posit", 
+            "includ", 
+            "inform", 
             "seek"
         ], 
         "expasion": [
@@ -1754,28 +5062,29 @@
             "microorgan", 
             "bacteria", 
             "supplement", 
-            "walgreen", 
-            "probiot", 
+            "digest", 
+            "gut", 
             "flora", 
             "learn", 
-            "digest", 
-            "organ", 
+            "shop", 
+            "flora", 
             "supplement", 
             "diarrhea", 
-            "shop", 
+            "probiot", 
             "immun", 
-            "gut", 
             "food", 
+            "health", 
             "person", 
-            "acidophilus", 
-            "yeast"
+            "walmart", 
+            "organ"
         ], 
-        "title": [
-            "probiot"
-        ]
+        "topid": "MB400"
     }, 
     {
-        "topid": "MB401", 
+        "title": [
+            "knock", 
+            "live"
+        ], 
         "desc_narr": [
             "prize", 
             "celebr", 
@@ -1794,112 +5103,363 @@
             "ryan", 
             "fox", 
             "episod", 
-            "watch", 
-            "tv", 
-            "recap", 
-            "2015", 
-            "cancel", 
-            "host", 
             "justin", 
             "bieber", 
+            "cancel", 
+            "host", 
+            "tv", 
+            "watch", 
+            "recap", 
             "realiti", 
-            "onlin", 
-            "unscript", 
             "idol", 
-            "clip", 
             "fox", 
-            "surpris"
+            "2015", 
+            "door", 
+            "pull", 
+            "seri", 
+            "prize"
         ], 
-        "title": [
-            "knock", 
-            "live"
-        ]
+        "topid": "MB401"
     }, 
     {
-        "topid": "MB405", 
+        "title": [
+            "rotterdam", 
+            "unlimit"
+        ], 
         "desc_narr": [
-            "experi", 
-            "opinion", 
             "experienc", 
             "attend", 
             "event", 
-            "peopl", 
             "other", 
             "want", 
+            "opinion", 
+            "peopl", 
             "see", 
+            "experi", 
             "user"
         ], 
         "expasion": [
             "festiv", 
             "2015", 
-            "festiv", 
             "2016", 
-            "carniv", 
             "festiv", 
-            "summer", 
-            "music", 
-            "robin", 
-            "2014", 
-            "celebr", 
-            "dunya", 
             "carniv", 
-            "netherland", 
-            "clinton", 
-            "cruis", 
-            "visitor", 
+            "celebr", 
+            "festiv", 
+            "priv\u00e9", 
+            "robin", 
+            "music", 
+            "summer", 
+            "carniv", 
             "divers", 
+            "netherland", 
+            "2014", 
+            "clinton", 
             "waze", 
-            "voor"
+            "voor", 
+            "carst", 
+            "photo"
         ], 
-        "title": [
-            "rotterdam", 
-            "unlimit"
-        ]
+        "topid": "MB405"
     }, 
     {
-        "topid": "MB409", 
+        "title": [
+            "sunburn", 
+            "art"
+        ], 
+        "desc_narr": [
+            "exampl", 
+            "beach", 
+            "inspir", 
+            "vacat", 
+            "creat", 
+            "safeti", 
+            "creat", 
+            "practic", 
+            "other", 
+            "soon"
+        ], 
+        "expasion": [
+            "instagram", 
+            "cancer", 
+            "photo", 
+            "danger", 
+            "2015", 
+            "social", 
+            "pain", 
+            "tattoo", 
+            "sunburn", 
+            "sunscreen", 
+            "stencil", 
+            "artist", 
+            "doctor", 
+            "dermatologist", 
+            "sun", 
+            "creativ", 
+            "skin", 
+            "fashion", 
+            "trend", 
+            "ray"
+        ], 
+        "topid": "MB407"
+    }, 
+    {
+        "title": [
+            "amphetamin", 
+            "adhd"
+        ], 
+        "desc_narr": [
+            "hyperact", 
+            "interact", 
+            "relev", 
+            "addict", 
+            "daughter", 
+            "diagnos", 
+            "disord", 
+            "reaction", 
+            "psycholog", 
+            "type"
+        ], 
+        "expasion": [
+            "amphetamin", 
+            "adderal", 
+            "hyperact", 
+            "stimul", 
+            "amphetamin", 
+            "symptom", 
+            "disord", 
+            "disord", 
+            "dextroamphetamin", 
+            "hyperact", 
+            "stimul", 
+            "adult", 
+            "children", 
+            "attent", 
+            "stimul", 
+            "dextroamphetamin", 
+            "medic", 
+            "methylphenid", 
+            "narcolepsi", 
+            "deficit"
+        ], 
+        "topid": "MB408"
+    }, 
+    {
+        "title": [
+            "airport", 
+            "screen", 
+            "tsa"
+        ], 
         "desc_narr": [
             "screen", 
-            "experi", 
             "transport", 
-            "tweet", 
             "confisc", 
             "belong", 
             "secur", 
             "administr", 
             "unpleas", 
-            "airport"
+            "airport", 
+            "procedur", 
+            "method"
         ], 
         "expasion": [
             "screen", 
             "screen", 
             "airport", 
+            "travel", 
             "secur", 
             "precheck", 
             "homeland", 
-            "travel", 
-            "screen", 
             "transport", 
+            "checkpoint", 
+            "screen", 
             "secur", 
             "expedit", 
-            "airport", 
+            "baggag", 
             "travel", 
             "explos", 
-            "passeng", 
             "administr", 
             "passeng", 
-            "check", 
-            "checkpoint", 
-            "procedur"
+            "frustrat", 
+            "procedur", 
+            "passeng"
         ], 
-        "title": [
-            "airport", 
-            "screen", 
-            "tsa"
-        ]
+        "topid": "MB409"
     }, 
     {
-        "topid": "MB416", 
+        "title": [
+            "movi", 
+            "televis", 
+            "hidden", 
+            "icon"
+        ], 
+        "desc_narr": [
+            "show", 
+            "mean", 
+            "advertis", 
+            "charact", 
+            "messag", 
+            "like", 
+            "egg", 
+            "discov", 
+            "easter", 
+            "various"
+        ], 
+        "expasion": [
+            "show", 
+            "hide", 
+            "icon", 
+            "appl", 
+            "hide", 
+            "tv", 
+            "window", 
+            "movi", 
+            "menu", 
+            "rearrang", 
+            "watch", 
+            "click", 
+            "download", 
+            "movi", 
+            "music", 
+            "game", 
+            "favorit", 
+            "app", 
+            "mobil", 
+            "display"
+        ], 
+        "topid": "MB410"
+    }, 
+    {
+        "title": [
+            "world", 
+            "disney"
+        ], 
+        "desc_narr": [
+            "lodg", 
+            "peopl", 
+            "crowd", 
+            "park", 
+            "tip", 
+            "vacat", 
+            "famili", 
+            "ride", 
+            "vacat", 
+            "theme"
+        ], 
+        "expasion": [
+            "ticket", 
+            "orlando", 
+            "walt", 
+            "resort", 
+            "park", 
+            "theme", 
+            "magic", 
+            "disneyland", 
+            "onlin", 
+            "vacat", 
+            "photo", 
+            "theme", 
+            "cruis", 
+            "discount", 
+            "attract", 
+            "welcom", 
+            "park", 
+            "movi", 
+            "game", 
+            "epcot"
+        ], 
+        "topid": "MB411"
+    }, 
+    {
+        "title": [
+            "american", 
+            "travel", 
+            "cuba"
+        ], 
+        "desc_narr": [
+            "sightse", 
+            "resid", 
+            "recount", 
+            "logist", 
+            "tip", 
+            "describ", 
+            "visit", 
+            "advic", 
+            "anticip", 
+            "safeti"
+        ], 
+        "expasion": [
+            "obama", 
+            "travel", 
+            "havana", 
+            "trip", 
+            "citizen", 
+            "tourist", 
+            "immigr", 
+            "legal", 
+            "tourism", 
+            "restrict", 
+            "flight", 
+            "prohibit", 
+            "packag", 
+            "easier", 
+            "thank", 
+            "licens", 
+            "travel", 
+            "illeg", 
+            "agent", 
+            "famili"
+        ], 
+        "topid": "MB414"
+    }, 
+    {
+        "title": [
+            "grand", 
+            "ariana"
+        ], 
+        "desc_narr": [
+            "concert", 
+            "essay", 
+            "song", 
+            "award", 
+            "review", 
+            "fan", 
+            "tour", 
+            "act", 
+            "schedul", 
+            "want"
+        ], 
+        "expasion": [
+            "raton", 
+            "boca", 
+            "butera", 
+            "video", 
+            "music", 
+            "photo", 
+            "actress", 
+            "song", 
+            "valentin", 
+            "nickelodeon", 
+            "album", 
+            "lyric", 
+            "fest", 
+            "singer", 
+            "joan", 
+            "born", 
+            "ticket", 
+            "album", 
+            "lyricist", 
+            "song"
+        ], 
+        "topid": "MB415"
+    }, 
+    {
+        "title": [
+            "exhibit", 
+            "tate", 
+            "britain", 
+            "hepworth"
+        ], 
         "desc_narr": [
             "galleri", 
             "sculptur", 
@@ -1916,33 +5476,116 @@
             "exhibit", 
             "barbara", 
             "sculptur", 
+            "exhibit", 
             "modern", 
-            "exhibit", 
             "retrospect", 
-            "review", 
-            "exhibit", 
-            "write", 
-            "tourism", 
             "ticket", 
-            "museum", 
-            "sonia", 
-            "work", 
-            "focus", 
-            "london", 
-            "world", 
-            "load", 
             "2015", 
-            "lifestyl"
-        ], 
-        "title": [
             "exhibit", 
-            "tate", 
-            "britain", 
-            "hepworth"
-        ]
+            "pavilion", 
+            "art", 
+            "onlin", 
+            "sonia", 
+            "photo", 
+            "sculptor", 
+            "recreat", 
+            "review", 
+            "open", 
+            "artist", 
+            "world"
+        ], 
+        "topid": "MB416"
     }, 
     {
-        "topid": "MB419", 
+        "title": [
+            "surgeri", 
+            "cataract"
+        ], 
+        "desc_narr": [
+            "anecdot", 
+            "anticip", 
+            "describ", 
+            "patient", 
+            "replac", 
+            "remov", 
+            "eye", 
+            "want", 
+            "inform", 
+            "experi"
+        ], 
+        "expasion": [
+            "len", 
+            "cataract", 
+            "eye", 
+            "cloudi", 
+            "eye", 
+            "learn", 
+            "cataract", 
+            "cloud", 
+            "perform", 
+            "patient", 
+            "intraocular", 
+            "remov", 
+            "surgic", 
+            "eye", 
+            "procedur", 
+            "laser", 
+            "opacif", 
+            "medicar", 
+            "surgeri", 
+            "iol"
+        ], 
+        "topid": "MB417"
+    }, 
+    {
+        "title": [
+            "competit", 
+            "ballroom", 
+            "danc"
+        ], 
+        "desc_narr": [
+            "upcom", 
+            "event", 
+            "retriev", 
+            "english", 
+            "enter", 
+            "speak", 
+            "particular", 
+            "area", 
+            "start", 
+            "want"
+        ], 
+        "expasion": [
+            "danc", 
+            "dancesport", 
+            "2016", 
+            "competit", 
+            "dancesport", 
+            "danc", 
+            "championship", 
+            "danc", 
+            "event", 
+            "swing", 
+            "princeton", 
+            "championship", 
+            "style", 
+            "lesson", 
+            "dancesport", 
+            "smooth", 
+            "competit", 
+            "lesson", 
+            "guid", 
+            "dress"
+        ], 
+        "topid": "MB418"
+    }, 
+    {
+        "title": [
+            "king", 
+            "ascot", 
+            "weekend", 
+            "georg"
+        ], 
         "desc_narr": [
             "attend", 
             "hors", 
@@ -1956,120 +5599,702 @@
             "hors"
         ], 
         "expasion": [
-            "racecours", 
             "stake", 
-            "race", 
+            "racecours", 
             "2016", 
             "elizabeth", 
+            "race", 
+            "ticket", 
             "betfair", 
             "prestigi", 
-            "ticket", 
             "queen", 
-            "berkshir", 
             "22nd", 
-            "saturday", 
             "hors", 
+            "saturday", 
             "race", 
             "guest", 
             "vip", 
-            "7jx", 
             "hospit", 
-            "sl5", 
-            "qipco"
+            "qipco", 
+            "23rd", 
+            "30th", 
+            "day"
         ], 
-        "title": [
-            "king", 
-            "ascot", 
-            "weekend", 
-            "georg"
-        ]
+        "topid": "MB419"
     }, 
     {
-        "topid": "MB432", 
+        "title": [
+            "food", 
+            "sauc", 
+            "use", 
+            "sriracha"
+        ], 
+        "desc_narr": [
+            "antibiot", 
+            "desir", 
+            "kind", 
+            "poison", 
+            "good", 
+            "use", 
+            "want", 
+            "e", 
+            "g", 
+            "ant"
+        ], 
+        "expasion": [
+            "recip", 
+            "recip", 
+            "spici", 
+            "chili", 
+            "huy", 
+            "homemad", 
+            "fong", 
+            "homemad", 
+            "easi", 
+            "rooster", 
+            "kikkoman", 
+            "comic", 
+            "chili", 
+            "hot", 
+            "easi", 
+            "recip", 
+            "hot", 
+            "grill", 
+            "racha", 
+            "rib"
+        ], 
+        "topid": "MB420"
+    }, 
+    {
+        "title": [
+            "gambl", 
+            "maryland", 
+            "casino"
+        ], 
+        "desc_narr": [
+            "communiti", 
+            "conflictu", 
+            "sociocultur", 
+            "casino", 
+            "sociocultur", 
+            "moral", 
+            "part", 
+            "research", 
+            "oppos", 
+            "promot"
+        ], 
+        "expasion": [
+            "casino", 
+            "poker", 
+            "perryvill", 
+            "casino", 
+            "slot", 
+            "down", 
+            "dine", 
+            "onlin", 
+            "game", 
+            "hollywood", 
+            "slot", 
+            "game", 
+            "live", 
+            "baltimor", 
+            "ocean", 
+            "horsesho", 
+            "arundel", 
+            "gap", 
+            "machin", 
+            "rental"
+        ], 
+        "topid": "MB421"
+    }, 
+    {
+        "title": [
+            "grow", 
+            "orchid"
+        ], 
+        "desc_narr": [
+            "care", 
+            "practic", 
+            "cultiv", 
+            "best", 
+            "beauti", 
+            "heard", 
+            "plant", 
+            "equip", 
+            "difficult", 
+            "servic"
+        ], 
+        "expasion": [
+            "orchid", 
+            "beauti", 
+            "orchid", 
+            "water", 
+            "exot", 
+            "bloom", 
+            "indoor", 
+            "bloom", 
+            "beginn", 
+            "guid", 
+            "dendrobium", 
+            "indoor", 
+            "vanda", 
+            "tip", 
+            "learn", 
+            "beginn", 
+            "cymbidium", 
+            "success", 
+            "housepl", 
+            "stun"
+        ], 
+        "topid": "MB422"
+    }, 
+    {
+        "title": [
+            "drone", 
+            "domest", 
+            "surveil"
+        ], 
+        "desc_narr": [
+            "citizen", 
+            "erod", 
+            "privaci", 
+            "clone", 
+            "lawyer", 
+            "use", 
+            "routin", 
+            "perform", 
+            "violat", 
+            "concern"
+        ], 
+        "expasion": [
+            "fbi", 
+            "drone", 
+            "drone", 
+            "amend", 
+            "mueller", 
+            "privaci", 
+            "unman", 
+            "oper", 
+            "legisl", 
+            "aerial", 
+            "enforc", 
+            "thompson", 
+            "polic", 
+            "respons", 
+            "privaci", 
+            "implic", 
+            "dhs", 
+            "liberti", 
+            "2012", 
+            "congression"
+        ], 
+        "topid": "MB423"
+    }, 
+    {
+        "title": [
+            "custom", 
+            "comcast", 
+            "servic"
+        ], 
+        "desc_narr": [
+            "learn", 
+            "histor", 
+            "provid", 
+            "concern", 
+            "poor", 
+            "specif", 
+            "effort", 
+            "provid", 
+            "rate", 
+            "improv"
+        ], 
+        "expasion": [
+            "internet", 
+            "onlin", 
+            "email", 
+            "phone", 
+            "support", 
+            "xfiniti", 
+            "onlin", 
+            "xfiniti", 
+            "review", 
+            "contact", 
+            "voic", 
+            "forum", 
+            "worst", 
+            "photo", 
+            "portal", 
+            "shitti", 
+            "cancel", 
+            "phone", 
+            "contact", 
+            "cabl"
+        ], 
+        "topid": "MB424"
+    }, 
+    {
+        "title": [
+            "sudoku", 
+            "tournament"
+        ], 
+        "desc_narr": [
+            "tournament", 
+            "upcom", 
+            "puzzl", 
+            "enthusiast", 
+            "logist", 
+            "like", 
+            "particip", 
+            "particip", 
+            "qualiti", 
+            "give"
+        ], 
+        "expasion": [
+            "tournament", 
+            "puzzl", 
+            "tournament", 
+            "play", 
+            "championship", 
+            "puzzl", 
+            "onlin", 
+            "2016", 
+            "2015", 
+            "2006", 
+            "open", 
+            "combat", 
+            "prize", 
+            "somd", 
+            "ipad", 
+            "champion", 
+            "puzzl", 
+            "player", 
+            "challeng", 
+            "game"
+        ], 
+        "topid": "MB425"
+    }, 
+    {
+        "title": [
+            "billi", 
+            "joel", 
+            "concert"
+        ], 
+        "desc_narr": [
+            "ticket", 
+            "lodg", 
+            "logist", 
+            "upcom", 
+            "avail", 
+            "fan", 
+            "date", 
+            "track", 
+            "locat", 
+            "review"
+        ], 
+        "expasion": [
+            "ticket", 
+            "ticket", 
+            "2016", 
+            "concert", 
+            "tour", 
+            "artist", 
+            "buy", 
+            "piano", 
+            "concert", 
+            "name", 
+            "date", 
+            "view", 
+            "tour", 
+            "music", 
+            "date", 
+            "seat", 
+            "2017", 
+            "ticket", 
+            "get", 
+            "upcom"
+        ], 
+        "topid": "MB426"
+    }, 
+    {
+        "title": [
+            "gate", 
+            "foundat"
+        ], 
+        "desc_narr": [
+            "melinda", 
+            "foundat", 
+            "sponsor", 
+            "project", 
+            "bill", 
+            "track", 
+            "toward", 
+            "peopl", 
+            "view", 
+            "interest"
+        ], 
+        "expasion": [
+            "melinda", 
+            "bill", 
+            "challeng", 
+            "welcom", 
+            "visitor", 
+            "seattl", 
+            "student", 
+            "bkash", 
+            "scholar", 
+            "job", 
+            "mission", 
+            "live", 
+            "grand", 
+            "job", 
+            "focus", 
+            "2016", 
+            "school", 
+            "stori", 
+            "video", 
+            "global"
+        ], 
+        "topid": "MB429"
+    }, 
+    {
+        "title": [
+            "sarah", 
+            "palin"
+        ], 
+        "desc_narr": [
+            "wonder", 
+            "activ", 
+            "reaction", 
+            "polit", 
+            "polit", 
+            "activ", 
+            "continu", 
+            "latest", 
+            "reaction", 
+            "peopl"
+        ], 
+        "expasion": [
+            "photo", 
+            "louis", 
+            "video", 
+            "wasilla", 
+            "alaska", 
+            "1964", 
+            "femal", 
+            "heath", 
+            "abort", 
+            "facebook", 
+            "obama", 
+            "2008", 
+            "politician", 
+            "daughter", 
+            "learn", 
+            "presidenti", 
+            "born", 
+            "governor", 
+            "news", 
+            "former"
+        ], 
+        "topid": "MB430"
+    }, 
+    {
+        "title": [
+            "compani", 
+            "royal", 
+            "shakespear"
+        ], 
+        "desc_narr": [
+            "product", 
+            "goer", 
+            "stratford", 
+            "avon", 
+            "theater", 
+            "trip", 
+            "plan", 
+            "upon", 
+            "product", 
+            "compani"
+        ], 
+        "expasion": [
+            "stratford", 
+            "theatr", 
+            "avon", 
+            "rsc", 
+            "ticket", 
+            "mckellen", 
+            "warwickshir", 
+            "play", 
+            "2016", 
+            "tennant", 
+            "upon", 
+            "perform", 
+            "cycl", 
+            "photo", 
+            "dench", 
+            "blunt", 
+            "2006", 
+            "king", 
+            "audienc", 
+            "chemistri"
+        ], 
+        "topid": "MB431"
+    }, 
+    {
+        "title": [
+            "rushmor", 
+            "mount"
+        ], 
         "desc_narr": [
             "enjoy", 
             "trip", 
             "travel", 
             "tip", 
-            "experi", 
             "tourist", 
             "reaction", 
             "visit", 
             "dakota", 
-            "reaction"
+            "site", 
+            "advis"
         ], 
         "expasion": [
             "memori", 
             "sculptur", 
-            "keyston", 
             "dakota", 
-            "carv", 
+            "keyston", 
+            "monument", 
             "granit", 
             "black", 
             "hill", 
-            "presid", 
-            "hors", 
-            "monument", 
+            "carv", 
             "rapid", 
-            "vacat", 
             "presid", 
-            "encyclop\u00e6dia", 
-            "britannica", 
+            "vacat", 
+            "hotel", 
+            "presid", 
             "park", 
             "gutzon", 
             "mountain", 
-            "hotel"
+            "park", 
+            "ticket", 
+            "campground"
         ], 
-        "title": [
-            "rushmor", 
-            "mount"
-        ]
+        "topid": "MB432"
     }, 
     {
-        "topid": "MB434", 
+        "title": [
+            "car", 
+            "recal"
+        ], 
         "desc_narr": [
-            "game", 
-            "outcom", 
-            "experi", 
-            "attend", 
-            "event", 
-            "locat", 
-            "peopl", 
-            "give", 
-            "follow", 
-            "like"
+            "recal", 
+            "track", 
+            "reaction", 
+            "address", 
+            "wake", 
+            "issu", 
+            "automot", 
+            "prompt", 
+            "brand", 
+            "sentiment"
         ], 
         "expasion": [
-            "parapan", 
-            "pan", 
-            "toronto", 
-            "olymp", 
-            "athlet", 
-            "men", 
-            "team", 
-            "toronto", 
-            "ticket", 
-            "markham", 
-            "relay", 
-            "websit", 
-            "medal", 
-            "women", 
-            "sport", 
-            "400m", 
-            "30pm", 
-            "softbal", 
-            "competit", 
-            "volunt"
+            "recal", 
+            "recal", 
+            "defect", 
+            "nhtsa", 
+            "vehicl", 
+            "safeti", 
+            "recal", 
+            "vehicl", 
+            "toyota", 
+            "safeti", 
+            "get", 
+            "vehicl", 
+            "search", 
+            "airbag", 
+            "car", 
+            "honda", 
+            "nissan", 
+            "car", 
+            "vehicl", 
+            "updat"
         ], 
+        "topid": "MB433"
+    }, 
+    {
         "title": [
             "2015", 
             "summer", 
             "panam", 
             "game"
-        ]
+        ], 
+        "desc_narr": [
+            "game", 
+            "outcom", 
+            "attend", 
+            "event", 
+            "locat", 
+            "give", 
+            "want", 
+            "like", 
+            "would", 
+            "peopl"
+        ], 
+        "expasion": [
+            "parapan", 
+            "pan", 
+            "toronto", 
+            "athlet", 
+            "olymp", 
+            "toronto", 
+            "ticket", 
+            "video", 
+            "team", 
+            "medal", 
+            "host", 
+            "organ", 
+            "medal", 
+            "basketbal", 
+            "think", 
+            "globalnew", 
+            "medal", 
+            "websit", 
+            "photo", 
+            "sport"
+        ], 
+        "topid": "MB434"
     }, 
     {
-        "topid": "MB439", 
+        "title": [
+            "worker", 
+            "tip", 
+            "restaur"
+        ], 
+        "desc_narr": [
+            "server", 
+            "receiv", 
+            "tip", 
+            "stori", 
+            "journalist", 
+            "employe", 
+            "owner", 
+            "work", 
+            "distribut", 
+            "among"
+        ], 
+        "expasion": [
+            "restaur", 
+            "restaur", 
+            "kitchen", 
+            "young", 
+            "tip", 
+            "osha", 
+            "wage", 
+            "wage", 
+            "hospit", 
+            "welcom", 
+            "tip", 
+            "safeti", 
+            "minimum", 
+            "regul", 
+            "work", 
+            "menu", 
+            "safeti", 
+            "wage", 
+            "server", 
+            "employ"
+        ], 
+        "topid": "MB436"
+    }, 
+    {
+        "title": [
+            "adopt", 
+            "gay"
+        ], 
+        "desc_narr": [
+            "children", 
+            "parent", 
+            "babi", 
+            "young", 
+            "adopt", 
+            "opinion", 
+            "view", 
+            "interest", 
+            "user", 
+            "find"
+        ], 
+        "expasion": [
+            "lgbt", 
+            "coupl", 
+            "lesbian", 
+            "sex", 
+            "children", 
+            "sex", 
+            "lesbian", 
+            "sexual", 
+            "parent", 
+            "lesbian", 
+            "adopt", 
+            "parent", 
+            "bisexu", 
+            "singl", 
+            "child", 
+            "orient", 
+            "famili", 
+            "adopt", 
+            "statelin", 
+            "gay"
+        ], 
+        "topid": "MB437"
+    }, 
+    {
+        "title": [
+            "west", 
+            "fish", 
+            "key", 
+            "marlin"
+        ], 
+        "desc_narr": [
+            "florida", 
+            "catch", 
+            "return", 
+            "catch", 
+            "find", 
+            "tri", 
+            "like", 
+            "would", 
+            "peopl", 
+            "look"
+        ], 
+        "expasion": [
+            "charter", 
+            "deep", 
+            "sailfish", 
+            "tournament", 
+            "captain", 
+            "blue", 
+            "key", 
+            "flat", 
+            "tarpon", 
+            "mahi", 
+            "deep", 
+            "charter", 
+            "blue", 
+            "florida", 
+            "backcountri", 
+            "conch", 
+            "wreck", 
+            "wahoo", 
+            "angler", 
+            "trip"
+        ], 
+        "topid": "MB438"
+    }, 
+    {
+        "title": [
+            "wander", 
+            "bolton"
+        ], 
         "desc_narr": [
             "footbal", 
             "wonder", 
@@ -2084,36 +6309,204 @@
         ], 
         "expasion": [
             "footbal", 
-            "2016", 
+            "soccer", 
+            "fixtur", 
+            "welcom", 
+            "stadium", 
+            "live", 
+            "club", 
             "footbal", 
             "leagu", 
-            "fixtur", 
-            "english", 
-            "championship", 
-            "soccerway", 
-            "welcom", 
-            "trotter", 
-            "stadium", 
-            "stori", 
-            "video", 
             "club", 
             "macron", 
-            "simplifi", 
             "squad", 
             "subreddit", 
-            "bahasa", 
-            "interview"
+            "trotter", 
+            "score", 
+            "interview", 
+            "sky", 
+            "parkinson", 
+            "bradford", 
+            "stori"
         ], 
-        "title": [
-            "wander", 
-            "bolton"
-        ]
+        "topid": "MB439"
     }, 
     {
-        "topid": "MB448", 
+        "title": [
+            "arabia", 
+            "women", 
+            "saudi", 
+            "right"
+        ], 
+        "desc_narr": [
+            "staus", 
+            "return", 
+            "advanc", 
+            "refer", 
+            "toward", 
+            "progress", 
+            "made", 
+            "interest", 
+            "user", 
+            "tweet"
+        ], 
+        "expasion": [
+            "women", 
+            "human", 
+            "hold", 
+            "2014", 
+            "human", 
+            "abdullah", 
+            "vote", 
+            "skip", 
+            "major", 
+            "activist", 
+            "girl", 
+            "democraci", 
+            "gender", 
+            "king", 
+            "slate", 
+            "2015", 
+            "male", 
+            "femal", 
+            "kingdom", 
+            "support"
+        ], 
+        "topid": "MB440"
+    }, 
+    {
+        "title": [
+            "speech", 
+            "recognit", 
+            "softwar"
+        ], 
+        "desc_narr": [
+            "recognit", 
+            "humor", 
+            "exampl", 
+            "brand", 
+            "process", 
+            "type", 
+            "user", 
+            "idea", 
+            "various", 
+            "think"
+        ], 
+        "expasion": [
+            "window", 
+            "dragon", 
+            "voic", 
+            "voic", 
+            "microsoft", 
+            "dictat", 
+            "naturallyspeak", 
+            "word", 
+            "tazti", 
+            "spoken", 
+            "best", 
+            "shop", 
+            "dictat", 
+            "keyboard", 
+            "linguist", 
+            "microphon", 
+            "googl", 
+            "ebay", 
+            "command", 
+            "websit"
+        ], 
+        "topid": "MB441"
+    }, 
+    {
+        "title": [
+            "keep", 
+            "bee"
+        ], 
+        "desc_narr": [
+            "bee", 
+            "honey", 
+            "flavor", 
+            "opinion", 
+            "hive", 
+            "return", 
+            "keep", 
+            "aspect", 
+            "aspect", 
+            "sens"
+        ], 
+        "expasion": [
+            "beekeep", 
+            "beekeep", 
+            "bee", 
+            "beekeep", 
+            "beekeep", 
+            "beekeep", 
+            "honey", 
+            "hive", 
+            "bee", 
+            "honey", 
+            "dadant", 
+            "backyard", 
+            "welcom", 
+            "backyard", 
+            "hive", 
+            "beginn", 
+            "brushi", 
+            "ebay", 
+            "websit", 
+            "honeybe"
+        ], 
+        "topid": "MB443"
+    }, 
+    {
+        "title": [
+            "lacross", 
+            "tournament"
+        ], 
+        "desc_narr": [
+            "tournament", 
+            "travel", 
+            "commentari", 
+            "daughter", 
+            "like", 
+            "return", 
+            "announc", 
+            "anticip", 
+            "upcom", 
+            "particip"
+        ], 
+        "expasion": [
+            "tournament", 
+            "2016", 
+            "boy", 
+            "tournament", 
+            "boy", 
+            "team", 
+            "ncaa", 
+            "athlet", 
+            "summer", 
+            "youth", 
+            "colleg", 
+            "school", 
+            "championship", 
+            "vail", 
+            "welcom", 
+            "girl", 
+            "girl", 
+            "shootout", 
+            "directori", 
+            "leagu"
+        ], 
+        "topid": "MB446"
+    }, 
+    {
+        "title": [
+            "bouchercon", 
+            "world", 
+            "mysteri", 
+            "convent"
+        ], 
         "desc_narr": [
             "lodg", 
-            "tweet", 
             "honore", 
             "bouchercon", 
             "logist", 
@@ -2121,35 +6514,113 @@
             "tip", 
             "award", 
             "nomin", 
-            "anthoni"
+            "anthoni", 
+            "advic"
         ], 
         "expasion": [
             "boucher", 
             "fiction", 
+            "fan", 
+            "reader", 
             "detect", 
-            "volunt", 
             "devote", 
             "creator", 
-            "reader", 
-            "fan", 
             "anthoni", 
-            "nonprofit", 
+            "volunt", 
             "publish", 
-            "2014", 
-            "2016", 
-            "raleigh", 
-            "review", 
-            "murder", 
-            "2015", 
             "author", 
+            "crime", 
+            "2014", 
+            "raleigh", 
+            "nonprofit", 
+            "review", 
+            "booksel", 
+            "lover", 
             "convent", 
-            "2009"
+            "murder"
         ], 
+        "topid": "MB448"
+    }, 
+    {
         "title": [
-            "bouchercon", 
-            "world", 
-            "mysteri", 
-            "convent"
-        ]
+            "robot", 
+            "lego"
+        ], 
+        "desc_narr": [
+            "competit", 
+            "wonder", 
+            "activ", 
+            "school", 
+            "team", 
+            "happen", 
+            "upcom", 
+            "repres", 
+            "welcom", 
+            "group"
+        ], 
+        "expasion": [
+            "mindstorm", 
+            "ev3", 
+            "mindstorm", 
+            "leagu", 
+            "kid", 
+            "nxt", 
+            "educ", 
+            "robot", 
+            "fll", 
+            "learn", 
+            "video", 
+            "welcom", 
+            "camp", 
+            "robot", 
+            "school", 
+            "instruct", 
+            "student", 
+            "robot", 
+            "challeng", 
+            "academi"
+        ], 
+        "topid": "MB449"
+    }, 
+    {
+        "title": [
+            "camera", 
+            "traffic"
+        ], 
+        "desc_narr": [
+            "crimin", 
+            "driver", 
+            "altern", 
+            "offend", 
+            "path", 
+            "pursuit", 
+            "escap", 
+            "catch", 
+            "explor", 
+            "sentiment"
+        ], 
+        "expasion": [
+            "road", 
+            "view", 
+            "honolulu", 
+            "imag", 
+            "camera", 
+            "cctv", 
+            "incid", 
+            "map", 
+            "click", 
+            "zpass", 
+            "weather", 
+            "advisori", 
+            "travel", 
+            "check", 
+            "jersey", 
+            "inform", 
+            "trucker", 
+            "refresh", 
+            "highway", 
+            "rwis"
+        ], 
+        "topid": "MB450"
     }
 ]

@@ -11,6 +11,8 @@ from detection.Early_detection import Early_detection
 from relevance.Relevance_estimate import Relevance_estimate
 from push.Push import Push
 
+from novelty_detectors import novelty_detectors
+
 consumer_key="a7vdFgIeOzMtv5SEf5Nw7euEy"
 consumer_secret="FUeuYbCK3oatQ2zcUP4st7JvUZeVRCvFtChe9i4YOZgZPFS7k8"
 
@@ -89,15 +91,14 @@ class StdOutListener(StreamListener):
 				return
 
 			##############TODO##############
-			"""
-			flag = novelty_detection(tweet, relevant_topid)
+
+			novel = novelty_detectors.novelty_detect(tweet, relevant_topid)
 			
 				#if this tweet is novel in this topic, return True;
 				#if this tweet is not novel, return False.
 			
-			if flag == False:
+			if not novel:
 				return
-			"""
 
 			##############TODO##############
 			url, status_code, response_text = push.a_push(tweet.id, relevant_topid)
@@ -139,6 +140,9 @@ if __name__ == '__main__':
 	print 'early_detection init done...'
 	relevance_estimate = Relevance_estimate()
 	print  'relevance_estimate init done...'
+	novelty_detectors = novelty_detectors()
+	novelty_detectors.refresh()
+	print 'novelty_detectors init done...'
 	push = Push()
 	print 'push init done...'
 
