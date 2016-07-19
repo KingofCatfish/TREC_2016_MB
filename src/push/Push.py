@@ -34,7 +34,8 @@ class Push():
 		print >> f, '==========datetime=========='
 		print >> f, 'last_access_day:', self.last_access_day
 		print >> f, 'utcnow:', str(datetime.utcnow()), str(datetime.utcnow())[8:10]
-		print >> self.topid_push_count
+		print >> f, self.topid_push_count
+		f.close()
 		
 		if str(datetime.utcnow())[8:10] != self.last_access_day:
 			self.last_access_day = str(datetime.utcnow())[8:10]
