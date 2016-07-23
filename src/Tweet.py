@@ -126,10 +126,14 @@ class Tweet:
 		for word in wordlistB:
 			intScore += len(word)
 
+		templist = []
+		for word in wordlistB:
+			templist.append(word)
+
 		for word in wordlistA:
-			if word in wordlistB:
+			if word in templist:
 				uniScore += 2 * len(word)
-				wordlistB.remove(word)
+				templist.remove(word)
 
 		if uniScore == 0:
 			return 0
@@ -298,7 +302,6 @@ class Tweet:
 	def stem(self):
 		if self.stemmed != []:
 			return self.stemmed
-
 		stemmer = SnowballStemmer("english")
 		self.remove_username().remove_hyperlink()
 		wordlist = []
@@ -308,7 +311,6 @@ class Tweet:
 				if stemmed.isalpha() and stemmed != 'rt':
 					wordlist.append(stemmed)
 		self.stemmed = wordlist
-
 		return wordlist
 
 if __name__ == '__main__':
