@@ -4,10 +4,12 @@ from tweepy import Stream
 
 import time
 import datetime
+import copy
 
 from Tweet import Tweet
 
 from detection.Early_detection import Early_detection
+from detection.Necessary_detection import Necessary_detection
 from relevance.Relevance_estimate import Relevance_estimate
 from push.Push import Push
 
@@ -58,6 +60,10 @@ class StdOutListener(StreamListener):
 			if not hited:
 				return
 
+			candidate_topid, relevant_title = necessary_detection.nec_detection(tweet.text)
+			if candidate_topid == None:
+				return
+
 			try:
 				if tweet.crawl_link_text() == 'Error':
 					return
@@ -68,7 +74,8 @@ class StdOutListener(StreamListener):
 
 			##############TODO##############
 
-			relevant_topid, relevant_score, relevant_title = relevance_estimate.estimate(tweet) 
+			#relevant_topid, relevant_score, relevant_title = relevance_estimate.estimate(tweet) 
+			relevant_topid, relevant_score = relevance_estimate.sniper_estimate(tweet, candidate_topid)
 			"""
 				if this tweet is relevant to one topic, then return this topicid and relevant_score;
 				if this tweet is NOT relevant to any topic, then return (None, None)
@@ -91,14 +98,22 @@ class StdOutListener(StreamListener):
 				return
 
 			##############TODO##############
+			t = copy.deepcopy(tweet)
 
-			novel = novelty_detectors.novelty_detect(tweet, relevant_topid)
+			#rmove # RT http://
+			t.remove_verbose()
+			print t.clean_text
+
+			#t.clean_text is a clean text without # RT http://
+			novel = novelty_detectors.novelty_detect(t, relevant_topid)
 			
 				#if this tweet is novel in this topic, return True;
 				#if this tweet is not novel, return False.
 			
 			if not novel:
+				print 'Not Novel...'
 				return
+			print 'Novel...'
 
 			##############TODO##############
 			url, status_code, response_text = push.a_push(tweet.id, relevant_topid)
@@ -116,6 +131,7 @@ class StdOutListener(StreamListener):
 			print >> f, relevant_topid, relevant_score, tweet.id
 			print >> f, relevant_title
 			print >> f, tweet.text
+			print >> f, 'remove verbose: ', t.clean_text
 			print >> f, url
 			print >> f, 'status_code:',status_code
 			print >> f, 'response_text:', response_text
@@ -136,13 +152,20 @@ if __name__ == '__main__':
 	#while main error
 	tweet = Tweet()
 	print 'tweet init done...'
+
 	early_detection = Early_detection()
 	print 'early_detection init done...'
+
+	necessary_detection = Necessary_detection()
+	print 'necessary_detection init done...'
+
 	relevance_estimate = Relevance_estimate()
 	print  'relevance_estimate init done...'
+
 	novelty_detectors = novelty_detectors()
 	novelty_detectors.refresh()
 	print 'novelty_detectors init done...'
+	
 	push = Push()
 	print 'push init done...'
 

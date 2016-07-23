@@ -32,6 +32,7 @@ class Tweet:
 		self.link_text = ''
 		self.isLink = False
 		self.created_at = created_at
+		self.clean_text = None
 
 		self.stemmed = []
 
@@ -50,8 +51,21 @@ class Tweet:
 		self.link_text = None
 		self.isLink = False
 		self.created_at = None
+		self.clean_text = None
 
 		self.stemmed = []
+
+	def remove_verbose(self):
+		verbose_text = self.text
+		#####remove hashtag#####
+		verbose_text = re.sub(r'#.*?\s', '', verbose_text)
+		#####remove RT @ #####
+		verbose_text = re.sub(r'RT.*?@.*?:', '', verbose_text)
+		#####remove all term behind http#####
+		verbose_text = re.sub(r'http.*$', '', verbose_text)
+
+		self.clean_text = verbose_text
+
 
 	def load(self, data_s):
 		try:
@@ -71,6 +85,7 @@ class Tweet:
 			self.friends_count = data['user']['friends_count']
 			self.followers_count = data['user']['followers_count']
 			self.statuses_count = data['user']['statuses_count']
+			self.clean_text = None
 			return True
 		except Exception, e:
 			return False
@@ -81,6 +96,7 @@ class Tweet:
 		self.created_at = data.created_at
 		self.raw = data.text
 		self.text = data.text.encode('ascii', 'ignore')
+		self.clean_text = None
 		self.retweet_count = data.retweet_count
 		self.friends_count = data.user.friends_count
 		self.followers_count = data.user.followers_count
@@ -178,7 +194,7 @@ class Tweet:
 			if len(url) < 20:
 				return 'Error'
 			
-			with eventlet.Timeout(4):
+			with eventlet.Timeout(8):
 				"""
 					 can only detect timeouts in "greenthreaded" code
 					 you cannot time out CPU-only operations with this class

@@ -20,6 +20,8 @@ class Relevance_estimate():
 		self.model = Word2Vec.load_word2vec_format(PATH+'GoogleNews-vectors-negative300.bin', binary=True)
 		print self.model.similarity('initial', 'initialize')
 
+		self.tokenizer = RegexpTokenizer(r'\w+')
+
 		f = open(PATH+'svm_clf_l.pkls')
 		self.clf_l = pickle.loads(f.read())
 		f.close()
@@ -133,6 +135,42 @@ class Relevance_estimate():
 			is_link, log_followers_count, log_statuses_count, world_count, hashtag_count, info]
 
 
+	def sniper_estimate(self, tweet, candidate_topid):
+		tweet_data = {}
+		tweet_data['text'] = tweet.text.encode('ascii','ignore')
+		tweet_data['link_text'] = tweet.link_text.encode('ascii','ignore')
+		tweet_data['isLink'] = tweet.isLink
+		tweet_data['followers_count'] = tweet.followers_count
+		tweet_data['statuses_count'] = tweet.statuses_count
+		tweet_data['id'] = tweet.id
+
+		
+		text_tokens = self.tokenizer.tokenize(tweet_data['text'])
+		text_tokens_lower_stem = set([self.stemmer.stem(token.lower()) for token in text_tokens])
+		external_tokens = self.tokenizer.tokenize(tweet_data['link_text'])
+		external_tokens_lower_stem = set([self.stemmer.stem(token.lower()) for token in external_tokens])
+
+		tweet_data['text_tokens_lower_stem'] = text_tokens_lower_stem
+		tweet_data['external_tokens_lower_stem'] = external_tokens_lower_stem
+
+		for a_topic_terms in self.profile_terms:
+			if a_topic_terms['topid'] == candidate_topid:
+				the_topic_terms = a_topic_terms
+				break
+				
+		samples = []
+
+		feature_vec = self.feature_extractor(tweet_data, the_topic_terms)
+		samples.append(feature_vec)
+
+		if tweet_data['isLink']:
+			predict_probas = self.clf_l.predict_proba(samples)
+		elif not tweet_data['isLink']:
+			predict_probas = self.clf_nl.predict_proba(samples)
+
+		return candidate_topid, predict_probas[0][2]
+
+
 
 	def estimate(self, tweet):
 		tweet_data = {}
@@ -143,10 +181,10 @@ class Relevance_estimate():
 		tweet_data['statuses_count'] = tweet.statuses_count
 		tweet_data['id'] = tweet.id
 
-		tokenizer = RegexpTokenizer(r'\w+')
-		text_tokens = tokenizer.tokenize(tweet_data['text'])
+		
+		text_tokens = self.tokenizer.tokenize(tweet_data['text'])
 		text_tokens_lower_stem = set([self.stemmer.stem(token.lower()) for token in text_tokens])
-		external_tokens = tokenizer.tokenize(tweet_data['link_text'])
+		external_tokens = self.tokenizer.tokenize(tweet_data['link_text'])
 		external_tokens_lower_stem = set([self.stemmer.stem(token.lower()) for token in external_tokens])
 
 		tweet_data['text_tokens_lower_stem'] = text_tokens_lower_stem
