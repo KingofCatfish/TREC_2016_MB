@@ -31,18 +31,25 @@ class Push():
 
 	def a_push_ok(self, tweet_id, relevant_topid, relevant_score):
 		f = open(PATH+'push_count_log.txt','a')
-		print >> f, '==========datetime=========='
+		print >> f, '=================================='
+		print >> f, '=================================='
+		print >> f, 'before==========datetime=========='
 		print >> f, 'last_access_day:', self.last_access_day
 		print >> f, 'utcnow:', str(datetime.utcnow()), str(datetime.utcnow())[8:10]
 		print >> f, self.topid_push_count
-		f.close()
 		
 		if str(datetime.utcnow())[8:10] != self.last_access_day:
 			self.last_access_day = str(datetime.utcnow())[8:10]
 			self.reset_topid_push_count()
 
+		print >> f, 'after==========datetime=========='
+		print >> f, 'last_access_day:', self.last_access_day
+		print >> f, 'utcnow:', str(datetime.utcnow()), str(datetime.utcnow())[8:10]
+		print >> f, self.topid_push_count
 
-		if (self.topid_push_count[relevant_topid] + 1 <= 10) and (relevant_score > 0.7):
+		f.close()
+
+		if (self.topid_push_count[relevant_topid] + 1 <= 10) and (relevant_score > 0.5):
 			return True
 		else:
 			return False
