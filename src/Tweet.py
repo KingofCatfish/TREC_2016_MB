@@ -132,8 +132,8 @@ class Tweet:
 		if not isinstance(TweetA, Tweet) or not isinstance(TweetB, Tweet):
 			raise Exception('can only calculate similarity between Tweet object')
 
-		wordlistA = TweetA.stem()
-		wordlistB = TweetB.stem()
+		wordlistA = TweetA.stem_text()
+		wordlistB = TweetB.stem_text()
 
 		intScore = 0
 		uniScore = 0
@@ -326,6 +326,19 @@ class Tweet:
 				stemmed = stemmer.stem(word)
 				if stemmed.isalpha() and stemmed != 'rt':
 					wordlist.append(stemmed)
+		self.stemmed = wordlist
+		return wordlist
+
+	def stem_text(self):
+		stemmer = SnowballStemmer("english")
+
+		wordlist = []
+		for sentence in nltk.sent_tokenize(self.clean_text):
+			for word in nltk.word_tokenize(sentence):
+				stemmed = stemmer.stem(word)
+				if stemmed.isalpha():
+					wordlist.append(stemmed)
+					
 		self.stemmed = wordlist
 		return wordlist
 

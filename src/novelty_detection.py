@@ -113,7 +113,7 @@ class novelty_detection:
 	def naive_stream(self, tweet):
 		for doc in self.reported:
 			if doc[0].naive_similarity(tweet, doc[0]) > self.parameter['naive_valve']:
-				doc.append(tweet)
+				#doc.append(tweet)
 				return False
 		
 		return True
@@ -246,12 +246,12 @@ if __name__ == '__main__':
 	parameter = []
 	high_score = 0
 	high_valve = 0
-	for valve in range(1, 1000):
+	for valve in range(500, 1000):
 		count = 0
 		score = 0
 		for topic in st_data['topics']:
-			nd = novelty_detection('plain', 'debug')
-			#nd.config(naive_valve = valve / 1000)simhash_valve
+			nd = novelty_detection('naive', 'debug')
+			nd.config(naive_valve = valve / 1000)
 
 			st_reported = []
 
@@ -259,6 +259,7 @@ if __name__ == '__main__':
 				st_tweets = []
 				for tweet in tweets:
 					try:
+						train[int(tweet)].remove_verbose()
 						st_tweets.append(train[int(tweet)])
 						if nd.stream(train[int(tweet)]):
 							pass
@@ -269,9 +270,9 @@ if __name__ == '__main__':
 					st_reported.append(st_tweets)
 
 
-			print topic + ' ',
+			#print topic + ' ',
 			[rate, num] = nmi_test(nd.reported, st_reported)
-			print rate, num
+			#print rate, num
 			if num != 0:
 				score += rate * num
 				count += num
@@ -284,7 +285,7 @@ if __name__ == '__main__':
 			high_score = score / count
 			high_valve = valve
 		parameter.append([valve / 1000, score / count])
-		break
+		#break
 
 	print '**** Best valve: ' + str(high_valve) + '  with score ' + str(high_score) 
 	para_file = open('parameter.json', 'w')
