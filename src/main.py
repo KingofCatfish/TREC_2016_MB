@@ -15,6 +15,7 @@ from push.Push import Push
 
 from novelty_detectors import novelty_detectors
 
+#run0
 consumer_key="a7vdFgIeOzMtv5SEf5Nw7euEy"
 consumer_secret="FUeuYbCK3oatQ2zcUP4st7JvUZeVRCvFtChe9i4YOZgZPFS7k8"
 
