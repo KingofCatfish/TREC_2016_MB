@@ -4,6 +4,7 @@ from tweepy import Stream
 
 import time
 
+#run0
 consumer_key="a7vdFgIeOzMtv5SEf5Nw7euEy"
 consumer_secret="FUeuYbCK3oatQ2zcUP4st7JvUZeVRCvFtChe9i4YOZgZPFS7k8"
 
@@ -22,7 +23,6 @@ class StdOutListener(StreamListener):
         self.count += 1
         t = time.time() - self.start_time
         print 'count:', self.count, 'time:', t, 'rate:', self.count/t
-        time.sleep(15)
 
     def on_error(self, status):
         print status
