@@ -3,7 +3,7 @@ PATH = './detection/'
 
 class Necessary_detection():
 	def __init__(self):
-		f = open(PATH+'tops_150_nec_valid.json')
+		f = open(PATH+'tops_203_nec_valid.json')
 		tops = json.loads(f.read())
 		f.close()
 		self.nec_dic = {}

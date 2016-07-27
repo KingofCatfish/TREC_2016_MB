@@ -15,7 +15,7 @@ class Push():
 	def __init__(self):
 		self.last_access_day = str(datetime.utcnow())[8:10]
 		self.topid_push_count = {}
-		f = open(PATH+'TREC2016-MB-testtopics-150.txt')
+		f = open(PATH+'TREC2016-MB-testtopics-203.txt')
 		tops = json.loads(f.read())
 		f.close()
 		for top in tops:
@@ -23,7 +23,7 @@ class Push():
 
 	def reset_topid_push_count(self):
 		self.topid_push_count = {}
-		f = open(PATH+'TREC2016-MB-testtopics-150.txt')
+		f = open(PATH+'TREC2016-MB-testtopics-203.txt')
 		tops = json.loads(f.read())
 		f.close()
 		for top in tops:

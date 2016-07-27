@@ -11,7 +11,7 @@ PATH = './relevance/'
 
 class Relevance_estimate():
 	def __init__(self):
-		f = open(PATH+'profile_terms_stem.txt')
+		f = open(PATH+'profile_terms_203_stem.txt')
 		self.profile_terms = json.loads(f.read())
 		f.close()
 

@@ -5,7 +5,7 @@ from nltk.stem.snowball import SnowballStemmer
 class Early_detection():
 
 	def __init__(self):
-		f = open('./detection/'+'150_terms_stem.txt')
+		f = open('./detection/'+'203_terms_stem.txt')
 		"""
 		 NO stop word 
 		 All stem
