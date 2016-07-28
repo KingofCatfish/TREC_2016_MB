@@ -58,11 +58,11 @@ class Tweet:
 	def remove_verbose(self):
 		verbose_text = self.text
 		#####remove hashtag#####
-		verbose_text = re.sub(r'#.*?\s', '', verbose_text)
-		#####remove RT @ #####
-		verbose_text = re.sub(r'RT.*?@.*?:', '', verbose_text)
+		verbose_text = re.sub(r'#[^\s]+', '', verbose_text)
+		#####remove @ #####
+		verbose_text = re.sub(r'@[^\s]+', '', verbose_text)
 		#####remove all term behind http#####
-		verbose_text = re.sub(r'http.*$', '', verbose_text)
+		verbose_text = re.sub(r'http\S+', '', verbose_text)
 
 		self.clean_text = verbose_text
 
@@ -330,9 +330,15 @@ class Tweet:
 		return wordlist
 
 	def stem_text(self):
+		if self.stemmed != []:
+			return self.stemmed
 		stemmer = SnowballStemmer("english")
 
 		wordlist = []
+		self.clean_text = self.clean_text.encode('ascii', 'ignore')
+		self.clean_text = self.clean_text.replace('-', ' ')
+		self.clean_text = self.clean_text.translate(None, string.punctuation)
+
 		for sentence in nltk.sent_tokenize(self.clean_text):
 			for word in nltk.word_tokenize(sentence):
 				stemmed = stemmer.stem(word)

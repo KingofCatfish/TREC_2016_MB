@@ -19,7 +19,7 @@ class novelty_detectors:
 	def novelty_detect(self, tweet, topic_id):
 		if topic_id not in self.topic_map.keys():
 			self.topic_map[topic_id] = nd.novelty_detection('naive', 'production', topicid = topic_id)
-			self.topic_map[topic_id].config(naive_valve = 0.68)
+			self.topic_map[topic_id].config(naive_valve = 0.6)
 			self.backup()
 
 		return self.topic_map[topic_id].stream(tweet)
@@ -30,7 +30,7 @@ class novelty_detectors:
 			t_keys = pickle.load(recovery_file)
 			for k in t_keys:
 				self.topic_map[k] = nd.novelty_detection('naive', 'production', topicid = k)
-				self.topic_map[k].config(naive_valve = 0.68)
+				self.topic_map[k].config(naive_valve = 0.6)
 			recovery_file.close()
 		except IOError:
 			pass
@@ -53,14 +53,16 @@ class novelty_detectors:
 			pass
 
 if __name__ == '__main__':
-	#for testing
+	#for testing3
 
 	a = Tweet.Tweet(text = 'abc')
 	b = Tweet.Tweet(text = 'cdf')
+
+	a.remove_verbose()
 
 	detector = novelty_detectors()
 	print detector.novelty_detect(a, 1)
 	print detector.novelty_detect(a, 2)
 	print detector.novelty_detect(a, 3)
 
-	detector.refresh()
+	#detector.refresh()
